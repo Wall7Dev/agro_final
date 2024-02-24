@@ -101,7 +101,7 @@
   width: 2686.3px;
 }
 .component1 {
-  width: 1362.1px;
+  align-self: stretch;
   position: relative;
   background: linear-gradient(90deg, #fbfbfb, rgba(161, 181, 161, 0.99));
   height: 65.1px;
