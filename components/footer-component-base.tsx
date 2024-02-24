@@ -78,7 +78,7 @@ const FooterComponentBase: NextPage = () => {
             <img
               className={styles.download5Icon}
               alt=""
-              src="/download-5251@2x.png"
+              src="/download-52511@2x.png"
             />
             <img
               className={styles.download5Icon1}
@@ -100,7 +100,11 @@ const FooterComponentBase: NextPage = () => {
               alt=""
               src="/download-3131@2x.png"
             />
-            <img className={styles.imagesIcon} alt="" src="/images101@2x.png" />
+            <img
+              className={styles.imagesIcon}
+              alt=""
+              src="/images1011@2x.png"
+            />
             <img
               className={styles.download6Icon}
               alt=""
@@ -131,7 +135,7 @@ const FooterComponentBase: NextPage = () => {
             <img
               className={styles.download5Icon}
               alt=""
-              src="/download-5251@2x.png"
+              src="/download-52511@2x.png"
             />
             <img
               className={styles.download5Icon1}
@@ -153,7 +157,11 @@ const FooterComponentBase: NextPage = () => {
               alt=""
               src="/download-3131@2x.png"
             />
-            <img className={styles.imagesIcon} alt="" src="/images101@2x.png" />
+            <img
+              className={styles.imagesIcon}
+              alt=""
+              src="/images1011@2x.png"
+            />
             <img
               className={styles.download6Icon}
               alt=""

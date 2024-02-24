@@ -151,13 +151,13 @@ const ContactPAge: NextPage = () => {
                     <img
                       className={styles.clipPathGroup1}
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group11@2x.png"
                       onClick={onClipPathGroup1Click}
                     />
                     <img
                       className={styles.clipPathGroup2}
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group12@2x.png"
                       onClick={onClipPathGroup2Click}
                     />
                     <img
@@ -201,7 +201,7 @@ const ContactPAge: NextPage = () => {
                     <img
                       className={styles.homecChild}
                       alt=""
-                      src="/line-1@2x.png"
+                      src="/line-116@2x.png"
                     />
                   </div>
                   <button className={styles.aboutus} onClick={onAboutUsClick}>
@@ -240,7 +240,7 @@ const ContactPAge: NextPage = () => {
                     <img
                       className={styles.mediaChild}
                       alt=""
-                      src="/line-1@2x.png"
+                      src="/line-11@2x.png"
                     />
                   </button>
                 </div>
@@ -262,7 +262,7 @@ const ContactPAge: NextPage = () => {
                   <img
                     className={styles.contactusContainerChild}
                     alt=""
-                    src="/line-1@2x.png"
+                    src="/line-117@2x.png"
                   />
                 </button>
               </nav>
@@ -282,7 +282,7 @@ const ContactPAge: NextPage = () => {
             <img
               className={styles.dktpTeamFaqCtaChild}
               alt=""
-              src="/vector-21@2x.png"
+              src="/vector-211@2x.png"
             />
             <img
               className={styles.dktpTeamFaqCtaItem}
@@ -305,7 +305,11 @@ const ContactPAge: NextPage = () => {
             <div className={styles.cardgropupo} data-animate-on-scroll>
               <div className={styles.xorse}>
                 <div className={styles.xoseAhlijaTeam}>
-                  <img className={styles.baseIcon} alt="" src="/base@2x.png" />
+                  <img
+                    className={styles.baseIcon}
+                    alt=""
+                    src="/base22@2x.png"
+                  />
                   <div className={styles.block1Parent}>
                     <div className={styles.block1}>
                       <div className={styles.rectangle} />
@@ -322,7 +326,7 @@ const ContactPAge: NextPage = () => {
                 </div>
               </div>
               <div className={styles.castro}>
-                <img className={styles.baseIcon1} alt="" src="/base@2x.png" />
+                <img className={styles.baseIcon1} alt="" src="/base23@2x.png" />
                 <div className={styles.block11}>
                   <div className={styles.rectangle1} />
                 </div>
@@ -334,7 +338,7 @@ const ContactPAge: NextPage = () => {
                 </div>
               </div>
               <div className={styles.ottisApalooTeam}>
-                <img className={styles.baseIcon2} alt="" src="/base@2x.png" />
+                <img className={styles.baseIcon2} alt="" src="/base24@2x.png" />
                 <div className={styles.block1Group}>
                   <div className={styles.block12}>
                     <div className={styles.rectangle2} />
@@ -352,7 +356,7 @@ const ContactPAge: NextPage = () => {
                   <img
                     className={styles.gradientmsgChild}
                     alt=""
-                    src="/group-206@2x.png"
+                    src="/group-2061@2x.png"
                     data-animate-on-scroll
                   />
                   <div className={styles.weSupportAgribusinessIndustParent}>

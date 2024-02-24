@@ -203,7 +203,7 @@ const Careers: NextPage = () => {
                   <img
                     className={styles.homecChild}
                     alt=""
-                    src="/line-1@2x.png"
+                    src="/line-114@2x.png"
                   />
                 </div>
                 <button className={styles.aboutus} onClick={onAboutUsClick}>
@@ -363,12 +363,12 @@ const Careers: NextPage = () => {
               <img
                 className={styles.download5Icon}
                 alt=""
-                src="/download-522@2x.png"
+                src="/download-5221@2x.png"
               />
               <img
                 className={styles.download5Icon1}
                 alt=""
-                src="/download-523@2x.png"
+                src="/download-5231@2x.png"
               />
               <img
                 className={styles.captureIcon}
@@ -388,12 +388,12 @@ const Careers: NextPage = () => {
               <img
                 className={styles.imagesIcon}
                 alt=""
-                src="/images10@2x.png"
+                src="/images101@2x.png"
               />
               <img
                 className={styles.download6Icon}
                 alt=""
-                src="/download-612@2x.png"
+                src="/download-6121@2x.png"
               />
               <img
                 className={styles.download1Icon}
@@ -420,27 +420,27 @@ const Careers: NextPage = () => {
               <img
                 className={styles.download5Icon}
                 alt=""
-                src="/download-524@2x.png"
+                src="/download-5241@2x.png"
               />
               <img
                 className={styles.download5Icon1}
                 alt=""
-                src="/download-525@2x.png"
+                src="/download-5251@2x.png"
               />
               <img
                 className={styles.captureIcon}
                 alt=""
-                src="/capture12@2x.png"
+                src="/capture121@2x.png"
               />
               <img
                 className={styles.mofaColorIcon}
                 alt=""
-                src="/mofa-color12@2x.png"
+                src="/mofa-color121@2x.png"
               />
               <img
                 className={styles.download3Icon}
                 alt=""
-                src="/download-312@2x.png"
+                src="/download-3121@2x.png"
               />
               <img
                 className={styles.imagesIcon}
@@ -450,27 +450,27 @@ const Careers: NextPage = () => {
               <img
                 className={styles.download6Icon}
                 alt=""
-                src="/download-613@2x.png"
+                src="/download-6131@2x.png"
               />
               <img
                 className={styles.download1Icon}
                 alt=""
-                src="/download-112@2x.png"
+                src="/download-1121@2x.png"
               />
               <img
                 className={styles.downloadIcon}
                 alt=""
-                src="/download12@2x.png"
+                src="/download121@2x.png"
               />
               <img
                 className={styles.images1Icon}
                 alt=""
-                src="/images-112@2x.png"
+                src="/images-1121@2x.png"
               />
               <img
                 className={styles.download2Icon}
                 alt=""
-                src="/download-212@2x.png"
+                src="/download-2121@2x.png"
               />
             </div>
           </div>

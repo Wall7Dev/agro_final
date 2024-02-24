@@ -168,13 +168,13 @@ const ManagementTeam: NextPage = () => {
                     <img
                       className={styles.clipPathGroup1}
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group13@2x.png"
                       onClick={onClipPathGroup1Click}
                     />
                     <img
                       className={styles.clipPathGroup2}
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group14@2x.png"
                       onClick={onClipPathGroup2Click}
                     />
                     <img
@@ -218,7 +218,7 @@ const ManagementTeam: NextPage = () => {
                     <img
                       className={styles.homecChild}
                       alt=""
-                      src="/line-1@2x.png"
+                      src="/line-119@2x.png"
                     />
                   </div>
                   <button className={styles.aboutus} onClick={onAboutUsClick}>
@@ -231,7 +231,7 @@ const ManagementTeam: NextPage = () => {
                     <img
                       className={styles.aboutusChild}
                       alt=""
-                      src="/line-1@2x.png"
+                      src="/line-13@2x.png"
                     />
                   </button>
                   <button
@@ -262,7 +262,7 @@ const ManagementTeam: NextPage = () => {
                     <img
                       className={styles.mediaChild}
                       alt=""
-                      src="/line-1@2x.png"
+                      src="/line-11@2x.png"
                     />
                   </button>
                 </div>
@@ -409,7 +409,7 @@ const ManagementTeam: NextPage = () => {
                     <img
                       className={styles.baseIcon}
                       alt=""
-                      src="/base22@2x.png"
+                      src="/base221@2x.png"
                     />
                     <div className={styles.razakAwudulaiParent}>
                       <div className={styles.samuelOsewKwatia}>
@@ -630,7 +630,7 @@ const ManagementTeam: NextPage = () => {
                 <img
                   className={styles.download5Icon}
                   alt=""
-                  src="/download-530@2x.png"
+                  src="/download-5301@2x.png"
                 />
                 <img
                   className={styles.download5Icon1}
@@ -640,17 +640,17 @@ const ManagementTeam: NextPage = () => {
                 <img
                   className={styles.captureIcon}
                   alt=""
-                  src="/capture15@2x.png"
+                  src="/capture151@2x.png"
                 />
                 <img
                   className={styles.mofaColorIcon}
                   alt=""
-                  src="/mofa-color15@2x.png"
+                  src="/mofa-color151@2x.png"
                 />
                 <img
                   className={styles.download3Icon}
                   alt=""
-                  src="/download-315@2x.png"
+                  src="/download-3151@2x.png"
                 />
                 <img
                   className={styles.imagesIcon}
@@ -660,27 +660,27 @@ const ManagementTeam: NextPage = () => {
                 <img
                   className={styles.download6Icon}
                   alt=""
-                  src="/download-616@2x.png"
+                  src="/download-6161@2x.png"
                 />
                 <img
                   className={styles.download1Icon}
                   alt=""
-                  src="/download-115@2x.png"
+                  src="/download-1151@2x.png"
                 />
                 <img
                   className={styles.downloadIcon}
                   alt=""
-                  src="/download15@2x.png"
+                  src="/download151@2x.png"
                 />
                 <img
                   className={styles.images1Icon}
                   alt=""
-                  src="/images-115@2x.png"
+                  src="/images-1151@2x.png"
                 />
                 <img
                   className={styles.download2Icon}
                   alt=""
-                  src="/download-215@2x.png"
+                  src="/download-2151@2x.png"
                 />
               </div>
               <div className={styles.download5Group}>

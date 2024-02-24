@@ -166,7 +166,7 @@
   min-width: 970px;
 }
 .desktopStatsSec3 {
-  width: 1366px;
+  align-self: stretch;
   background: linear-gradient(#061803, #061803),
     linear-gradient(
       90.57deg,
@@ -178,7 +178,6 @@
   overflow: hidden;
   justify-content: space-between;
   padding: 50.60059356689453px 158.12686157226562px;
-  box-sizing: border-box;
   z-index: 5;
   text-align: center;
   font-size: var(--font-size-21xl-2);

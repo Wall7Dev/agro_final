@@ -140,13 +140,13 @@ const AboutUSPage: NextPage = () => {
                     <img
                       className={styles.clipPathGroup1}
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group2@2x.png"
                       onClick={onClipPathGroup1Click}
                     />
                     <img
                       className={styles.clipPathGroup2}
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group4@2x.png"
                       onClick={onClipPathGroup2Click}
                     />
                     <img
@@ -158,7 +158,7 @@ const AboutUSPage: NextPage = () => {
                   <img
                     className={styles.images21}
                     alt=""
-                    src="/images-2-1@2x.png"
+                    src="/images-2-11@2x.png"
                   />
                 </button>
                 <div
@@ -190,7 +190,7 @@ const AboutUSPage: NextPage = () => {
                     <img
                       className={styles.homecChild}
                       alt=""
-                      src="/line-1@2x.png"
+                      src="/line-12@2x.png"
                     />
                   </div>
                   <button className={styles.aboutus} onClick={onAboutUsClick}>
@@ -203,7 +203,7 @@ const AboutUSPage: NextPage = () => {
                     <img
                       className={styles.aboutusChild}
                       alt=""
-                      src="/line-1@2x.png"
+                      src="/line-13@2x.png"
                     />
                   </button>
                   <button
@@ -234,7 +234,7 @@ const AboutUSPage: NextPage = () => {
                     <img
                       className={styles.mediaChild}
                       alt=""
-                      src="/line-1@2x.png"
+                      src="/line-11@2x.png"
                     />
                   </button>
                 </div>

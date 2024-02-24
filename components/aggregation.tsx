@@ -20,7 +20,7 @@ const Aggregation: NextPage = () => {
               className={styles.theAggregationModule}
             >{`Thus it is integrated with hardware components to ensure that both the quality and quantity meets the right pricing. This solution is linked to the Broadspectrum digital payments platform which is integrated with Telco’s to facilitate the payments been made to the farmers. `}</div>
           </div>
-          <img className={styles.frame1082} alt="" src="/frame-108-2@2x.png" />
+          <img className={styles.frame1082} alt="" src="/frame-108-23@2x.png" />
         </div>
       </div>
     </section>
