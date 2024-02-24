@@ -1,0 +1,123 @@
+.nowWere {
+  position: relative;
+  letter-spacing: 0.9px;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+.nowWereWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.nowWere1 {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.9px;
+  line-height: 46px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.nowWereContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-26xl);
+}
+.transformYourAgricultural {
+  margin: 0;
+}
+.cultivateSuccessWith {
+  font-family: var(--font-poppins);
+}
+.nuncUltricesTellusContainer {
+  flex: 1;
+  position: relative;
+  line-height: 32px;
+}
+.nuncUltricesTellusWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) var(--padding-3xs);
+  font-size: var(--font-size-xl);
+  color: var(--color-gainsboro-200);
+}
+.getInTouch {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 12.72px;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.getInTouch:hover {
+  color: var(--color-darkolivegreen-300);
+}
+.getInTouchWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 24.95049285888672px 49.90098571777344px;
+  background-color: transparent;
+  width: 246.4px;
+  border-radius: 40.54px;
+  background: linear-gradient(93.32deg, #4f943e, #c1ad28);
+  height: 63px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.getInTouchWrapper:hover {
+  mix-blend-mode: normal;
+  background-color: var(--color-whitesmoke-300);
+}
+.transform {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0 var(--padding-21xl);
+  gap: 8px 0;
+  text-align: left;
+  font-size: var(--font-size-15xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .transform {
+    flex: unset;
+    align-self: stretch;
+  }
+}
+@media screen and (max-width: 960px) {
+  .nowWere {
+    font-size: var(--font-size-7xl);
+  }
+  .nowWere1 {
+    font-size: var(--font-size-15xl);
+  }
+  .getInTouchWrapper {
+    width: 200px;
+    height: 55px;
+    padding: var(--padding-mini) var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .nowWere {
+    font-size: var(--font-size-5xl);
+  }
+  .nowWere1 {
+    font-size: var(--font-size-11xl);
+  }
+}

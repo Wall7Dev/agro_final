@@ -1,0 +1,195 @@
+.captureIcon,
+.download5Icon,
+.download5Icon1 {
+  position: absolute;
+  top: 9.8px;
+  left: 0;
+  width: 54.7px;
+  height: 45.6px;
+  object-fit: cover;
+}
+.captureIcon,
+.download5Icon1 {
+  top: 10.4px;
+  left: 97.4px;
+  width: 67.7px;
+  height: 44.3px;
+}
+.captureIcon {
+  top: 8.5px;
+  left: 207.7px;
+  width: 110px;
+  height: 48.2px;
+}
+.download3Icon,
+.imagesIcon,
+.mofaColorIcon {
+  position: absolute;
+  top: 12.4px;
+  left: 360.4px;
+  width: 192.6px;
+  height: 40.3px;
+  object-fit: cover;
+}
+.download3Icon,
+.imagesIcon {
+  top: 13.7px;
+  left: 595.7px;
+  width: 38.4px;
+  height: 37.7px;
+}
+.imagesIcon {
+  top: 17.2px;
+  left: 676.8px;
+  width: 89.8px;
+  height: 30.6px;
+  mix-blend-mode: difference;
+}
+.download1Icon,
+.download6Icon {
+  position: absolute;
+  top: 9.4px;
+  left: 809.3px;
+  width: 80.7px;
+  height: 46.2px;
+  object-fit: cover;
+}
+.download1Icon {
+  top: 11.4px;
+  left: 932.7px;
+  width: 106.7px;
+  height: 42.3px;
+}
+.download2Icon,
+.downloadIcon,
+.images1Icon {
+  position: absolute;
+  top: 8.1px;
+  left: 1082.1px;
+  width: 44.3px;
+  height: 48.8px;
+  object-fit: cover;
+}
+.download2Icon,
+.images1Icon {
+  top: 0;
+  left: 1169.1px;
+  width: 65.1px;
+  height: 65.1px;
+}
+.download2Icon {
+  top: 12.4px;
+  left: 1276.8px;
+  width: 40.3px;
+  height: 40.3px;
+}
+.download5Group,
+.download5Parent,
+.frameParent {
+  position: absolute;
+  top: 0;
+  left: 1367.5px;
+  width: 1317.2px;
+  height: 65.1px;
+}
+.download5Group,
+.frameParent {
+  left: 0;
+}
+.frameParent {
+  left: -24px;
+  width: 2686.3px;
+}
+.component1 {
+  width: 1362.1px;
+  position: relative;
+  background: linear-gradient(90deg, #fbfbfb, rgba(161, 181, 161, 0.99));
+  height: 65.1px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameChild {
+  width: 934.4px;
+  position: relative;
+  border-top: 0.8px solid var(--color-white);
+  box-sizing: border-box;
+  height: 0.8px;
+}
+.lineWrapper {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 232.4447021484375px;
+}
+.nowWere,
+.nowWere1 {
+  width: 314.6px;
+  position: relative;
+  letter-spacing: 0.7px;
+  line-height: 15.5px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  height: 21.7px;
+  flex-shrink: 0;
+}
+.nowWere1 {
+  width: 413px;
+}
+.nowWereParent {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 7.748156547546387px 178.20761108398438px;
+}
+.footerComponent,
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footerComponent {
+  background-color: var(--color-darkslategray-300);
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-smi-4);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .nowWereParent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: var(--padding-101xl);
+    padding-right: var(--padding-97xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .frameChild {
+    width: 900px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .frameChild {
+    width: 400px;
+  }
+  .nowWere,
+  .nowWere1 {
+    font-size: var(--font-size-xs);
+  }
+  .nowWereParent {
+    padding-top: var(--padding-8xs);
+    padding-bottom: var(--padding-8xs);
+    box-sizing: border-box;
+  }
+}

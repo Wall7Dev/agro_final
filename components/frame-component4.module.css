@@ -1,0 +1,186 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.makeAn {
+  font-weight: 300;
+}
+.enquiry {
+  font-weight: 800;
+}
+.makeAnEnquiryContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 96.75%;
+  font-family: inherit;
+}
+.makeAnEnquiryWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 7.905092716217041px;
+  opacity: 1;
+  font-size: var(--font-size-44xl-2);
+  color: var(--color-goldenrod-100);
+}
+.makeAnEnquiryWrapper.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.agrospectrumLtd,
+.contactUs {
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.contactUs {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 200;
+  font-family: inherit;
+  color: var(--color-darkgray-200);
+  white-space: pre-wrap;
+}
+.agrospectrumLtd {
+  font-weight: 400;
+}
+.agrospectrumLtd,
+.headOffice {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.eastLegonGa,
+.headOffice {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 300;
+}
+.contactUsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4.74px 0;
+  color: var(--color-white);
+}
+.div,
+.phone {
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.phone {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 200;
+  font-family: inherit;
+}
+.div {
+  color: var(--color-white);
+}
+.phoneParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15.02px 0;
+  opacity: 1;
+}
+.phoneParent.animate {
+  animation: 2s ease 0s 1 normal forwards scale-up;
+}
+.email {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 200;
+  font-family: inherit;
+}
+.customercarebslcomgh {
+  position: relative;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+}
+.emailParent,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.emailParent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 15.02px 0;
+  opacity: 0;
+}
+.emailParent.animate {
+  animation: 1s ease 0s 1 normal forwards slide-in-top;
+}
+.frameParent {
+  flex: 1;
+  align-items: center;
+  padding: 15.810185432434082px 0;
+  gap: 26.88px 0;
+  text-align: left;
+  font-size: var(--font-size-4xl-7);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .frameParent {
+    padding-left: var(--padding-21xl);
+    padding-right: 0;
+    box-sizing: border-box;
+    flex: unset;
+    align-self: stretch;
+  }
+}
+@media screen and (max-width: 420px) {
+  .makeAnEnquiryContainer {
+    font-size: var(--font-size-24xl);
+  }
+  .makeAnEnquiryWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .agrospectrumLtd,
+  .contactUs,
+  .eastLegonGa,
+  .headOffice,
+  .phone {
+    font-size: var(--font-size-7xl);
+  }
+  .div {
+    font-size: var(--font-size-5xl);
+  }
+  .email {
+    font-size: var(--font-size-7xl);
+  }
+  .customercarebslcomgh {
+    font-size: var(--font-size-3xl);
+  }
+  .frameParent {
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-mini);
+    box-sizing: border-box;
+  }
+}

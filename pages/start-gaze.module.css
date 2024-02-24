@@ -1,0 +1,38 @@
+.startGazeChild {
+  position: absolute;
+  top: -0.5px;
+  left: 34.5px;
+  border-right: 1px dashed var(--color-goldenrod-300);
+  box-sizing: border-box;
+  width: 1px;
+  height: 79px;
+}
+.startGazeInner,
+.startGazeItem {
+  position: absolute;
+  top: 23px;
+  left: 23px;
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+.startGazeInner {
+  top: 24px;
+  left: 24px;
+  width: 22px;
+  height: 22px;
+}
+.lineDiv {
+  position: absolute;
+  top: 35.5px;
+  left: -0.5px;
+  border-top: 1px dashed var(--color-goldenrod-300);
+  box-sizing: border-box;
+  width: 69px;
+  height: 1px;
+}
+.startGaze {
+  width: 100%;
+  position: relative;
+  height: 78px;
+}

@@ -1,0 +1,170 @@
+@keyframes bounce-top {
+  0% {
+    transform: translateY(-45px);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    transform: translateY(-24px);
+    animation-timing-function: ease-in;
+  }
+  65% {
+    transform: translateY(-12px);
+    animation-timing-function: ease-in;
+  }
+  82% {
+    transform: translateY(-6px);
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(-4px);
+    animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  to {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+.bgBlurIcon {
+  width: 591.3px;
+  position: absolute;
+  margin: 0 !important;
+  top: -255.7px;
+  left: 373.5px;
+  height: 885.6px;
+  z-index: 0;
+}
+.empowering {
+  font-weight: 300;
+}
+.farmers {
+  font-weight: 800;
+}
+.empoweringFarmersAndContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 111%;
+}
+.empoweringFarmersAndUnlockWrapper {
+  align-self: stretch;
+  filter: drop-shadow(0 3.1px 7.75px rgba(0, 0, 0, 0.25));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 7.748156547546387px;
+  z-index: 1;
+}
+.aRevolutionaryDigital {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.7px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 101.8px;
+  text-shadow: 0 3.1px 4.65px rgba(0, 0, 0, 0.25);
+}
+.aRevolutionaryDigitalInnoWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 92.9778823852539px;
+  z-index: 2;
+  font-size: var(--font-size-lgi-4);
+}
+.scrollDownChild {
+  width: 18.7px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-goldenrod-300);
+  height: 18.7px;
+}
+.scrollDown {
+  height: 114.4px;
+  border-radius: 31.58px;
+  border: 2.9px solid var(--color-goldenrod-300);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 47.85357666015625px 15.951191902160645px;
+  opacity: 1;
+  z-index: 3;
+}
+.scrollDown.animate {
+  animation: 4s ease 2s infinite normal forwards bounce-top;
+}
+.bgBlurParent,
+.div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bgBlurParent {
+  justify-content: flex-start;
+  position: relative;
+  gap: 22.47px 0;
+}
+.div {
+  overflow: hidden;
+  justify-content: center;
+  padding: 77.4815673828125px 154.963134765625px;
+  background-image: url(/1200@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-41xl-4);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .empoweringFarmersAndContainer {
+    font-size: var(--font-size-46xl);
+  }
+  .aRevolutionaryDigitalInnoWrapper {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .div,
+  .scrollDown {
+    box-sizing: border-box;
+  }
+  .scrollDown {
+    height: 110px;
+    padding-top: var(--padding-42xl);
+  }
+  .div {
+    display: flex;
+    padding-left: var(--padding-81xl);
+    padding-right: var(--padding-81xl);
+  }
+}
+@media screen and (max-width: 960px) {
+  .div {
+    display: none;
+    padding: var(--padding-26xl) var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}

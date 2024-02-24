@@ -1,0 +1,237 @@
+.frameChild,
+.nowWere {
+  position: relative;
+  cursor: pointer;
+}
+.frameChild {
+  width: 21px;
+  max-height: 100%;
+}
+.frameChild:hover {
+  width: 24px;
+}
+.nowWere {
+  font-size: var(--font-size-lg);
+  letter-spacing: 1.15px;
+  line-height: 58.74px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.nowWere:hover {
+  font-size: var(--font-size-4xl);
+}
+.nowWere2,
+.vectorParent {
+  display: flex;
+  align-items: center;
+}
+.vectorParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0 20px;
+}
+.nowWere2 {
+  position: absolute;
+  height: 203.33%;
+  width: 96.15%;
+  top: -51.85%;
+  left: -0.7%;
+  letter-spacing: 1.15px;
+  line-height: 58.74px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.nowWere1,
+.nowWere3 {
+  align-self: stretch;
+  position: relative;
+}
+.nowWere1 {
+  height: 27px;
+}
+.nowWere3 {
+  letter-spacing: 1.34px;
+  line-height: 68.62px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--color-white);
+}
+.nowWereParent {
+  align-self: stretch;
+  height: 59px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px 0;
+}
+.nowWere5 {
+  position: absolute;
+  width: 96.14%;
+  top: -57.69%;
+  left: -0.76%;
+  letter-spacing: 1.15px;
+  line-height: 58.74px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.nowWere4 {
+  align-self: stretch;
+  position: relative;
+  height: 26px;
+}
+.nowWere7 {
+  position: absolute;
+  top: 7px;
+  left: -1px;
+  letter-spacing: 1.15px;
+  line-height: 58.74px;
+  text-transform: lowercase;
+  font-weight: 500;
+}
+.nowWere6 {
+  align-self: stretch;
+  position: relative;
+  height: 26px;
+  color: var(--color-white);
+}
+.nowWereGroup {
+  width: 264px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px 0;
+}
+.nowWere9 {
+  position: absolute;
+  top: -25.64%;
+  left: 0;
+  letter-spacing: 1.15px;
+  line-height: 58.74px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.groupIcon,
+.nowWere8 {
+  width: 131px;
+  position: relative;
+  height: 39px;
+}
+.groupIcon {
+  width: 13.9px;
+  height: 15px;
+}
+.instagram {
+  width: 46.3px;
+  border-radius: 31.88px;
+  background-color: var(--color-darkgray-300);
+  height: 46.8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 19.9257869720459px;
+  box-sizing: border-box;
+}
+.vectorIcon {
+  width: 7.8px;
+  position: relative;
+  height: 15px;
+}
+.vectorWrapper {
+  width: 47.3px;
+  border-radius: 36.86px;
+  background-color: var(--color-darkgray-300);
+  height: 48.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 19.9257869720459px 24.90723419189453px;
+  box-sizing: border-box;
+}
+.vectorIcon1 {
+  width: 16.7px;
+  position: relative;
+  height: 14px;
+}
+.frame {
+  width: 45.3px;
+  border-radius: 58.28px;
+  background-color: var(--color-darkgray-300);
+  height: 45.3px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 19.9257869720459px 17.4350643157959px;
+  box-sizing: border-box;
+}
+.vectorIcon2 {
+  width: 16.1px;
+  position: relative;
+  height: 15px;
+}
+.vectorContainer {
+  width: 49.3px;
+  border-radius: 40.35px;
+  background-color: var(--color-darkgray-300);
+  height: 48.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 19.9257869720459px;
+  box-sizing: border-box;
+}
+.instagramParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0 17px;
+}
+.frameParent,
+.nowWereContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.nowWereContainer {
+  align-self: stretch;
+  height: 99px;
+  padding: 0 var(--padding-8xs);
+  gap: 10px 0;
+}
+.frameParent {
+  height: 370px;
+  flex: 1;
+  padding: var(--padding-11xl);
+  gap: 30px 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-seagreen);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .frameParent {
+    flex: unset;
+    align-self: stretch;
+  }
+}

@@ -1,0 +1,11 @@
+.images21 {
+  width: 22px;
+  height: 32px;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  background-image: url(/images-2-151@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  mix-blend-mode: exclusion;
+}

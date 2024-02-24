@@ -1,0 +1,246 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.captureIcon,
+.download5Icon,
+.download5Icon1 {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 55.8px;
+  height: 46.5px;
+  object-fit: cover;
+}
+.captureIcon,
+.download5Icon1 {
+  top: 10.6px;
+  left: 99.3px;
+  width: 69.1px;
+  height: 45.2px;
+}
+.captureIcon {
+  top: 8.6px;
+  left: 212px;
+  width: 112.2px;
+  height: 49.1px;
+}
+.download3Icon,
+.imagesIcon,
+.mofaColorIcon {
+  position: absolute;
+  top: 12.6px;
+  left: 367.8px;
+  width: 196.6px;
+  height: 41.2px;
+  object-fit: cover;
+}
+.download3Icon,
+.imagesIcon {
+  top: 13.9px;
+  left: 607.9px;
+  width: 39.2px;
+  height: 38.5px;
+}
+.imagesIcon {
+  top: 17.6px;
+  left: 690.6px;
+  width: 91.6px;
+  height: 31.2px;
+  mix-blend-mode: difference;
+}
+.download1Icon,
+.download6Icon {
+  position: absolute;
+  top: 9.6px;
+  left: 825.8px;
+  width: 82.3px;
+  height: 47.1px;
+  object-fit: cover;
+}
+.download1Icon {
+  top: 11.6px;
+  left: 951.7px;
+  width: 108.9px;
+  height: 43.2px;
+}
+.download2Icon,
+.downloadIcon,
+.images1Icon {
+  position: absolute;
+  top: 8.3px;
+  left: 1104.2px;
+  width: 45.2px;
+  height: 49.8px;
+  object-fit: cover;
+}
+.download2Icon,
+.images1Icon {
+  top: 0;
+  left: 1192.9px;
+  width: 66.4px;
+  height: 66.4px;
+}
+.download2Icon {
+  top: 12.6px;
+  left: 1302.9px;
+  width: 41.2px;
+  height: 41.2px;
+}
+.download5Group,
+.download5Parent,
+.frameParent {
+  position: absolute;
+  top: 0;
+  left: 1395.5px;
+  width: 1344.1px;
+  height: 66.4px;
+}
+.download5Group,
+.frameParent {
+  left: 0;
+}
+.frameParent {
+  left: -24.5px;
+  width: 2741.1px;
+}
+.component1 {
+  width: 1389.9px;
+  position: relative;
+  background: linear-gradient(90deg, #fbfbfb, rgba(161, 181, 161, 0.99));
+  height: 66.4px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.footer,
+.transformParent {
+  align-self: stretch;
+  display: flex;
+}
+.transformParent {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 31.625370025634766px;
+  opacity: 1;
+}
+.transformParent.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.footer {
+  background-color: var(--color-darkslategray-300);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 63.25074005126953px;
+}
+.frameChild {
+  width: 953.5px;
+  position: relative;
+  border-top: 0.8px solid var(--color-white);
+  box-sizing: border-box;
+  height: 0.8px;
+}
+.lineWrapper {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 237.19027709960938px;
+}
+.nowWere,
+.nowWere1 {
+  width: 321px;
+  position: relative;
+  letter-spacing: 0.71px;
+  line-height: 15.81px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  height: 22.1px;
+  flex-shrink: 0;
+}
+.nowWere1 {
+  width: 421.4px;
+}
+.nowWereParent {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 7.906342506408691px 181.84588623046875px;
+}
+.footerComponent,
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footerComponent {
+  background-color: var(--color-darkslategray-300);
+  align-items: flex-start;
+  z-index: 13;
+  text-align: center;
+  font-size: var(--font-size-smi-7);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .transformParent {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-0);
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+  .footer {
+    align-self: stretch;
+    width: auto;
+  }
+  .nowWereParent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: var(--padding-101xl);
+    padding-right: var(--padding-97xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .footer {
+    padding-left: var(--padding-21xl);
+    padding-top: var(--padding-11xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .frameChild {
+    width: 900px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .frameChild {
+    width: 400px;
+  }
+  .nowWere,
+  .nowWere1 {
+    font-size: var(--font-size-xs);
+  }
+  .nowWereParent {
+    padding-top: var(--padding-8xs);
+    padding-bottom: var(--padding-8xs);
+    box-sizing: border-box;
+  }
+}

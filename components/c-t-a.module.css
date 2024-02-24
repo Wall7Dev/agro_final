@@ -1,0 +1,121 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.gradientmsgChild {
+  width: 442.7px;
+  position: relative;
+  height: 340.4px;
+  object-fit: cover;
+}
+.weSupportAgribusinessContainer {
+  align-self: stretch;
+  height: 119px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 39.53px;
+  text-transform: capitalize;
+  display: inline-block;
+  opacity: 1;
+}
+.weSupportAgribusinessContainer.animate {
+  animation: 3s ease 0s 1 normal forwards scale-up;
+}
+.arrowIcon,
+.viewProducts {
+  position: relative;
+  cursor: pointer;
+}
+.arrowIcon {
+  width: 11.1px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 11.6px;
+}
+.viewProducts {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.vectorParent {
+  border: 2.4px solid var(--color-seagreen);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 19.765857696533203px 31.6253719329834px;
+  gap: 0 7.91px;
+  cursor: pointer;
+}
+.weSupportAgribusinessIndustParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 15.8126859664917px;
+  gap: 39.53px 0;
+}
+.gradientmsg,
+.gradientmsgWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15.8126859664917px;
+}
+.gradientmsgWrapper {
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 7.90634298324585px;
+}
+.base {
+  width: 395.3px;
+  position: relative;
+  background-color: var(--color-goldenrod-300);
+  height: 7.9px;
+}
+.cta {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 47.43805694580078px 158.12686157226562px;
+  z-index: 6;
+  text-align: left;
+  font-size: var(--font-size-xs-9);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-lexend-deca);
+}
+@media screen and (max-width: 960px) {
+  .weSupportAgribusinessIndustParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .gradientmsg {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .gradientmsgChild {
+    opacity: 1;
+  }
+  .gradientmsgChild.animate {
+    animation: 1s ease 0s 1 normal forwards scale-up;
+  }
+  @keyframes scale-up {
+    0% {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+}

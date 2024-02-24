@@ -1,0 +1,250 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.trustUs {
+  font-size: var(--font-size-sm-9);
+}
+.theRenownCompaniesContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+  font-weight: 800;
+}
+.download3Icon,
+.download5Icon {
+  width: 58.2px;
+  position: relative;
+  height: 48.5px;
+  object-fit: cover;
+}
+.download3Icon {
+  width: 37.9px;
+  height: 40.2px;
+}
+.download5Parent {
+  width: 184.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 56.31px;
+}
+.captureIcon,
+.download6Icon {
+  width: 108.4px;
+  position: relative;
+  height: 51.3px;
+  object-fit: cover;
+}
+.download6Icon {
+  width: 86px;
+  height: 49.2px;
+}
+.captureParent,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0 43.02px;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: 0 58.21px;
+}
+.download2Icon,
+.download5Icon1,
+.ignitiaLogo1Icon {
+  width: 55.8px;
+  position: relative;
+  height: 39.5px;
+  object-fit: cover;
+}
+.download2Icon,
+.ignitiaLogo1Icon {
+  width: 41.6px;
+  height: 45.1px;
+}
+.ignitiaLogo1Icon {
+  width: 90.1px;
+  height: 36.1px;
+}
+.download5Group {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 28.47px;
+}
+.download1Icon,
+.images1Icon {
+  width: 88.6px;
+  position: relative;
+  height: 37.9px;
+  object-fit: cover;
+}
+.images1Icon {
+  width: 54px;
+  height: 58.3px;
+}
+.agromite {
+  position: absolute;
+  top: 39.5px;
+  left: 3.1px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 29.7px;
+  height: 5.7px;
+}
+.downloadIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35.4px;
+  height: 39px;
+  object-fit: cover;
+}
+.agromiteParent {
+  width: 35.4px;
+  position: relative;
+  height: 45.3px;
+}
+.download1Parent,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.download1Parent {
+  flex: 1;
+  align-items: center;
+  gap: 0 27.69px;
+  text-align: left;
+  font-size: var(--font-size-8xs-8);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.frameContainer {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 0 58.21px;
+}
+.mofaColorIcon {
+  width: 192px;
+  position: relative;
+  height: 43px;
+  object-fit: cover;
+}
+.frameParent,
+.mofaColorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mofaColorWrapper {
+  align-self: stretch;
+}
+.frameParent {
+  width: 616.3px;
+  gap: 18.98px;
+  opacity: 1;
+}
+.frameParent.animate {
+  animation: 1s ease 0s 1 normal forwards scale-up;
+}
+.frameWrapper,
+.theRenownCompaniesThatTrusParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.theRenownCompaniesThatTrusParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 22.14px 0;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkolivegreen-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .captureParent,
+  .download5Parent {
+    flex-direction: row;
+  }
+  .frameGroup {
+    align-self: stretch;
+    width: auto;
+  }
+  .download5Group {
+    flex: 1;
+  }
+  .download1Parent,
+  .download5Group {
+    align-items: center;
+    justify-content: center;
+  }
+  .frameContainer {
+    align-self: stretch;
+    width: auto;
+    flex-direction: row;
+    gap: 0 58.21px;
+    padding: var(--padding-3xs) var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .frameParent,
+  .frameWrapper {
+    align-items: center;
+    justify-content: center;
+  }
+  .frameWrapper {
+    align-self: stretch;
+    width: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 960px) {
+  .download5Parent {
+    gap: 0 56.31px;
+  }
+  .captureParent {
+    gap: 0 43.02px;
+  }
+  .frameGroup {
+    flex-direction: row;
+    gap: 0 58.21px;
+  }
+  .download1Parent,
+  .download5Group {
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .frameParent {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 420px) {
+  .theRenownCompaniesContainer {
+    font-size: var(--font-size-mid);
+  }
+  .frameGroup {
+    flex-direction: column;
+  }
+}
