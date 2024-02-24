@@ -917,7 +917,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className={styles.leftGroupIcon}
                   alt=""
-                  src="/left-group6@2x.png"
+                  src="/left-group61@2x.png"
                 />
                 <div className={styles.missionWrapper}>
                   <h1 className={styles.mission}>Mission</h1>
@@ -925,7 +925,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 <img
                   className={styles.leftGroupIcon1}
                   alt=""
-                  src="/left-group7@2x.png"
+                  src="/left-group71@2x.png"
                 />
               </div>
             </div>

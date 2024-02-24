@@ -129,7 +129,7 @@ const ParentCaurosol: NextPage = () => {
             <img
               className={styles.leftGroupIcon}
               alt=""
-              src="/left-group@2x.png"
+              src="/left-group6@2x.png"
             />
             <div className={styles.integrityWrapper}>
               <h1 className={styles.integrity}>Innovation</h1>
@@ -137,7 +137,7 @@ const ParentCaurosol: NextPage = () => {
             <img
               className={styles.leftGroupIcon1}
               alt=""
-              src="/left-group@2x.png"
+              src="/left-group7@2x.png"
             />
           </div>
         </div>

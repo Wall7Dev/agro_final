@@ -193,25 +193,20 @@
   align-items: center;
   justify-content: center;
 }
-.frameDiv,
-.instanceWrapper,
 .isgMain1Parent {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.isgMain1Parent {
-  width: 1085px;
   border-radius: 11.71px;
   background-color: var(--color-darkolivegreen-500);
   align-items: flex-start;
   padding: 27.32000160217285px 27.32000160217285px 28.10057258605957px;
-  box-sizing: border-box;
   gap: 23.42px 0;
 }
 .frameDiv,
-.instanceWrapper {
+.instanceWrapper,
+.isgMain1Parent {
   align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .instanceWrapper {
   align-items: flex-start;
