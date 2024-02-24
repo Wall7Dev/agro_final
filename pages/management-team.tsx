@@ -820,7 +820,7 @@ const ManagementTeam: NextPage = () => {
                         <img
                           className={styles.frameChild}
                           alt=""
-                          src="/line-1@2x.png"
+                          src="/line-118@2x.png"
                         />
                       </div>
                     </div>

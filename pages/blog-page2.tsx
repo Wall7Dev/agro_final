@@ -578,7 +578,7 @@ const BlogPage2: NextPage = () => {
             </div>
           </div>
           <div className={styles.image1Wrapper}>
-            <img className={styles.image1Icon} alt="" src="/image-11@2x.png" />
+            <img className={styles.image1Icon} alt="" src="/image-1@2x.png" />
           </div>
           <div className={styles.agrospectrumLimitedAContainer}>
             <p className={styles.agrospectrumLimitedA}>
@@ -647,7 +647,7 @@ const BlogPage2: NextPage = () => {
               <img
                 className={styles.gradientmsgChild}
                 alt=""
-                src="/group-206@2x.png"
+                src="/group-2061@2x.png"
               />
               <div className={styles.weSupportAgribusinessIndustParent}>
                 <b
@@ -910,7 +910,7 @@ const BlogPage2: NextPage = () => {
                         <img
                           className={styles.frameItem}
                           alt=""
-                          src="/line-1@2x.png"
+                          src="/line-120@2x.png"
                         />
                       </div>
                     </div>
@@ -932,12 +932,12 @@ const BlogPage2: NextPage = () => {
                 </div>
                 <div className={styles.frameParent3}>
                   <div className={styles.nowWereParent4}>
-                    <div className={styles.nowWere13}>BSL HEAD OFFICE</div>
+                    <div className={styles.nowWere9}>BSL HEAD OFFICE</div>
                     <div className={styles.nowWere14}>No 24 Botwe</div>
                     <div className={styles.nowWere14}>Dzorwulu - Accra</div>
                   </div>
                   <div className={styles.nowWereParent5}>
-                    <div className={styles.nowWere13}>TAMALE office</div>
+                    <div className={styles.nowWere9}>TAMALE office</div>
                     <div className={styles.nowWereParent6}>
                       <div className={styles.nowWere17}>Tamale.</div>
                       <div className={styles.nowWere18}>16 Dagomba Road,</div>

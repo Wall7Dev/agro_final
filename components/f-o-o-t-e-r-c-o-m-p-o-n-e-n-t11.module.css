@@ -345,15 +345,9 @@
   align-self: stretch;
   position: relative;
   letter-spacing: 0.72px;
-}
-.nowWere9 {
   line-height: 36.81px;
   text-transform: uppercase;
   font-weight: 600;
-  display: flex;
-  align-items: center;
-  height: 28.8px;
-  flex-shrink: 0;
 }
 .nowWere10 {
   line-height: 19.21px;
@@ -369,10 +363,10 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 10.4px 0;
+  gap: 8px 0;
 }
 .nowWereParent2 {
-  gap: 5.6px 0;
+  gap: 12px 0;
   font-size: var(--font-size-smi-8);
   color: var(--color-white);
 }
@@ -394,16 +388,11 @@
   flex-direction: row;
   gap: 0 8px;
 }
-.nowWere13,
 .nowWere14 {
   align-self: stretch;
   position: relative;
   letter-spacing: 0.72px;
   line-height: 36.81px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-.nowWere14 {
   text-transform: capitalize;
   font-weight: 500;
 }

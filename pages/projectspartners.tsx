@@ -203,7 +203,7 @@ const Projectspartners: NextPage = () => {
                   <img
                     className={styles.homecChild}
                     alt=""
-                    src="/line-19@2x.png"
+                    src="/line-191@2x.png"
                   />
                 </div>
                 <button className={styles.aboutus} onClick={onAboutUsClick}>
@@ -724,7 +724,7 @@ const Projectspartners: NextPage = () => {
                       <img
                         className={styles.frameChild}
                         alt=""
-                        src="/line-1@2x.png"
+                        src="/line-110@2x.png"
                       />
                     </div>
                   </div>

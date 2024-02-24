@@ -553,7 +553,7 @@ const Careers: NextPage = () => {
                       <img
                         className={styles.frameItem}
                         alt=""
-                        src="/line-1@2x.png"
+                        src="/line-113@2x.png"
                       />
                     </div>
                   </div>

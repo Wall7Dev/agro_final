@@ -8,7 +8,6 @@ import styles from "./blog-page.module.css";
 const BlogPage: NextPage = () => {
   const router = useRouter();
   const [isDrwawerMenuOpen, setDrwawerMenuOpen] = useState(false);
-  const [isDrwawerMenu1Open, setDrwawerMenu1Open] = useState(false);
 
   const onClipPathGroupClick = useCallback(() => {
     window.open("https://bsl.com.gh/");
@@ -70,26 +69,6 @@ const BlogPage: NextPage = () => {
     router.push("/media");
   }, [router]);
 
-  const onContactUsContainerClick = useCallback(() => {
-    router.push("/contact-p-age");
-  }, [router]);
-
-  const onContactUsTextClick = useCallback(() => {
-    router.push("/contact-p-age");
-  }, [router]);
-
-  const onClipPathGroup3Click = useCallback(() => {
-    window.open("https://bsl.com.gh/");
-  }, []);
-
-  const onClipPathGroup12Click = useCallback(() => {
-    window.open("https://isg.com.gh/");
-  }, []);
-
-  const onClipPathGroup22Click = useCallback(() => {
-    window.open("https://sfl.com.gh/");
-  }, []);
-
   const openDrwawerMenu = useCallback(() => {
     setDrwawerMenuOpen(true);
   }, []);
@@ -98,53 +77,13 @@ const BlogPage: NextPage = () => {
     setDrwawerMenuOpen(false);
   }, []);
 
-  const onContactUsContainer1Click = useCallback(() => {
+  const onContactUsContainerClick = useCallback(() => {
     router.push("/contact-p-age");
   }, [router]);
 
-  const onContactUsText2Click = useCallback(() => {
+  const onContactUsTextClick = useCallback(() => {
     router.push("/contact-p-age");
   }, [router]);
-
-  const onClipPathGroup4Click = useCallback(() => {
-    window.open("https://bsl.com.gh/");
-  }, []);
-
-  const onClipPathGroup13Click = useCallback(() => {
-    window.open("https://isg.com.gh/");
-  }, []);
-
-  const onClipPathGroup23Click = useCallback(() => {
-    window.open("https://sfl.com.gh/");
-  }, []);
-
-  const openDrwawerMenu1 = useCallback(() => {
-    setDrwawerMenu1Open(true);
-  }, []);
-
-  const closeDrwawerMenu1 = useCallback(() => {
-    setDrwawerMenu1Open(false);
-  }, []);
-
-  const onContactUsContainer2Click = useCallback(() => {
-    router.push("/contact-p-age");
-  }, [router]);
-
-  const onContactUsText3Click = useCallback(() => {
-    router.push("/contact-p-age");
-  }, [router]);
-
-  const onClipPathGroup5Click = useCallback(() => {
-    window.open("https://bsl.com.gh/");
-  }, []);
-
-  const onClipPathGroup14Click = useCallback(() => {
-    window.open("https://isg.com.gh/");
-  }, []);
-
-  const onClipPathGroup24Click = useCallback(() => {
-    window.open("https://sfl.com.gh/");
-  }, []);
 
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
@@ -243,31 +182,31 @@ const BlogPage: NextPage = () => {
                     <img
                       className={styles.clipPathGroup}
                       alt=""
-                      src="/clip-path-group92.svg"
+                      src="/clip-path-group3.svg"
                       onClick={onClipPathGroupClick}
                     />
                     <img
                       className={styles.clipPathGroup1}
                       alt=""
-                      src="/clip-path-group93@2x.png"
+                      src="/clip-path-group@2x.png"
                       onClick={onClipPathGroup1Click}
                     />
                     <img
                       className={styles.clipPathGroup2}
                       alt=""
-                      src="/clip-path-group94@2x.png"
+                      src="/clip-path-group@2x.png"
                       onClick={onClipPathGroup2Click}
                     />
                     <img
                       className={styles.oursubsidiarylogosChild}
                       alt=""
-                      src="/group-93921.svg"
+                      src="/group-93911.svg"
                     />
                   </div>
                   <img
                     className={styles.images21}
                     alt=""
-                    src="/images-2-135@2x.png"
+                    src="/images-2-1@2x.png"
                   />
                 </button>
                 <div
@@ -278,68 +217,75 @@ const BlogPage: NextPage = () => {
                     className={styles.logoIcon}
                     id="logo"
                     alt=""
-                    src="/logo36@2x.png"
+                    src="/logo9@2x.png"
                   />
                 </div>
               </div>
               <nav className={styles.rightnavlink}>
-                <div className={styles.homec} onClick={onHomeCContainerClick}>
-                  <button
-                    className={styles.linkAbout}
-                    onClick={onLinkAboutClick}
-                  >
-                    <div
-                      className={styles.linkAbout1}
-                      onClick={onLinkAbout2Click}
+                <div className={styles.homecParent}>
+                  <div className={styles.homec} onClick={onHomeCContainerClick}>
+                    <button
+                      className={styles.linkAbout}
+                      onClick={onLinkAboutClick}
                     >
-                      Home
+                      <div
+                        className={styles.linkAbout1}
+                        onClick={onLinkAbout2Click}
+                      >
+                        Home
+                      </div>
+                    </button>
+                    <img
+                      className={styles.homecChild}
+                      alt=""
+                      src="/line-1@2x.png"
+                    />
+                  </div>
+                  <button className={styles.aboutus} onClick={onAboutUsClick}>
+                    <div
+                      className={styles.linkPricing}
+                      onClick={onLinkPricingClick}
+                    >
+                      About Us
                     </div>
                   </button>
-                  <img
-                    className={styles.homecChild}
-                    alt=""
-                    src="/line-129@2x.png"
-                  />
+                  <button
+                    className={styles.producAndServices}
+                    onClick={onProducAndServicesClick}
+                  >
+                    <div
+                      className={styles.linkPricing}
+                      onClick={onLinkPricing2Click}
+                    >{`Product & Services`}</div>
+                  </button>
+                  <button
+                    className={styles.aboutus}
+                    onClick={onClientspartnersClick}
+                  >
+                    <div
+                      className={styles.linkPricing}
+                      onClick={onLinkPricing3Click}
+                    >{`Clients & Partners`}</div>
+                  </button>
+                  <button className={styles.media} onClick={onMediaClick}>
+                    <div
+                      className={styles.linkPricing3}
+                      onClick={onLinkPricing4Click}
+                    >
+                      Media
+                    </div>
+                    <img
+                      className={styles.mediaChild}
+                      alt=""
+                      src="/line-11@2x.png"
+                    />
+                  </button>
                 </div>
-                <button className={styles.aboutus} onClick={onAboutUsClick}>
-                  <div
-                    className={styles.linkPricing}
-                    onClick={onLinkPricingClick}
-                  >
-                    About Us
-                  </div>
-                </button>
-                <button
-                  className={styles.producAndServices}
-                  onClick={onProducAndServicesClick}
-                >
-                  <div
-                    className={styles.linkPricing}
-                    onClick={onLinkPricing2Click}
-                  >{`Product & Services`}</div>
-                </button>
-                <button
-                  className={styles.clientspartners}
-                  onClick={onClientspartnersClick}
-                >
-                  <div
-                    className={styles.linkPricing}
-                    onClick={onLinkPricing3Click}
-                  >{`Clients & Partners`}</div>
-                </button>
-                <button className={styles.media} onClick={onMediaClick}>
-                  <div
-                    className={styles.linkPricing3}
-                    onClick={onLinkPricing4Click}
-                  >
-                    Media
-                  </div>
-                  <img
-                    className={styles.mediaChild}
-                    alt=""
-                    src="/line-123@2x.png"
-                  />
-                </button>
+                <div className={styles.handburger} onClick={openDrwawerMenu}>
+                  <div className={styles.handburgerChild} />
+                  <div className={styles.handburgerChild} />
+                  <div className={styles.handburgerInner} />
+                </div>
                 <button
                   className={styles.contactusContainer}
                   onClick={onContactUsContainerClick}
@@ -351,200 +297,7 @@ const BlogPage: NextPage = () => {
                     Contact Us
                   </div>
                 </button>
-                <div className={styles.handburger}>
-                  <div className={styles.handburgerChild} />
-                  <div className={styles.handburgerItem} />
-                  <div className={styles.handburgerInner} />
-                </div>
               </nav>
-            </div>
-          </nav>
-          <nav className={styles.nav} id="navBar">
-            <div className={styles.logorightnavlink1}>
-              <div className={styles.logoasset1}>
-                <button className={styles.arrowframe1}>
-                  <div
-                    className={styles.oursubsidiarylogos}
-                    id="ourSubsidiaries"
-                  >
-                    <img
-                      className={styles.clipPathGroup}
-                      alt=""
-                      src="/clip-path-group92.svg"
-                      onClick={onClipPathGroup3Click}
-                    />
-                    <img
-                      className={styles.clipPathGroup1}
-                      alt=""
-                      src="/clip-path-group95@2x.png"
-                      onClick={onClipPathGroup12Click}
-                    />
-                    <img
-                      className={styles.clipPathGroup2}
-                      alt=""
-                      src="/clip-path-group96@2x.png"
-                      onClick={onClipPathGroup22Click}
-                    />
-                    <img
-                      className={styles.oursubsidiarylogosChild}
-                      alt=""
-                      src="/group-93910.svg"
-                    />
-                  </div>
-                  <img
-                    className={styles.images21}
-                    alt=""
-                    src="/images-2-136@2x.png"
-                  />
-                </button>
-                <div className={styles.lgoframe1}>
-                  <img
-                    className={styles.logoIcon}
-                    id="logo"
-                    alt=""
-                    src="/logo37@2x.png"
-                  />
-                </div>
-              </div>
-              <div className={styles.rightnavlink1}>
-                <div className={styles.handburger1} onClick={openDrwawerMenu}>
-                  <div className={styles.rectangleDiv} />
-                  <div className={styles.rectangleDiv} />
-                  <div className={styles.handburgerChild2} />
-                </div>
-                <button
-                  className={styles.contactusContainer1}
-                  onClick={onContactUsContainer1Click}
-                >
-                  <div
-                    className={styles.contactUs1}
-                    onClick={onContactUsText2Click}
-                  >
-                    Contact Us
-                  </div>
-                </button>
-              </div>
-            </div>
-          </nav>
-          <nav className={styles.nav1} id="navBar">
-            <div className={styles.logorightnavlink1}>
-              <div className={styles.logoasset1}>
-                <button className={styles.arrowframe2}>
-                  <div
-                    className={styles.oursubsidiarylogos}
-                    id="ourSubsidiaries"
-                  >
-                    <img
-                      className={styles.clipPathGroup}
-                      alt=""
-                      src="/clip-path-group92.svg"
-                      onClick={onClipPathGroup4Click}
-                    />
-                    <img
-                      className={styles.clipPathGroup1}
-                      alt=""
-                      src="/clip-path-group95@2x.png"
-                      onClick={onClipPathGroup13Click}
-                    />
-                    <img
-                      className={styles.clipPathGroup2}
-                      alt=""
-                      src="/clip-path-group96@2x.png"
-                      onClick={onClipPathGroup23Click}
-                    />
-                    <img
-                      className={styles.oursubsidiarylogosChild}
-                      alt=""
-                      src="/group-93910.svg"
-                    />
-                  </div>
-                  <img
-                    className={styles.images21}
-                    alt=""
-                    src="/images-2-136@2x.png"
-                  />
-                </button>
-                <div className={styles.lgoframe1}>
-                  <img
-                    className={styles.logoIcon}
-                    id="logo"
-                    alt=""
-                    src="/logo37@2x.png"
-                  />
-                </div>
-              </div>
-              <div className={styles.rightnavlink1}>
-                <div className={styles.handburger1} onClick={openDrwawerMenu1}>
-                  <div className={styles.rectangleDiv} />
-                  <div className={styles.rectangleDiv} />
-                  <div className={styles.handburgerChild2} />
-                </div>
-                <button
-                  className={styles.contactusContainer1}
-                  onClick={onContactUsContainer2Click}
-                >
-                  <div
-                    className={styles.contactUs1}
-                    onClick={onContactUsText3Click}
-                  >
-                    Contact Us
-                  </div>
-                </button>
-              </div>
-            </div>
-          </nav>
-          <nav className={styles.nav2} id="navBar">
-            <div className={styles.logorightnavlink1}>
-              <div className={styles.logoasset1}>
-                <button className={styles.arrowframe3}>
-                  <div
-                    className={styles.oursubsidiarylogos}
-                    id="ourSubsidiaries"
-                  >
-                    <img
-                      className={styles.clipPathGroup}
-                      alt=""
-                      src="/clip-path-group92.svg"
-                      onClick={onClipPathGroup5Click}
-                    />
-                    <img
-                      className={styles.clipPathGroup1}
-                      alt=""
-                      src="/clip-path-group97@2x.png"
-                      onClick={onClipPathGroup14Click}
-                    />
-                    <img
-                      className={styles.clipPathGroup2}
-                      alt=""
-                      src="/clip-path-group98@2x.png"
-                      onClick={onClipPathGroup24Click}
-                    />
-                    <img
-                      className={styles.oursubsidiarylogosChild}
-                      alt=""
-                      src="/group-93922.svg"
-                    />
-                  </div>
-                  <img
-                    className={styles.images21}
-                    alt=""
-                    src="/images-2-137@2x.png"
-                  />
-                </button>
-                <div className={styles.lgoframe1}>
-                  <img
-                    className={styles.logoIcon3}
-                    id="logo"
-                    alt=""
-                    src="/logo38@2x.png"
-                  />
-                </div>
-              </div>
-              <img
-                className={styles.rightnavlinkIcon}
-                alt=""
-                src="/rightnavlink11@2x.png"
-              />
             </div>
           </nav>
         </header>
@@ -579,7 +332,7 @@ const BlogPage: NextPage = () => {
             <img
               className={styles.download6Icon}
               alt=""
-              src="/download-624@2x.png"
+              src="/download-6@2x.png"
             />
           </div>
           <div className={styles.mayAndLotteContainer1}>
@@ -645,7 +398,7 @@ const BlogPage: NextPage = () => {
               <img
                 className={styles.gradientmsgChild}
                 alt=""
-                src="/group-2067@2x.png"
+                src="/group-206@2x.png"
               />
               <div className={styles.weSupportAgribusinessIndustParent}>
                 <b
@@ -667,7 +420,7 @@ const BlogPage: NextPage = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/arrow-99@2x.png"
+                    src="/arrow-9@2x.png"
                   />
                   <div className={styles.viewProducts}>view produCts</div>
                 </div>
@@ -714,114 +467,114 @@ const BlogPage: NextPage = () => {
                 <img
                   className={styles.download5Icon}
                   alt=""
-                  src="/download-546@2x.png"
+                  src="/download-5@2x.png"
                 />
                 <img
                   className={styles.download5Icon1}
                   alt=""
-                  src="/download-547@2x.png"
+                  src="/download-5@2x.png"
                 />
                 <img
                   className={styles.captureIcon}
                   alt=""
-                  src="/capture23@2x.png"
+                  src="/capture@2x.png"
                 />
                 <img
                   className={styles.mofaColorIcon}
                   alt=""
-                  src="/mofa-color23@2x.png"
+                  src="/mofa-color@2x.png"
                 />
                 <img
                   className={styles.download3Icon}
                   alt=""
-                  src="/download-323@2x.png"
+                  src="/download-3@2x.png"
                 />
                 <img
                   className={styles.imagesIcon}
                   alt=""
-                  src="/images22@2x.png"
+                  src="/images@2x.png"
                 />
                 <img
                   className={styles.download6Icon1}
                   alt=""
-                  src="/download-625@2x.png"
+                  src="/download-6@2x.png"
                 />
                 <img
                   className={styles.download1Icon}
                   alt=""
-                  src="/download-123@2x.png"
+                  src="/download-1@2x.png"
                 />
                 <img
                   className={styles.downloadIcon}
                   alt=""
-                  src="/download23@2x.png"
+                  src="/download@2x.png"
                 />
                 <img
                   className={styles.images1Icon}
                   alt=""
-                  src="/images-123@2x.png"
+                  src="/images-1@2x.png"
                 />
                 <img
                   className={styles.download2Icon}
                   alt=""
-                  src="/download-223@2x.png"
+                  src="/download-2@2x.png"
                 />
               </div>
               <div className={styles.download5Group}>
                 <img
                   className={styles.download5Icon}
                   alt=""
-                  src="/download-548@2x.png"
+                  src="/download-5@2x.png"
                 />
                 <img
                   className={styles.download5Icon1}
                   alt=""
-                  src="/download-549@2x.png"
+                  src="/download-5@2x.png"
                 />
                 <img
                   className={styles.captureIcon}
                   alt=""
-                  src="/capture24@2x.png"
+                  src="/capture@2x.png"
                 />
                 <img
                   className={styles.mofaColorIcon}
                   alt=""
-                  src="/mofa-color24@2x.png"
+                  src="/mofa-color@2x.png"
                 />
                 <img
                   className={styles.download3Icon}
                   alt=""
-                  src="/download-324@2x.png"
+                  src="/download-3@2x.png"
                 />
                 <img
                   className={styles.imagesIcon}
                   alt=""
-                  src="/images23@2x.png"
+                  src="/images@2x.png"
                 />
                 <img
                   className={styles.download6Icon1}
                   alt=""
-                  src="/download-626@2x.png"
+                  src="/download-6@2x.png"
                 />
                 <img
                   className={styles.download1Icon}
                   alt=""
-                  src="/download-124@2x.png"
+                  src="/download-1@2x.png"
                 />
                 <img
                   className={styles.downloadIcon}
                   alt=""
-                  src="/download24@2x.png"
+                  src="/download@2x.png"
                 />
                 <img
                   className={styles.images1Icon}
                   alt=""
-                  src="/images-124@2x.png"
+                  src="/images-1@2x.png"
                 />
                 <img
                   className={styles.download2Icon}
                   alt=""
-                  src="/download-224@2x.png"
+                  src="/download-2@2x.png"
                 />
               </div>
             </div>
@@ -926,12 +679,12 @@ const BlogPage: NextPage = () => {
                 </div>
                 <div className={styles.frameParent3}>
                   <div className={styles.nowWereParent4}>
-                    <div className={styles.nowWere13}>BSL HEAD OFFICE</div>
+                    <div className={styles.nowWere9}>BSL HEAD OFFICE</div>
                     <div className={styles.nowWere14}>No 24 Botwe</div>
                     <div className={styles.nowWere14}>Dzorwulu - Accra</div>
                   </div>
                   <div className={styles.nowWereParent5}>
-                    <div className={styles.nowWere13}>TAMALE office</div>
+                    <div className={styles.nowWere9}>TAMALE office</div>
                     <div className={styles.nowWereParent6}>
                       <div className={styles.nowWere17}>Tamale.</div>
                       <div className={styles.nowWere18}>16 Dagomba Road,</div>
@@ -977,7 +730,7 @@ const BlogPage: NextPage = () => {
                   <div className={styles.instagramParent}>
                     <div className={styles.instagram}>
                       <img
-                        className={styles.groupIcon1}
+                        className={styles.groupIcon}
                         alt=""
                         src="/group7.svg"
                       />
@@ -1030,15 +783,6 @@ const BlogPage: NextPage = () => {
           onOutsideClick={closeDrwawerMenu}
         >
           <DrwawerMenu onClose={closeDrwawerMenu} />
-        </PortalDrawer>
-      )}
-      {isDrwawerMenu1Open && (
-        <PortalDrawer
-          overlayColor="rgba(113, 113, 113, 0.3)"
-          placement="Top"
-          onOutsideClick={closeDrwawerMenu1}
-        >
-          <DrwawerMenu onClose={closeDrwawerMenu1} />
         </PortalDrawer>
       )}
     </>

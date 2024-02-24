@@ -66,12 +66,12 @@ const FooterFrames1: NextPage<FooterFrames1Type> = ({
       </div>
       <div className={styles.frameParent1}>
         <div className={styles.nowWereParent4}>
-          <div className={styles.nowWere11}>BSL HEAD OFFICE</div>
+          <div className={styles.nowWere7}>BSL HEAD OFFICE</div>
           <div className={styles.nowWere12}>No 24 Botwe</div>
           <div className={styles.nowWere12}>Dzorwulu - Accra</div>
         </div>
         <div className={styles.nowWereParent5}>
-          <div className={styles.nowWere11}>TAMALE office</div>
+          <div className={styles.nowWere7}>TAMALE office</div>
           <div className={styles.nowWereParent6}>
             <div className={styles.nowWere15}>Tamale.</div>
             <div className={styles.nowWere16}>16 Dagomba Road,</div>
