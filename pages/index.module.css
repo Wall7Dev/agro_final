@@ -527,18 +527,16 @@
   align-self: stretch;
   overflow: hidden;
   display: flex;
-}
-.scrooldowncontainer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 32.149009704589844px 628.3565673828125px 32.149009704589844px 470px;
+  padding: var(--padding-21xl) 628.3565673828125px var(--padding-21xl) 470px;
 }
 .desktop {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-61xl) 171.3699951171875px var(--padding-11xl) 180px;
+  padding: var(--padding-61xl) 171.3699951171875px var(--padding-31xl) 180px;
   gap: 10px 0;
   background-image: url(/desktop@3x.png);
   background-size: cover;

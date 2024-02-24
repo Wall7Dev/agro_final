@@ -701,7 +701,7 @@ const BlogPage1: NextPage = () => {
               <img
                 className={styles.gradientmsgChild}
                 alt=""
-                src="/group-2063@2x.png"
+                src="/group-206@2x.png"
               />
               <div className={styles.weSupportAgribusinessIndustParent}>
                 <b
@@ -960,7 +960,7 @@ const BlogPage1: NextPage = () => {
                         <img
                           className={styles.frameItem}
                           alt=""
-                          src="/line-128@2x.png"
+                          src="/line-1@2x.png"
                         />
                       </div>
                     </div>

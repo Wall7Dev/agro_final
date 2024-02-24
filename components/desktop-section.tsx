@@ -117,7 +117,7 @@ const DesktopSection: NextPage = () => {
             <img
               className={styles.frameChild}
               alt=""
-              src="/rectangle-9401@2x.png"
+              src="/rectangle-940@2x.png"
             />
           </div>
         </div>

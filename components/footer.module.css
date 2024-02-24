@@ -107,10 +107,7 @@
   font-weight: 500;
 }
 .nowWere2 {
-  width: 73.6px;
-  display: inline-block;
-  height: 35.6px;
-  flex-shrink: 0;
+  align-self: stretch;
 }
 .nowWere3 {
   flex: 1;
@@ -176,13 +173,6 @@
   object-fit: cover;
   display: none;
 }
-.frameContainer,
-.nowWereGroup,
-.nowWereParent {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
 .nowWereGroup {
   align-self: stretch;
   justify-content: center;
@@ -192,18 +182,23 @@
   display: flex;
 }
 .frameContainer,
+.nowWereGroup,
 .nowWereParent {
-  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .frameContainer {
   align-self: stretch;
   height: 111.6px;
+  justify-content: space-between;
   font-size: var(--font-size-smi-4);
   color: var(--color-white);
 }
 .nowWereParent {
   flex: 1;
-  height: 158.8px;
+  justify-content: flex-start;
+  gap: 7.75px 0;
 }
 .nowWere7,
 .nowWere8 {
@@ -287,7 +282,7 @@
 .frameGroup {
   align-self: stretch;
   flex-direction: row;
-  gap: 0 1.55px;
+  gap: 0 7.75px;
 }
 .nowWere13,
 .nowWere14 {
@@ -358,7 +353,6 @@
   flex: 1;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 0 23.244470596313477px;
   gap: 30.99px 0;
   font-size: var(--font-size-2xs-8);
 }
@@ -404,7 +398,7 @@
 .nowWere21 {
   position: absolute;
   height: 203.83%;
-  width: 96.16%;
+  width: 96.17%;
   top: -51.67%;
   left: -0.71%;
   letter-spacing: 0.89px;
@@ -594,12 +588,13 @@
 .transformParent {
   align-self: stretch;
   display: flex;
+  justify-content: flex-start;
 }
 .transformParent {
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
   padding: 30.992626190185547px 0;
+  gap: 190px 46.49px;
   opacity: 1;
 }
 .transformParent.animate {
@@ -610,7 +605,6 @@
   overflow: hidden;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
   padding: 0 61.985252380371094px;
   text-align: left;
   font-size: var(--font-size-7xl-3);

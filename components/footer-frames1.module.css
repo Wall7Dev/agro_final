@@ -7,10 +7,7 @@
   font-weight: 500;
 }
 .nowWere {
-  width: 95px;
-  display: inline-block;
-  height: 46px;
-  flex-shrink: 0;
+  align-self: stretch;
 }
 .nowWere1 {
   flex: 1;
@@ -76,13 +73,6 @@
   object-fit: cover;
   display: none;
 }
-.frameContainer,
-.nowWereGroup,
-.nowWereParent {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
 .nowWereGroup {
   align-self: stretch;
   justify-content: center;
@@ -92,18 +82,23 @@
   display: flex;
 }
 .frameContainer,
+.nowWereGroup,
 .nowWereParent {
-  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .frameContainer {
   align-self: stretch;
   height: 144px;
+  justify-content: space-between;
   font-size: var(--font-size-base);
   color: var(--color-white);
 }
 .nowWereParent {
   flex: 1;
-  height: 205px;
+  justify-content: flex-start;
+  gap: 10px 0;
 }
 .nowWere5,
 .nowWere6 {
@@ -187,7 +182,7 @@
 .frameGroup {
   align-self: stretch;
   flex-direction: row;
-  gap: 0 2px;
+  gap: 0 10px;
 }
 .nowWere11,
 .nowWere12 {
@@ -256,7 +251,6 @@
   flex: 1;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 0 var(--padding-11xl);
   gap: 40px 0;
   text-align: left;
   font-size: var(--font-size-sm);

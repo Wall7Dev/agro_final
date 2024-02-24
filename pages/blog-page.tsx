@@ -870,7 +870,7 @@ const BlogPage: NextPage = () => {
                 </button>
               </div>
               <div className={styles.frameContainer}>
-                <div className={styles.frameDiv}>
+                <div className={styles.frameParent}>
                   <div className={styles.nowWereParent}>
                     <div className={styles.nowWere2}>business</div>
                     <div className={styles.frameParent1}>
@@ -904,7 +904,7 @@ const BlogPage: NextPage = () => {
                         <img
                           className={styles.frameItem}
                           alt=""
-                          src="/line-124@2x.png"
+                          src="/line-1@2x.png"
                         />
                       </div>
                     </div>

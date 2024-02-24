@@ -954,10 +954,7 @@
   font-weight: 500;
 }
 .nowWere2 {
-  width: 76px;
-  display: inline-block;
-  height: 36.8px;
-  flex-shrink: 0;
+  align-self: stretch;
 }
 .nowWere3 {
   flex: 1;
@@ -1023,6 +1020,11 @@
   object-fit: cover;
   display: none;
 }
+.nowWereGroup {
+  align-self: stretch;
+  justify-content: center;
+  cursor: pointer;
+}
 .frameParent1,
 .nowWereGroup,
 .nowWereParent {
@@ -1030,24 +1032,17 @@
   flex-direction: column;
   align-items: flex-start;
 }
-.nowWereGroup {
-  align-self: stretch;
-  justify-content: center;
-  cursor: pointer;
-}
-.frameParent1,
-.nowWereParent {
-  justify-content: space-between;
-}
 .frameParent1 {
   align-self: stretch;
   height: 115.2px;
+  justify-content: space-between;
   font-size: var(--font-size-smi-8);
   color: var(--color-white);
 }
 .nowWereParent {
   flex: 1;
-  height: 164px;
+  justify-content: flex-start;
+  gap: 8px 0;
 }
 .nowWere7,
 .nowWere8 {
@@ -1131,7 +1126,7 @@
 .frameDiv {
   align-self: stretch;
   flex-direction: row;
-  gap: 0 1.6px;
+  gap: 0 8px;
 }
 .nowWere13,
 .nowWere14 {
@@ -1202,7 +1197,6 @@
   flex: 1;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 0 24.007030487060547px;
   gap: 32.01px 0;
   font-size: var(--font-size-xs-2);
 }
@@ -1248,9 +1242,9 @@
 .nowWere21 {
   position: absolute;
   height: 203.7%;
-  width: 96.16%;
+  width: 96.15%;
   top: -51.85%;
-  left: -0.71%;
+  left: -0.69%;
   letter-spacing: 0.92px;
   line-height: 47px;
   text-transform: uppercase;
@@ -1438,12 +1432,13 @@
 .transformParent {
   align-self: stretch;
   display: flex;
+  justify-content: flex-start;
 }
 .transformParent {
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
   padding: 32.009376525878906px 0;
+  gap: 190px 48.01px;
   opacity: 1;
 }
 .transformParent.animate {
@@ -1454,7 +1449,6 @@
   overflow: hidden;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
   padding: 0 64.01875305175781px;
   text-align: left;
   font-size: var(--font-size-8xl-2);

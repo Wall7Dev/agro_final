@@ -787,7 +787,7 @@ const ManagementTeam: NextPage = () => {
               </div>
               <div className={styles.frameParent8}>
                 <div className={styles.frameParent9}>
-                  <div className={styles.nowWereParent}>
+                  <div className={styles.razakAwudulaiParent}>
                     <div className={styles.nowWere2}>business</div>
                     <div className={styles.frameParent10}>
                       <div className={styles.nowWereFrame}>
@@ -820,7 +820,7 @@ const ManagementTeam: NextPage = () => {
                         <img
                           className={styles.frameChild}
                           alt=""
-                          src="/line-121@2x.png"
+                          src="/line-1@2x.png"
                         />
                       </div>
                     </div>
