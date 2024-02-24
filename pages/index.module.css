@@ -1553,7 +1553,7 @@
   align-items: center;
   justify-content: flex-start;
   gap: 11.07px 0;
-  font-size: var(--font-size-3xs-5);
+  font-size: 9.5px;
 }
 .theInputCredit2 {
   align-self: stretch;
@@ -1852,7 +1852,7 @@
   gap: 2.66px 0;
   opacity: 1;
   text-align: left;
-  font-size: var(--font-size-6xs-7);
+  font-size: 6.7px;
   color: var(--color-goldenrod-300);
 }
 .inputCreditManagementSystemParent4.animate {

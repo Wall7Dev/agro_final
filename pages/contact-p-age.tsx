@@ -356,7 +356,7 @@ const ContactPAge: NextPage = () => {
                   <img
                     className={styles.gradientmsgChild}
                     alt=""
-                    src="/group-2061@2x.png"
+                    src="/group-20611@2x.png"
                     data-animate-on-scroll
                   />
                   <div className={styles.weSupportAgribusinessIndustParent}>
