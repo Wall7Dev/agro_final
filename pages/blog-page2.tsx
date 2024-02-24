@@ -578,7 +578,7 @@ const BlogPage2: NextPage = () => {
             </div>
           </div>
           <div className={styles.image1Wrapper}>
-            <img className={styles.image1Icon} alt="" src="/image-1@2x.png" />
+            <img className={styles.image1Icon} alt="" src="/image-11@2x.png" />
           </div>
           <div className={styles.agrospectrumLimitedAContainer}>
             <p className={styles.agrospectrumLimitedA}>
@@ -910,7 +910,7 @@ const BlogPage2: NextPage = () => {
                         <img
                           className={styles.frameItem}
                           alt=""
-                          src="/line-120@2x.png"
+                          src="/line-1201@2x.png"
                         />
                       </div>
                     </div>

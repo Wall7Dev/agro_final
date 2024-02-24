@@ -142,13 +142,13 @@ const BlogPage3: NextPage = () => {
                     <img
                       className={styles.clipPathGroup1}
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group15@2x.png"
                       onClick={onClipPathGroup1Click}
                     />
                     <img
                       className={styles.clipPathGroup2}
                       alt=""
-                      src="/clip-path-group@2x.png"
+                      src="/clip-path-group16@2x.png"
                       onClick={onClipPathGroup2Click}
                     />
                     <img
@@ -160,7 +160,7 @@ const BlogPage3: NextPage = () => {
                   <img
                     className={styles.images21}
                     alt=""
-                    src="/images-2-1@2x.png"
+                    src="/images-2-15@2x.png"
                   />
                 </button>
                 <div
@@ -192,7 +192,7 @@ const BlogPage3: NextPage = () => {
                     <img
                       className={styles.homecChild}
                       alt=""
-                      src="/line-1@2x.png"
+                      src="/line-120@2x.png"
                     />
                   </div>
                   <button className={styles.aboutus} onClick={onAboutUsClick}>
@@ -279,7 +279,7 @@ const BlogPage3: NextPage = () => {
           <img
             className={styles.mrCastroAwards1}
             alt=""
-            src="/mr-castro-awards-1@2x.png"
+            src="/mr-castro-awards-13@2x.png"
           />
           <div className={styles.agrospectrumLimitedAContainer}>
             <p className={styles.agrospectrumLimitedA}>
@@ -385,7 +385,7 @@ const BlogPage3: NextPage = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/arrow-9@2x.png"
+                    src="/arrow-91@2x.png"
                   />
                   <div className={styles.viewProducts}>view produCts</div>
                 </div>

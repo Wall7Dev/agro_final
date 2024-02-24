@@ -213,7 +213,7 @@
   flex-direction: row;
   align-items: flex-start;
   gap: 0 0.79px;
-  z-index: 7;
+  z-index: 0;
 }
 @media screen and (max-width: 1200px) {
   .parentCaurosol {

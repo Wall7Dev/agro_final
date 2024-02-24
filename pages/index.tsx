@@ -905,321 +905,323 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
             </div>
           </div>
         </section>
-        <ParentCaurosol />
-        <div className={styles.parentCaurosol1200}>
-          <section className={styles.section2}>
-            <div
-              className={styles.inner}
-              onClick={onFrameContainerClick}
-              data-animate-on-scroll
-            >
-              <div className={styles.logorightnavlink}>
-                <img
-                  className={styles.leftGroupIcon}
-                  alt=""
-                  src="/left-group8@2x.png"
-                />
-                <div className={styles.missionWrapper}>
-                  <h1 className={styles.mission}>Mission</h1>
-                </div>
-                <img
-                  className={styles.leftGroupIcon1}
-                  alt=""
-                  src="/left-group9@2x.png"
-                />
-              </div>
-            </div>
-            <div className={styles.toExtendDigitalization}>
-              To extend digitalization and innovation to agriculture through
-              diverse technological channels
-            </div>
-          </section>
-          <section className={styles.section3} data-scroll-to="section5">
-            <div className={styles.child} data-animate-on-scroll>
-              <div className={styles.logorightnavlink}>
-                <img
-                  className={styles.leftGroupIcon}
-                  alt=""
-                  src="/left-group10@2x.png"
-                />
-                <div className={styles.missionWrapper}>
-                  <h1 className={styles.mission}>Integrity</h1>
-                </div>
-                <img
-                  className={styles.leftGroupIcon3}
-                  alt=""
-                  src="/left-group11@2x.png"
-                  onClick={onLeftGroupIcon3Click}
-                />
-              </div>
-            </div>
-            <div className={styles.ourCredibilityAs}>
-              Our credibility as a brand is evident in the authenticity of our
-              products but and also in the numerous partnerships with the
-              players.
-            </div>
-          </section>
-          <section className={styles.section4} data-scroll-to="section4">
-            <div className={styles.inner1} data-animate-on-scroll>
-              <div className={styles.logorightnavlink}>
-                <img
-                  className={styles.leftGroupIcon}
-                  alt=""
-                  src="/left-group12@2x.png"
-                />
+        <div className={styles.parentCaurosolParent}>
+          <ParentCaurosol />
+          <div className={styles.parentCaurosol1200}>
+            <section className={styles.section2}>
+              <div
+                className={styles.inner}
+                onClick={onFrameContainerClick}
+                data-animate-on-scroll
+              >
                 <div className={styles.logorightnavlink}>
-                  <h1 className={styles.resourcefulness}>Resourcefulness</h1>
+                  <img
+                    className={styles.leftGroupIcon}
+                    alt=""
+                    src="/left-group8@2x.png"
+                  />
+                  <div className={styles.missionWrapper}>
+                    <h1 className={styles.mission}>Mission</h1>
+                  </div>
+                  <img
+                    className={styles.leftGroupIcon1}
+                    alt=""
+                    src="/left-group9@2x.png"
+                  />
                 </div>
-                <img
-                  className={styles.leftGroupIcon1}
-                  alt=""
-                  src="/left-group13@2x.png"
-                />
               </div>
-            </div>
-            <div className={styles.ourCredibilityAs}>
-              Our credibility as a brand is evident in the authenticity of our
-              products but and also in the numerous partnerships with the
-              players.
-            </div>
-          </section>
-          <section className={styles.section5}>
-            <div className={styles.child} data-animate-on-scroll>
-              <div className={styles.logorightnavlink}>
-                <img
-                  className={styles.leftGroupIcon}
-                  alt=""
-                  src="/left-group14@2x.png"
-                />
-                <div className={styles.missionWrapper}>
-                  <h1 className={styles.mission}>Innovation</h1>
-                </div>
-                <img
-                  className={styles.leftGroupIcon1}
-                  alt=""
-                  src="/left-group15@2x.png"
-                />
+              <div className={styles.toExtendDigitalization}>
+                To extend digitalization and innovation to agriculture through
+                diverse technological channels
               </div>
-            </div>
-            <div className={styles.weOfferAContainer}>
-              <p className={styles.inTheHeart}>
-                We offer a huge arsenal of logistics and expertise to
-              </p>
-              <p className={styles.inTheHeart}>
-                strategize and tackle most agro challenges
-              </p>
-            </div>
-          </section>
-        </div>
-        <div className={styles.parentCaurosol12001}>
-          <section className={styles.section6}>
-            <div
-              className={styles.inner3}
-              onClick={onFrameContainer2Click}
-              data-animate-on-scroll
-            >
-              <div className={styles.logorightnavlink}>
-                <img
-                  className={styles.leftGroupIcon8}
-                  alt=""
-                  src="/left-group16@2x.png"
-                />
-                <div className={styles.missionContainer}>
-                  <h1 className={styles.mission}>Mission</h1>
-                </div>
-                <img
-                  className={styles.leftGroupIcon9}
-                  alt=""
-                  src="/left-group17@2x.png"
-                />
-              </div>
-            </div>
-            <div className={styles.toExtendDigitalization1}>
-              To extend digitalization and innovation to agriculture through
-              diverse technological channels
-            </div>
-          </section>
-          <section className={styles.section7} data-scroll-to="section3">
-            <div className={styles.inner4} data-animate-on-scroll>
-              <div className={styles.logorightnavlink}>
-                <img
-                  className={styles.leftGroupIcon8}
-                  alt=""
-                  src="/left-group18@2x.png"
-                />
-                <div className={styles.missionContainer}>
-                  <h1 className={styles.mission}>Integrity</h1>
-                </div>
-                <img
-                  className={styles.leftGroupIcon11}
-                  alt=""
-                  src="/left-group19@2x.png"
-                  onClick={onLeftGroupIcon11Click}
-                />
-              </div>
-            </div>
-            <div className={styles.ourCredibilityAs2}>
-              Our credibility as a brand is evident in the authenticity of our
-              products but and also in the numerous partnerships with the
-              players.
-            </div>
-          </section>
-          <section className={styles.section8} data-scroll-to="section2">
-            <div className={styles.inner1} data-animate-on-scroll>
-              <div className={styles.logorightnavlink}>
-                <img
-                  className={styles.leftGroupIcon8}
-                  alt=""
-                  src="/left-group20@2x.png"
-                />
+            </section>
+            <section className={styles.section3} data-scroll-to="section5">
+              <div className={styles.child} data-animate-on-scroll>
                 <div className={styles.logorightnavlink}>
-                  <h1 className={styles.resourcefulness1}>Resourcefulness</h1>
+                  <img
+                    className={styles.leftGroupIcon}
+                    alt=""
+                    src="/left-group10@2x.png"
+                  />
+                  <div className={styles.missionWrapper}>
+                    <h1 className={styles.mission}>Integrity</h1>
+                  </div>
+                  <img
+                    className={styles.leftGroupIcon3}
+                    alt=""
+                    src="/left-group11@2x.png"
+                    onClick={onLeftGroupIcon3Click}
+                  />
                 </div>
-                <img
-                  className={styles.leftGroupIcon9}
-                  alt=""
-                  src="/left-group21@2x.png"
-                />
               </div>
-            </div>
-            <div className={styles.ourCredibilityAs2}>
-              Our credibility as a brand is evident in the authenticity of our
-              products but and also in the numerous partnerships with the
-              players.
-            </div>
-          </section>
-          <section className={styles.section9}>
-            <div className={styles.inner4} data-animate-on-scroll>
-              <div className={styles.logorightnavlink}>
-                <img
-                  className={styles.leftGroupIcon8}
-                  alt=""
-                  src="/left-group22@2x.png"
-                />
-                <div className={styles.missionContainer}>
-                  <h1 className={styles.mission}>Innovation</h1>
-                </div>
-                <img
-                  className={styles.leftGroupIcon9}
-                  alt=""
-                  src="/left-group23@2x.png"
-                />
+              <div className={styles.ourCredibilityAs}>
+                Our credibility as a brand is evident in the authenticity of our
+                products but and also in the numerous partnerships with the
+                players.
               </div>
-            </div>
-            <div className={styles.weOfferAContainer1}>
-              <p className={styles.inTheHeart}>
-                We offer a huge arsenal of logistics and expertise to
-              </p>
-              <p className={styles.inTheHeart}>
-                strategize and tackle most agro challenges
-              </p>
-            </div>
-          </section>
-        </div>
-        <div className={styles.parentCaurosol12002}>
-          <section className={styles.section10}>
-            <div
-              className={styles.inner7}
-              onClick={onFrameContainer3Click}
-              data-animate-on-scroll
-            >
-              <div className={styles.logorightnavlink}>
-                <img
-                  className={styles.leftGroupIcon16}
-                  alt=""
-                  src="/left-group24@2x.png"
-                />
-                <div className={styles.missionFrame}>
-                  <h1 className={styles.mission}>Mission</h1>
-                </div>
-                <img
-                  className={styles.leftGroupIcon17}
-                  alt=""
-                  src="/left-group25@2x.png"
-                />
-              </div>
-            </div>
-            <div className={styles.toExtendDigitalization2}>
-              To extend digitalization and innovation to agriculture through
-              diverse technological channels
-            </div>
-          </section>
-          <section className={styles.section11} data-scroll-to="section1">
-            <div className={styles.inner8} data-animate-on-scroll>
-              <div className={styles.logorightnavlink}>
-                <img
-                  className={styles.leftGroupIcon16}
-                  alt=""
-                  src="/left-group26@2x.png"
-                />
-                <div className={styles.missionFrame}>
-                  <h1 className={styles.mission}>Integrity</h1>
-                </div>
-                <img
-                  className={styles.leftGroupIcon19}
-                  alt=""
-                  src="/left-group27@2x.png"
-                  onClick={onLeftGroupIcon19Click}
-                />
-              </div>
-            </div>
-            <div className={styles.ourCredibilityAs4}>
-              Our credibility as a brand is evident in the authenticity of our
-              products but and also in the numerous partnerships with the
-              players.
-            </div>
-          </section>
-          <section className={styles.section12} data-scroll-to="section">
-            <div className={styles.inner1} data-animate-on-scroll>
-              <div className={styles.logorightnavlink}>
-                <img
-                  className={styles.leftGroupIcon16}
-                  alt=""
-                  src="/left-group28@2x.png"
-                />
+            </section>
+            <section className={styles.section4} data-scroll-to="section4">
+              <div className={styles.inner1} data-animate-on-scroll>
                 <div className={styles.logorightnavlink}>
-                  <h1 className={styles.resourcefulness2}>Resourcefulness</h1>
+                  <img
+                    className={styles.leftGroupIcon}
+                    alt=""
+                    src="/left-group12@2x.png"
+                  />
+                  <div className={styles.logorightnavlink}>
+                    <h1 className={styles.resourcefulness}>Resourcefulness</h1>
+                  </div>
+                  <img
+                    className={styles.leftGroupIcon1}
+                    alt=""
+                    src="/left-group13@2x.png"
+                  />
                 </div>
-                <img
-                  className={styles.leftGroupIcon17}
-                  alt=""
-                  src="/left-group29@2x.png"
-                />
               </div>
-            </div>
-            <div className={styles.ourCredibilityAs4}>
-              Our credibility as a brand is evident in the authenticity of our
-              products but and also in the numerous partnerships with the
-              players.
-            </div>
-          </section>
-          <section className={styles.section13}>
-            <div className={styles.inner8} data-animate-on-scroll>
-              <div className={styles.logorightnavlink}>
-                <img
-                  className={styles.leftGroupIcon16}
-                  alt=""
-                  src="/left-group30@2x.png"
-                />
-                <div className={styles.missionFrame}>
-                  <h1 className={styles.mission}>Innovation</h1>
+              <div className={styles.ourCredibilityAs}>
+                Our credibility as a brand is evident in the authenticity of our
+                products but and also in the numerous partnerships with the
+                players.
+              </div>
+            </section>
+            <section className={styles.section5}>
+              <div className={styles.child} data-animate-on-scroll>
+                <div className={styles.logorightnavlink}>
+                  <img
+                    className={styles.leftGroupIcon}
+                    alt=""
+                    src="/left-group14@2x.png"
+                  />
+                  <div className={styles.missionWrapper}>
+                    <h1 className={styles.mission}>Innovation</h1>
+                  </div>
+                  <img
+                    className={styles.leftGroupIcon1}
+                    alt=""
+                    src="/left-group15@2x.png"
+                  />
                 </div>
-                <img
-                  className={styles.leftGroupIcon17}
-                  alt=""
-                  src="/left-group31@2x.png"
-                />
               </div>
-            </div>
-            <div className={styles.weOfferAContainer2}>
-              <p className={styles.inTheHeart}>
-                We offer a huge arsenal of logistics and expertise to
-              </p>
-              <p className={styles.inTheHeart}>
-                strategize and tackle most agro challenges
-              </p>
-            </div>
-          </section>
+              <div className={styles.weOfferAContainer}>
+                <p className={styles.inTheHeart}>
+                  We offer a huge arsenal of logistics and expertise to
+                </p>
+                <p className={styles.inTheHeart}>
+                  strategize and tackle most agro challenges
+                </p>
+              </div>
+            </section>
+          </div>
+          <div className={styles.parentCaurosol12001}>
+            <section className={styles.section6}>
+              <div
+                className={styles.inner3}
+                onClick={onFrameContainer2Click}
+                data-animate-on-scroll
+              >
+                <div className={styles.logorightnavlink}>
+                  <img
+                    className={styles.leftGroupIcon8}
+                    alt=""
+                    src="/left-group16@2x.png"
+                  />
+                  <div className={styles.missionContainer}>
+                    <h1 className={styles.mission}>Mission</h1>
+                  </div>
+                  <img
+                    className={styles.leftGroupIcon9}
+                    alt=""
+                    src="/left-group17@2x.png"
+                  />
+                </div>
+              </div>
+              <div className={styles.toExtendDigitalization1}>
+                To extend digitalization and innovation to agriculture through
+                diverse technological channels
+              </div>
+            </section>
+            <section className={styles.section7} data-scroll-to="section3">
+              <div className={styles.inner4} data-animate-on-scroll>
+                <div className={styles.logorightnavlink}>
+                  <img
+                    className={styles.leftGroupIcon8}
+                    alt=""
+                    src="/left-group18@2x.png"
+                  />
+                  <div className={styles.missionContainer}>
+                    <h1 className={styles.mission}>Integrity</h1>
+                  </div>
+                  <img
+                    className={styles.leftGroupIcon11}
+                    alt=""
+                    src="/left-group19@2x.png"
+                    onClick={onLeftGroupIcon11Click}
+                  />
+                </div>
+              </div>
+              <div className={styles.ourCredibilityAs2}>
+                Our credibility as a brand is evident in the authenticity of our
+                products but and also in the numerous partnerships with the
+                players.
+              </div>
+            </section>
+            <section className={styles.section8} data-scroll-to="section2">
+              <div className={styles.inner1} data-animate-on-scroll>
+                <div className={styles.logorightnavlink}>
+                  <img
+                    className={styles.leftGroupIcon8}
+                    alt=""
+                    src="/left-group20@2x.png"
+                  />
+                  <div className={styles.logorightnavlink}>
+                    <h1 className={styles.resourcefulness1}>Resourcefulness</h1>
+                  </div>
+                  <img
+                    className={styles.leftGroupIcon9}
+                    alt=""
+                    src="/left-group21@2x.png"
+                  />
+                </div>
+              </div>
+              <div className={styles.ourCredibilityAs2}>
+                Our credibility as a brand is evident in the authenticity of our
+                products but and also in the numerous partnerships with the
+                players.
+              </div>
+            </section>
+            <section className={styles.section9}>
+              <div className={styles.inner4} data-animate-on-scroll>
+                <div className={styles.logorightnavlink}>
+                  <img
+                    className={styles.leftGroupIcon8}
+                    alt=""
+                    src="/left-group22@2x.png"
+                  />
+                  <div className={styles.missionContainer}>
+                    <h1 className={styles.mission}>Innovation</h1>
+                  </div>
+                  <img
+                    className={styles.leftGroupIcon9}
+                    alt=""
+                    src="/left-group23@2x.png"
+                  />
+                </div>
+              </div>
+              <div className={styles.weOfferAContainer1}>
+                <p className={styles.inTheHeart}>
+                  We offer a huge arsenal of logistics and expertise to
+                </p>
+                <p className={styles.inTheHeart}>
+                  strategize and tackle most agro challenges
+                </p>
+              </div>
+            </section>
+          </div>
+          <div className={styles.parentCaurosol12002}>
+            <section className={styles.section10}>
+              <div
+                className={styles.inner7}
+                onClick={onFrameContainer3Click}
+                data-animate-on-scroll
+              >
+                <div className={styles.logorightnavlink}>
+                  <img
+                    className={styles.leftGroupIcon16}
+                    alt=""
+                    src="/left-group24@2x.png"
+                  />
+                  <div className={styles.missionFrame}>
+                    <h1 className={styles.mission}>Mission</h1>
+                  </div>
+                  <img
+                    className={styles.leftGroupIcon17}
+                    alt=""
+                    src="/left-group25@2x.png"
+                  />
+                </div>
+              </div>
+              <div className={styles.toExtendDigitalization2}>
+                To extend digitalization and innovation to agriculture through
+                diverse technological channels
+              </div>
+            </section>
+            <section className={styles.section11} data-scroll-to="section1">
+              <div className={styles.inner8} data-animate-on-scroll>
+                <div className={styles.logorightnavlink}>
+                  <img
+                    className={styles.leftGroupIcon16}
+                    alt=""
+                    src="/left-group26@2x.png"
+                  />
+                  <div className={styles.missionFrame}>
+                    <h1 className={styles.mission}>Integrity</h1>
+                  </div>
+                  <img
+                    className={styles.leftGroupIcon19}
+                    alt=""
+                    src="/left-group27@2x.png"
+                    onClick={onLeftGroupIcon19Click}
+                  />
+                </div>
+              </div>
+              <div className={styles.ourCredibilityAs4}>
+                Our credibility as a brand is evident in the authenticity of our
+                products but and also in the numerous partnerships with the
+                players.
+              </div>
+            </section>
+            <section className={styles.section12} data-scroll-to="section">
+              <div className={styles.inner1} data-animate-on-scroll>
+                <div className={styles.logorightnavlink}>
+                  <img
+                    className={styles.leftGroupIcon16}
+                    alt=""
+                    src="/left-group28@2x.png"
+                  />
+                  <div className={styles.logorightnavlink}>
+                    <h1 className={styles.resourcefulness2}>Resourcefulness</h1>
+                  </div>
+                  <img
+                    className={styles.leftGroupIcon17}
+                    alt=""
+                    src="/left-group29@2x.png"
+                  />
+                </div>
+              </div>
+              <div className={styles.ourCredibilityAs4}>
+                Our credibility as a brand is evident in the authenticity of our
+                products but and also in the numerous partnerships with the
+                players.
+              </div>
+            </section>
+            <section className={styles.section13}>
+              <div className={styles.inner8} data-animate-on-scroll>
+                <div className={styles.logorightnavlink}>
+                  <img
+                    className={styles.leftGroupIcon16}
+                    alt=""
+                    src="/left-group30@2x.png"
+                  />
+                  <div className={styles.missionFrame}>
+                    <h1 className={styles.mission}>Innovation</h1>
+                  </div>
+                  <img
+                    className={styles.leftGroupIcon17}
+                    alt=""
+                    src="/left-group31@2x.png"
+                  />
+                </div>
+              </div>
+              <div className={styles.weOfferAContainer2}>
+                <p className={styles.inTheHeart}>
+                  We offer a huge arsenal of logistics and expertise to
+                </p>
+                <p className={styles.inTheHeart}>
+                  strategize and tackle most agro challenges
+                </p>
+              </div>
+            </section>
+          </div>
         </div>
         <section className={styles.section6partners}>
           <div className={styles.ourprojectframeParent}>

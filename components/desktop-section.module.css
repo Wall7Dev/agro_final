@@ -96,9 +96,9 @@
 }
 .whyWorkWithContainer {
   margin: 0;
-  height: 119px;
+  height: 113px;
   position: relative;
-  font-size: var(--font-size-60xl-1);
+  font-size: var(--font-size-56xl);
   color: var(--color-goldenrod-100);
   display: inline-block;
   opacity: 1;
