@@ -125,7 +125,7 @@
 .transformParent {
   flex-direction: row;
   align-items: flex-start;
-  padding: 31.625370025634766px;
+  padding: 31.625370025634766px var(--padding-16xl);
   gap: 190px 50px;
   opacity: 1;
 }

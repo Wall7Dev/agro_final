@@ -9,23 +9,23 @@ const Media: NextPage = () => {
   const router = useRouter();
   const [isDrwawerMenuOpen, setDrwawerMenuOpen] = useState(false);
 
-  const onClipPathGroupClick = useCallback(() => {
+  const onClipPathGroup3Click = useCallback(() => {
     window.open("https://bsl.com.gh/");
   }, []);
 
-  const onClipPathGroup1Click = useCallback(() => {
+  const onClipPathGroup4Click = useCallback(() => {
     window.open("https://isg.com.gh/");
   }, []);
 
-  const onClipPathGroup2Click = useCallback(() => {
+  const onClipPathGroup5Click = useCallback(() => {
     window.open("https://sfl.com.gh/");
   }, []);
 
-  const onLgoFrameContainerClick = useCallback(() => {
+  const onLgoFrameContainer1Click = useCallback(() => {
     router.push("/");
   }, [router]);
 
-  const onHomeCContainerClick = useCallback(() => {
+  const onHomeCContainer1Click = useCallback(() => {
     router.push("/");
   }, [router]);
 
@@ -33,7 +33,7 @@ const Media: NextPage = () => {
     router.push("/");
   }, [router]);
 
-  const onLinkAbout2Click = useCallback(() => {
+  const onLinkAbout1Click = useCallback(() => {
     router.push("/");
   }, [router]);
 
@@ -41,7 +41,7 @@ const Media: NextPage = () => {
     router.push("/about-u-s-page");
   }, [router]);
 
-  const onLinkPricingClick = useCallback(() => {
+  const onLinkPricing1Click = useCallback(() => {
     router.push("/about-u-s-page");
   }, [router]);
 
@@ -49,7 +49,7 @@ const Media: NextPage = () => {
     router.push("/product-services");
   }, [router]);
 
-  const onLinkPricing2Click = useCallback(() => {
+  const onLinkPricing12Click = useCallback(() => {
     // Please sync "product_services" to the project
   }, []);
 
@@ -57,7 +57,7 @@ const Media: NextPage = () => {
     router.push("/projectspartners");
   }, [router]);
 
-  const onLinkPricing3Click = useCallback(() => {
+  const onLinkPricing13Click = useCallback(() => {
     router.push("/projectspartners");
   }, [router]);
 
@@ -65,7 +65,7 @@ const Media: NextPage = () => {
     router.push("/media");
   }, [router]);
 
-  const onLinkPricing4Click = useCallback(() => {
+  const onLinkPricing14Click = useCallback(() => {
     router.push("/media");
   }, [router]);
 
@@ -81,7 +81,7 @@ const Media: NextPage = () => {
     router.push("/contact-p-age");
   }, [router]);
 
-  const onContactUsTextClick = useCallback(() => {
+  const onContactUsText1Click = useCallback(() => {
     router.push("/contact-p-age");
   }, [router]);
 
@@ -216,26 +216,26 @@ const Media: NextPage = () => {
               <div className={styles.logoasset}>
                 <button className={styles.arrowframe}>
                   <div
-                    className={styles.oursubsidiarylogos}
+                    className={styles.oursubsidiarylogos1}
                     id="ourSubsidiaries"
                   >
                     <img
                       className={styles.clipPathGroup}
                       alt=""
                       src="/clip-path-group3.svg"
-                      onClick={onClipPathGroupClick}
+                      onClick={onClipPathGroup3Click}
                     />
                     <img
                       className={styles.clipPathGroup1}
                       alt=""
                       src="/clip-path-group7@2x.png"
-                      onClick={onClipPathGroup1Click}
+                      onClick={onClipPathGroup4Click}
                     />
                     <img
                       className={styles.clipPathGroup2}
                       alt=""
                       src="/clip-path-group8@2x.png"
-                      onClick={onClipPathGroup2Click}
+                      onClick={onClipPathGroup5Click}
                     />
                     <img
                       className={styles.oursubsidiarylogosChild}
@@ -251,7 +251,7 @@ const Media: NextPage = () => {
                 </button>
                 <div
                   className={styles.lgoframe}
-                  onClick={onLgoFrameContainerClick}
+                  onClick={onLgoFrameContainer1Click}
                 >
                   <img
                     className={styles.logoIcon}
@@ -263,14 +263,17 @@ const Media: NextPage = () => {
               </div>
               <nav className={styles.rightnavlink}>
                 <div className={styles.homecParent}>
-                  <div className={styles.homec} onClick={onHomeCContainerClick}>
+                  <div
+                    className={styles.homec}
+                    onClick={onHomeCContainer1Click}
+                  >
                     <button
                       className={styles.linkAbout}
                       onClick={onLinkAboutClick}
                     >
                       <div
                         className={styles.linkAbout1}
-                        onClick={onLinkAbout2Click}
+                        onClick={onLinkAbout1Click}
                       >
                         Home
                       </div>
@@ -284,7 +287,7 @@ const Media: NextPage = () => {
                   <button className={styles.aboutus} onClick={onAboutUsClick}>
                     <div
                       className={styles.linkPricing}
-                      onClick={onLinkPricingClick}
+                      onClick={onLinkPricing1Click}
                     >
                       About Us
                     </div>
@@ -295,7 +298,7 @@ const Media: NextPage = () => {
                   >
                     <div
                       className={styles.linkPricing}
-                      onClick={onLinkPricing2Click}
+                      onClick={onLinkPricing12Click}
                     >{`Product & Services`}</div>
                   </button>
                   <button
@@ -304,13 +307,13 @@ const Media: NextPage = () => {
                   >
                     <div
                       className={styles.linkPricing}
-                      onClick={onLinkPricing3Click}
+                      onClick={onLinkPricing13Click}
                     >{`Clients & Partners`}</div>
                   </button>
                   <button className={styles.media1} onClick={onMediaClick}>
                     <div
                       className={styles.linkPricing3}
-                      onClick={onLinkPricing4Click}
+                      onClick={onLinkPricing14Click}
                     >
                       Media
                     </div>
@@ -332,7 +335,7 @@ const Media: NextPage = () => {
                 >
                   <div
                     className={styles.contactUs}
-                    onClick={onContactUsTextClick}
+                    onClick={onContactUsText1Click}
                   >
                     Contact Us
                   </div>
@@ -485,9 +488,7 @@ const Media: NextPage = () => {
                         className={styles.digitalisationAGameChangerParent}
                         onClick={onFrameContainer3Click}
                       >
-                        <div
-                          className={styles.agrospectrumLimitedWinsContainer}
-                        >
+                        <div className={styles.digitalisationAGameContainer}>
                           <p
                             className={styles.learnRecentPractices}
                           >{`Digitalisation, A Game Changer For `}</p>
@@ -1082,12 +1083,12 @@ const Media: NextPage = () => {
                 </div>
                 <div className={styles.frameParent20}>
                   <div className={styles.nowWereParent4}>
-                    <div className={styles.nowWere13}>BSL HEAD OFFICE</div>
+                    <div className={styles.nowWere9}>BSL HEAD OFFICE</div>
                     <div className={styles.nowWere14}>No 24 Botwe</div>
                     <div className={styles.nowWere14}>Dzorwulu - Accra</div>
                   </div>
                   <div className={styles.nowWereParent5}>
-                    <div className={styles.nowWere13}>TAMALE office</div>
+                    <div className={styles.nowWere9}>TAMALE office</div>
                     <div className={styles.nowWereParent6}>
                       <div className={styles.nowWere17}>Tamale.</div>
                       <div className={styles.nowWere18}>16 Dagomba Road,</div>
