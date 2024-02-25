@@ -761,9 +761,9 @@
   animation: 2s ease 0s 1 normal forwards scale-up;
 }
 .col1 {
-  width: 444.9px;
+  flex: 1;
   align-items: center;
-  gap: 48.18px 0;
+  gap: 50px 0;
   text-align: left;
   font-size: var(--font-size-3xl-5);
   color: var(--color-darkolivegreen-600);
@@ -931,9 +931,9 @@
   cursor: pointer;
 }
 .frameParent1 {
-  width: 442.1px;
+  flex: 1;
   align-items: center;
-  gap: 48.18px 0;
+  gap: 50px 0;
 }
 .col1Parent {
   align-self: stretch;
@@ -1974,11 +1974,23 @@
   .col1,
   .frameParent1 {
     flex-direction: row;
+    gap: 50px 0;
     align-items: flex-start;
     justify-content: center;
+    flex: unset;
+    align-self: stretch;
+  }
+  .frameParent1 {
+    padding-left: var(--padding-mini);
+    padding-right: var(--padding-mini);
+    box-sizing: border-box;
   }
   .col1Parent {
     flex-direction: column;
+    gap: 0 27.3px;
+    padding-left: var(--padding-3xs);
+    padding-right: var(--padding-3xs);
+    box-sizing: border-box;
   }
   .frameParent4 {
     flex-direction: row;
