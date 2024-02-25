@@ -204,10 +204,11 @@ body {
   --gap-0: 0px;
   --gap-4xl-7: 23.7px;
   --gap-5xs-9: 7.9px;
+  --gap-8xs: 5px;
   --gap-16xl: 35px;
   --gap-10xs-4: 2.4px;
   --gap-7xs-5: 5.5px;
-  --gap-7xl-9: 26.9px;
+  --gap-xl: 20px;
   --gap-xs-9: 11.9px;
   --gap-9xs-2: 3.2px;
   --gap-6xs-3: 6.3px;
@@ -216,6 +217,7 @@ body {
   --gap-3xl-1: 22.1px;
   --gap-lgi: 19px;
   --gap-7xl-6: 26.6px;
+  --gap-7xl-9: 26.9px;
   --gap-3xs: 10px;
   --gap-6xs-7: 6.7px;
   --gap-3xl-4: 22.4px;
@@ -227,7 +229,6 @@ body {
   --gap-19xl: 38px;
   --gap-5xs: 8px;
   --gap-9xs: 4px;
-  --gap-xl: 20px;
   --gap-4xl-4: 23.4px;
   --gap-5xs-8: 7.8px;
   --gap-12xl-2: 31.2px;
@@ -263,7 +264,6 @@ body {
   --gap-8xl-7: 27.7px;
   --gap-mini: 15px;
   --gap-8xs-7: 4.7px;
-  --gap-8xs: 5px;
   --gap-11xl: 30px;
   --gap-xs: 12px;
   --gap-13xl-1: 32.1px;

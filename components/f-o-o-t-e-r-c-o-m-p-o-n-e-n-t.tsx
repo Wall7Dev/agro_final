@@ -189,7 +189,7 @@ const FOOTERCOMPONENT: NextPage = () => {
             onNowWereText6Click={onNowWereText3Click}
           />
           <FooterFrames
-            propTop="-57.77%"
+            propTop="-23.79%"
             onArrowIconClick={onArrowIconClick}
             onNowWereText19Click={onNowWereText4Click}
           />
