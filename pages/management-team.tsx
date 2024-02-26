@@ -403,13 +403,13 @@ const ManagementTeam: NextPage = () => {
             </div>
             <div className={styles.managementTeam1}>
               <div className={styles.managementTeam2}>MANAGEMENT TEAM</div>
-              <div className={styles.frameParent}>
+              <div className={styles.frameParent1}>
                 <div className={styles.frameParent2}>
                   <div className={styles.baseParent}>
                     <img
                       className={styles.baseIcon}
                       alt=""
-                      src="/base221@2x.png"
+                      src="/base@2x.png"
                     />
                     <div className={styles.razakAwudulaiParent}>
                       <div className={styles.samuelOsewKwatia}>
@@ -447,7 +447,7 @@ const ManagementTeam: NextPage = () => {
                     </div>
                   </div>
                 </div>
-                <div className={styles.frameGroup}>
+                <div className={styles.frameParent3}>
                   <div className={styles.priscillaAbbanUubwrj1Parent}>
                     <img
                       className={styles.priscillaAbbanUubwrj1Icon}
@@ -532,7 +532,7 @@ const ManagementTeam: NextPage = () => {
                     </div>
                   </div>
                 </div>
-                <div className={styles.frameGroup}>
+                <div className={styles.frameParent5}>
                   <div className={styles.mrRazakParent}>
                     <img
                       className={styles.castroSagwfp1Icon}
@@ -578,7 +578,7 @@ const ManagementTeam: NextPage = () => {
                     </div>
                   </div>
                 </div>
-                <div className={styles.frameGroup}>
+                <div className={styles.frameParent5}>
                   <div className={styles.mrRazakParent}>
                     <img
                       className={styles.morenikeAyodeleKvka9n1Icon}
@@ -600,7 +600,7 @@ const ManagementTeam: NextPage = () => {
                       </div>
                     </div>
                   </div>
-                  <div className={styles.mrRazakParent}>
+                  <div className={styles.josephYawsonZ33al81Parent}>
                     <img
                       className={styles.josephYawsonZ33al81Icon}
                       alt=""
@@ -842,12 +842,12 @@ const ManagementTeam: NextPage = () => {
                 </div>
                 <div className={styles.frameParent12}>
                   <div className={styles.nowWereParent4}>
-                    <div className={styles.nowWere13}>BSL HEAD OFFICE</div>
+                    <div className={styles.nowWere9}>BSL HEAD OFFICE</div>
                     <div className={styles.nowWere14}>No 24 Botwe</div>
                     <div className={styles.nowWere14}>Dzorwulu - Accra</div>
                   </div>
                   <div className={styles.nowWereParent5}>
-                    <div className={styles.nowWere13}>TAMALE office</div>
+                    <div className={styles.nowWere9}>TAMALE office</div>
                     <div className={styles.nowWereParent6}>
                       <div className={styles.nowWere17}>Tamale.</div>
                       <div className={styles.nowWere18}>16 Dagomba Road,</div>

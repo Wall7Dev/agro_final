@@ -419,12 +419,15 @@
     padding: var(--padding-7xs) var(--padding-31xl);
     box-sizing: border-box;
   }
+  .weAreTransformingAfricanAgWrapper {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
   .herosec {
     height: 600px;
     gap: var(--gap-0);
-    padding-left: var(--padding-xl);
-    padding-top: 0;
-    padding-right: var(--padding-xl);
+    padding: 0 var(--padding-3xs) var(--padding-6xl);
     box-sizing: border-box;
   }
 }
