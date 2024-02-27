@@ -409,7 +409,7 @@ const ManagementTeam: NextPage = () => {
                     <img
                       className={styles.baseIcon}
                       alt=""
-                      src="/base@2x.png"
+                      src="/base25@2x.png"
                     />
                     <div className={styles.razakAwudulaiParent}>
                       <div className={styles.samuelOsewKwatia}>
