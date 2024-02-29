@@ -67,6 +67,18 @@ const Footer: NextPage = () => {
     );
   }, []);
 
+  const onNowWereText5Click = useCallback(() => {
+    window.location.href = "tel:+233(0) 593 808 064";
+  }, []);
+
+  const onInstagramContainerClick = useCallback(() => {
+    window.location.href = "https://www.linkedin.com/company/eagric-gh/";
+  }, []);
+
+  const onLinkedinAgrospectremContainerClick = useCallback(() => {
+    window.location.href = "https://www.linkedin.com/company/eagric-gh/";
+  }, []);
+
   return (
     <footer className={styles.footer}>
       <div
@@ -138,42 +150,51 @@ const Footer: NextPage = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/line-17@2x.png"
+                    src="/line-151@2x.png"
                   />
                 </div>
               </div>
             </div>
             <div className={styles.frameParent1}>
-              <div className={styles.nowWereParent1}>
-                <div className={styles.nowWere7}>{`CONTACT US `}</div>
-                <div className={styles.nowWere8}>Agrospectrum Ltd.</div>
+              <div className={styles.frameParent2}>
+                <div className={styles.nowWereWrapper2}>
+                  <div className={styles.nowWere7}>{`CONTACT US `}</div>
+                </div>
+                <div className={styles.agrsopectrumLtd}>
+                  <span className={styles.agrsopectrumLtdTxtContainer}>
+                    <span className={styles.a}>A</span>
+                    <span className={styles.grsopectrum}>{`GRSOPECTRUM `}</span>
+                    <span className={styles.a}>l</span>
+                    <span className={styles.grsopectrum}>TD</span>
+                  </span>
+                </div>
               </div>
-              <div className={styles.nowWereParent2}>
-                <div className={styles.nowWere9}>EAST LEGON office</div>
-                <div className={styles.nowWereParent3}>
-                  <div className={styles.nowWere10}>No 24 Maseru St</div>
-                  <div className={styles.nowWere10}>East Legon,</div>
-                  <div className={styles.nowWere10}>Accra - ghana</div>
+              <div className={styles.nowWereParent1}>
+                <div className={styles.nowWere8}>EAST LEGON office</div>
+                <div className={styles.nowWereParent2}>
+                  <div className={styles.nowWere9}>No 24 Maseru St</div>
+                  <div className={styles.nowWere9}>East Legon,</div>
+                  <div className={styles.nowWere9}>Accra - ghana</div>
                 </div>
               </div>
             </div>
           </div>
-          <div className={styles.frameParent2}>
-            <div className={styles.nowWereParent4}>
-              <div className={styles.nowWere13}>BSL HEAD OFFICE</div>
-              <div className={styles.nowWere14}>No 24 Botwe</div>
-              <div className={styles.nowWere14}>Dzorwulu - Accra</div>
+          <div className={styles.frameParent3}>
+            <div className={styles.nowWereParent3}>
+              <div className={styles.nowWere12}>BSL HEAD OFFICE</div>
+              <div className={styles.nowWere13}>No 24 Botwe</div>
+              <div className={styles.nowWere13}>Dzorwulu - Accra</div>
             </div>
-            <div className={styles.nowWereParent5}>
-              <div className={styles.nowWere13}>TAMALE office</div>
-              <div className={styles.nowWereParent6}>
-                <div className={styles.nowWere17}>Tamale.</div>
-                <div className={styles.nowWere18}>16 Dagomba Road,</div>
+            <div className={styles.nowWereParent4}>
+              <div className={styles.nowWere12}>TAMALE office</div>
+              <div className={styles.nowWereParent5}>
+                <div className={styles.nowWere16}>Tamale.</div>
+                <div className={styles.nowWere17}>16 Dagomba Road,</div>
               </div>
             </div>
           </div>
         </div>
-        <div className={styles.frameParent3}>
+        <div className={styles.frameParent4}>
           <button className={styles.vectorParent}>
             <img
               className={styles.frameItem}
@@ -181,39 +202,51 @@ const Footer: NextPage = () => {
               src="/arrow-102.svg"
               onClick={onArrowIconClick}
             />
-            <div className={styles.nowWere19} onClick={onNowWereText4Click}>
+            <div className={styles.nowWere18} onClick={onNowWereText4Click}>
               GET DIRECTION
             </div>
           </button>
-          <div className={styles.nowWereParent7}>
-            <div className={styles.nowWere20}>
-              <div className={styles.nowWere21}>PHONE</div>
+          <div className={styles.nowWereParent6}>
+            <div className={styles.nowWere19}>
+              <div className={styles.nowWere20}>PHONE</div>
             </div>
-            <div className={styles.nowWere22}>+233(0) 593 808 064</div>
+            <div className={styles.nowWere21} onClick={onNowWereText5Click}>
+              +233(0) 593 808 064
+            </div>
+          </div>
+          <div className={styles.nowWereParent7}>
+            <div className={styles.nowWere22}>
+              <div className={styles.nowWere23}>EMAIL</div>
+            </div>
+            <div className={styles.nowWere24}>
+              <div className={styles.nowWere25}>customercare@bsl.com.gh</div>
+            </div>
           </div>
           <div className={styles.nowWereParent8}>
-            <div className={styles.nowWere23}>
-              <div className={styles.nowWere24}>EMAIL</div>
-            </div>
-            <div className={styles.nowWere25}>
-              <div className={styles.nowWere26}>customercare@bsl.com.gh</div>
-            </div>
-          </div>
-          <div className={styles.nowWereParent9}>
-            <div className={styles.nowWere27}>
-              <div className={styles.nowWere28}>{`FOLLOW US `}</div>
+            <div className={styles.nowWere26}>
+              <div className={styles.nowWere27}>{`FOLLOW US `}</div>
             </div>
             <div className={styles.instagramParent}>
-              <div className={styles.instagram}>
+              <div
+                className={styles.instagram}
+                onClick={onInstagramContainerClick}
+              >
                 <img className={styles.groupIcon} alt="" src="/group1.svg" />
               </div>
-              <div className={styles.vectorWrapper}>
-                <img className={styles.vectorIcon} alt="" src="/vector3.svg" />
+              <div className={styles.facebook}>
+                <img className={styles.vectorIcon} alt="" src="/vector31.svg" />
               </div>
-              <div className={styles.frame}>
-                <img className={styles.vectorIcon1} alt="" src="/vector4.svg" />
+              <div className={styles.twitter}>
+                <img
+                  className={styles.vectorIcon1}
+                  alt=""
+                  src="/vector41.svg"
+                />
               </div>
-              <div className={styles.vectorContainer}>
+              <div
+                className={styles.linkedinAgrospectrem}
+                onClick={onLinkedinAgrospectremContainerClick}
+              >
                 <img className={styles.vectorIcon2} alt="" src="/vector5.svg" />
               </div>
             </div>

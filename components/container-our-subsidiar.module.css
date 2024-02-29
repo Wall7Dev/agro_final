@@ -156,6 +156,7 @@
   padding: 27.31999969482422px 27.31999969482422px 29.66171646118164px;
   gap: 23.42px 0;
   opacity: 1;
+  font-size: var(--font-size-smi-5);
 }
 .spectrumMain1Parent.animate {
   animation: 2s ease 0s 1 normal forwards scale-up;
@@ -294,7 +295,7 @@
   padding: 46.83428955078125px 117.0857162475586px;
   opacity: 0;
   text-align: left;
-  font-size: var(--font-size-smi-5);
+  font-size: var(--font-size-base);
   color: var(--color-white);
   font-family: var(--font-poppins);
 }

@@ -167,9 +167,21 @@ const BlogPage1: NextPage = () => {
     );
   }, []);
 
+  const onNowWereText5Click = useCallback(() => {
+    window.location.href = "tel:+233(0) 593 808 064";
+  }, []);
+
+  const onInstagramContainerClick = useCallback(() => {
+    window.location.href = "https://www.linkedin.com/company/eagric-gh/";
+  }, []);
+
+  const onLinkedinAgrospectremContainerClick = useCallback(() => {
+    window.location.href = "https://www.linkedin.com/company/eagric-gh/";
+  }, []);
+
   return (
     <>
-      <main className={styles.blogpage3} id={`7projects&partermain`}>
+      <main className={styles.digitalisation} id={`7projects&partermain`}>
         <header className={styles.allnavs}>
           <nav className={styles.navdesktop} id="navBar">
             <div className={styles.logorightnavlink}>
@@ -206,7 +218,7 @@ const BlogPage1: NextPage = () => {
                   <img
                     className={styles.images21}
                     alt=""
-                    src="/images-2-16@2x.png"
+                    src="/images-2-17@2x.png"
                   />
                 </button>
                 <div
@@ -238,7 +250,7 @@ const BlogPage1: NextPage = () => {
                     <img
                       className={styles.homecChild}
                       alt=""
-                      src="/line-122@2x.png"
+                      src="/line-119@2x.png"
                     />
                   </div>
                   <button className={styles.aboutus} onClick={onAboutUsClick}>
@@ -269,7 +281,7 @@ const BlogPage1: NextPage = () => {
                   </button>
                   <button className={styles.media} onClick={onMediaClick}>
                     <div
-                      className={styles.linkPricing3}
+                      className={styles.linkPricing}
                       onClick={onLinkPricing4Click}
                     >
                       Media
@@ -394,7 +406,7 @@ const BlogPage1: NextPage = () => {
               </span>
             </p>
           </div>
-          <img className={styles.image2Icon} alt="" src="/image-31@2x.png" />
+          <img className={styles.image2Icon} alt="" src="/image-3@2x.png" />
           <div className={styles.inSubSaharanAfricaContainer}>
             <p className={styles.blankLine}>
               <b className={styles.accessToMarketplaces}>
@@ -454,7 +466,7 @@ const BlogPage1: NextPage = () => {
               <img
                 className={styles.gradientmsgChild}
                 alt=""
-                src="/group-2062@2x.png"
+                src="/group-2064@2x.png"
               />
               <div className={styles.weSupportAgribusinessIndustParent}>
                 <b
@@ -476,7 +488,7 @@ const BlogPage1: NextPage = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/arrow-92@2x.png"
+                    src="/arrow-94@2x.png"
                   />
                   <div className={styles.viewProducts}>view produCts</div>
                 </div>
@@ -523,114 +535,114 @@ const BlogPage1: NextPage = () => {
                 <img
                   className={styles.download5Icon}
                   alt=""
-                  src="/download-541@2x.png"
+                  src="/download-521@2x.png"
                 />
                 <img
                   className={styles.download5Icon1}
                   alt=""
-                  src="/download-542@2x.png"
+                  src="/download-523@2x.png"
                 />
                 <img
                   className={styles.captureIcon}
                   alt=""
-                  src="/capture21@2x.png"
+                  src="/capture17@2x.png"
                 />
                 <img
                   className={styles.mofaColorIcon}
                   alt=""
-                  src="/mofa-color21@2x.png"
+                  src="/mofa-color17@2x.png"
                 />
                 <img
                   className={styles.download3Icon}
                   alt=""
-                  src="/download-321@2x.png"
+                  src="/download-317@2x.png"
                 />
                 <img
                   className={styles.imagesIcon}
                   alt=""
-                  src="/images20@2x.png"
+                  src="/images16@2x.png"
                 />
                 <img
                   className={styles.download6Icon}
                   alt=""
-                  src="/download-621@2x.png"
+                  src="/download-611@2x.png"
                 />
                 <img
                   className={styles.download1Icon}
                   alt=""
-                  src="/download-121@2x.png"
+                  src="/download-117@2x.png"
                 />
                 <img
                   className={styles.downloadIcon}
                   alt=""
-                  src="/download21@2x.png"
+                  src="/download17@2x.png"
                 />
                 <img
                   className={styles.images1Icon}
                   alt=""
-                  src="/images-121@2x.png"
+                  src="/images-117@2x.png"
                 />
                 <img
                   className={styles.download2Icon}
                   alt=""
-                  src="/download-221@2x.png"
+                  src="/download-217@2x.png"
                 />
               </div>
               <div className={styles.download5Group}>
                 <img
                   className={styles.download5Icon}
                   alt=""
-                  src="/download-543@2x.png"
+                  src="/download-534@2x.png"
                 />
                 <img
                   className={styles.download5Icon1}
                   alt=""
-                  src="/download-544@2x.png"
+                  src="/download-535@2x.png"
                 />
                 <img
                   className={styles.captureIcon}
                   alt=""
-                  src="/capture22@2x.png"
+                  src="/capture18@2x.png"
                 />
                 <img
                   className={styles.mofaColorIcon}
                   alt=""
-                  src="/mofa-color22@2x.png"
+                  src="/mofa-color18@2x.png"
                 />
                 <img
                   className={styles.download3Icon}
                   alt=""
-                  src="/download-322@2x.png"
+                  src="/download-318@2x.png"
                 />
                 <img
                   className={styles.imagesIcon}
                   alt=""
-                  src="/images21@2x.png"
+                  src="/images17@2x.png"
                 />
                 <img
                   className={styles.download6Icon}
                   alt=""
-                  src="/download-622@2x.png"
+                  src="/download-618@2x.png"
                 />
                 <img
                   className={styles.download1Icon}
                   alt=""
-                  src="/download-122@2x.png"
+                  src="/download-118@2x.png"
                 />
                 <img
                   className={styles.downloadIcon}
                   alt=""
-                  src="/download22@2x.png"
+                  src="/download18@2x.png"
                 />
                 <img
                   className={styles.images1Icon}
                   alt=""
-                  src="/images-122@2x.png"
+                  src="/images-118@2x.png"
                 />
                 <img
                   className={styles.download2Icon}
                   alt=""
-                  src="/download-222@2x.png"
+                  src="/download-218@2x.png"
                 />
               </div>
             </div>
@@ -713,42 +725,53 @@ const BlogPage1: NextPage = () => {
                         <img
                           className={styles.frameItem}
                           alt=""
-                          src="/line-124@2x.png"
+                          src="/line-120@2x.png"
                         />
                       </div>
                     </div>
                   </div>
                   <div className={styles.frameParent2}>
-                    <div className={styles.nowWereParent1}>
-                      <div className={styles.nowWere7}>{`CONTACT US `}</div>
-                      <div className={styles.nowWere8}>Agrospectrum Ltd.</div>
+                    <div className={styles.frameParent3}>
+                      <div className={styles.nowWereWrapper3}>
+                        <div className={styles.nowWere7}>{`CONTACT US `}</div>
+                      </div>
+                      <div className={styles.agrsopectrumLtd}>
+                        <span className={styles.agrsopectrumLtdTxtContainer}>
+                          <span className={styles.d}>A</span>
+                          <span
+                            className={styles.igitalisationAGame}
+                          >{`GRSOPECTRUM `}</span>
+                          <span className={styles.d}>l</span>
+                          <span className={styles.igitalisationAGame}>TD</span>
+                        </span>
+                      </div>
                     </div>
-                    <div className={styles.nowWereParent2}>
-                      <div className={styles.nowWere9}>EAST LEGON office</div>
-                      <div className={styles.nowWereParent3}>
-                        <div className={styles.nowWere10}>No 24 Maseru St</div>
-                        <div className={styles.nowWere10}>East Legon,</div>
-                        <div className={styles.nowWere10}>Accra - ghana</div>
+                    <div className={styles.nowWereParent1}>
+                      <div className={styles.nowWere8}>EAST LEGON office</div>
+                      <div className={styles.nowWereParent2}>
+                        <div className={styles.nowWere9}>No 24 Maseru St</div>
+                        <div className={styles.nowWere9}>East Legon,</div>
+                        <div className={styles.nowWere9}>Accra - ghana</div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className={styles.frameParent3}>
-                  <div className={styles.nowWereParent4}>
-                    <div className={styles.nowWere9}>BSL HEAD OFFICE</div>
-                    <div className={styles.nowWere14}>No 24 Botwe</div>
-                    <div className={styles.nowWere14}>Dzorwulu - Accra</div>
+                <div className={styles.frameParent4}>
+                  <div className={styles.nowWereParent3}>
+                    <div className={styles.nowWere12}>BSL HEAD OFFICE</div>
+                    <div className={styles.nowWere13}>No 24 Botwe</div>
+                    <div className={styles.nowWere13}>Dzorwulu - Accra</div>
                   </div>
-                  <div className={styles.nowWereParent5}>
-                    <div className={styles.nowWere9}>TAMALE office</div>
-                    <div className={styles.nowWereParent6}>
-                      <div className={styles.nowWere17}>Tamale.</div>
-                      <div className={styles.nowWere18}>16 Dagomba Road,</div>
+                  <div className={styles.nowWereParent4}>
+                    <div className={styles.nowWere12}>TAMALE office</div>
+                    <div className={styles.nowWereParent5}>
+                      <div className={styles.nowWere16}>Tamale.</div>
+                      <div className={styles.nowWere17}>16 Dagomba Road,</div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className={styles.frameParent4}>
+              <div className={styles.frameParent5}>
                 <button className={styles.vectorGroup}>
                   <img
                     className={styles.frameInner}
@@ -757,59 +780,70 @@ const BlogPage1: NextPage = () => {
                     onClick={onArrowIconClick}
                   />
                   <div
-                    className={styles.nowWere19}
+                    className={styles.nowWere18}
                     onClick={onNowWereText4Click}
                   >
                     GET DIRECTION
                   </div>
                 </button>
-                <div className={styles.nowWereParent7}>
-                  <div className={styles.nowWere20}>
-                    <div className={styles.nowWere21}>PHONE</div>
+                <div className={styles.nowWereParent6}>
+                  <div className={styles.nowWere19}>
+                    <div className={styles.nowWere20}>PHONE</div>
                   </div>
-                  <div className={styles.nowWere22}>+233(0) 593 808 064</div>
+                  <div
+                    className={styles.nowWere21}
+                    onClick={onNowWereText5Click}
+                  >
+                    +233(0) 593 808 064
+                  </div>
                 </div>
-                <div className={styles.nowWereParent8}>
-                  <div className={styles.nowWere23}>
-                    <div className={styles.nowWere24}>EMAIL</div>
+                <div className={styles.nowWereParent7}>
+                  <div className={styles.nowWere22}>
+                    <div className={styles.nowWere23}>EMAIL</div>
                   </div>
-                  <div className={styles.nowWere25}>
-                    <div className={styles.nowWere26}>
+                  <div className={styles.nowWere24}>
+                    <div className={styles.nowWere25}>
                       customercare@bsl.com.gh
                     </div>
                   </div>
                 </div>
-                <div className={styles.nowWereParent9}>
-                  <div className={styles.nowWere27}>
-                    <div className={styles.nowWere28}>{`FOLLOW US `}</div>
+                <div className={styles.nowWereParent8}>
+                  <div className={styles.nowWere26}>
+                    <div className={styles.nowWere27}>{`FOLLOW US `}</div>
                   </div>
                   <div className={styles.instagramParent}>
-                    <div className={styles.instagram}>
+                    <div
+                      className={styles.instagram}
+                      onClick={onInstagramContainerClick}
+                    >
                       <img
                         className={styles.groupIcon}
                         alt=""
                         src="/group8.svg"
                       />
                     </div>
-                    <div className={styles.vectorWrapper}>
+                    <div className={styles.facebook}>
                       <img
                         className={styles.vectorIcon2}
                         alt=""
                         src="/vector22.svg"
                       />
                     </div>
-                    <div className={styles.frame}>
+                    <div className={styles.twitter}>
                       <img
                         className={styles.vectorIcon3}
                         alt=""
                         src="/vector17.svg"
                       />
                     </div>
-                    <div className={styles.vectorContainer}>
+                    <div
+                      className={styles.linkedinAgrospectrem}
+                      onClick={onLinkedinAgrospectremContainerClick}
+                    >
                       <img
                         className={styles.vectorIcon4}
                         alt=""
-                        src="/vector23.svg"
+                        src="/vector4.svg"
                       />
                     </div>
                   </div>
@@ -821,11 +855,11 @@ const BlogPage1: NextPage = () => {
             <div className={styles.lineWrapper}>
               <div className={styles.lineDiv} />
             </div>
-            <div className={styles.nowWereParent10}>
-              <div className={styles.nowWere29}>
+            <div className={styles.nowWereParent9}>
+              <div className={styles.nowWere28}>
                 No 24 Maseru Street,East Legon -Accra
               </div>
-              <div className={styles.nowWere30}>
+              <div className={styles.nowWere29}>
                 © Copyright 2023 Agrospectrum Ltd. All Rights Reserved.
               </div>
             </div>

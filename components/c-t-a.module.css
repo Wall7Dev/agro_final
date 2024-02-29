@@ -12,6 +12,9 @@
   height: 340.4px;
   object-fit: cover;
 }
+.weSupportAgribusiness {
+  margin: 0;
+}
 .weSupportAgribusinessContainer {
   align-self: stretch;
   height: 119px;
@@ -25,12 +28,12 @@
 .weSupportAgribusinessContainer.animate {
   animation: 3s ease 0s 1 normal forwards scale-up;
 }
-.arrowIcon,
+.frameChild,
 .viewProducts {
   position: relative;
   cursor: pointer;
 }
-.arrowIcon {
+.frameChild {
   width: 11.1px;
   max-width: 100%;
   overflow: hidden;
@@ -49,6 +52,7 @@
   padding: 19.765857696533203px 31.6253719329834px;
   gap: 0 7.91px;
   cursor: pointer;
+  font-size: var(--font-size-xs-9);
 }
 .weSupportAgribusinessIndustParent {
   flex: 1;
@@ -81,16 +85,19 @@
   background-color: var(--color-goldenrod-300);
   height: 7.9px;
 }
+.baseWrapper,
 .cta {
-  align-self: stretch;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+}
+.cta {
+  align-self: stretch;
   padding: 47.43805694580078px 158.12686157226562px;
   z-index: 6;
   text-align: left;
-  font-size: var(--font-size-xs-9);
+  font-size: var(--font-size-11xl);
   color: var(--color-darkslategray-100);
   font-family: var(--font-lexend-deca);
 }

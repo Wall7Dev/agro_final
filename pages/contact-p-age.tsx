@@ -132,7 +132,7 @@ const ContactPAge: NextPage = () => {
 
   return (
     <>
-      <main className={styles.contactpage}>
+      <main className={styles.contactus}>
         <header className={styles.allnavs}>
           <nav className={styles.navdesktop} id="navBar">
             <div className={styles.logorightnavlink}>
@@ -201,7 +201,7 @@ const ContactPAge: NextPage = () => {
                     <img
                       className={styles.homecChild}
                       alt=""
-                      src="/line-116@2x.png"
+                      src="/line-12@2x.png"
                     />
                   </div>
                   <button className={styles.aboutus} onClick={onAboutUsClick}>
@@ -232,7 +232,7 @@ const ContactPAge: NextPage = () => {
                   </button>
                   <button className={styles.media} onClick={onMediaClick}>
                     <div
-                      className={styles.linkPricing3}
+                      className={styles.linkPricing}
                       onClick={onLinkPricing4Click}
                     >
                       Media

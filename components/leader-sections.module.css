@@ -139,9 +139,9 @@
 }
 .razakIsAn {
   align-self: stretch;
-  height: 94px;
+  height: 118px;
   position: relative;
-  font-size: var(--font-size-mini-1);
+  font-size: var(--font-size-lg);
   letter-spacing: -0.01em;
   line-height: 23.42px;
   text-transform: capitalize;
@@ -265,9 +265,9 @@
 }
 .nanaHas20 {
   align-self: stretch;
-  height: 118px;
+  height: 141px;
   position: relative;
-  font-size: var(--font-size-mini-1);
+  font-size: var(--font-size-lg);
   letter-spacing: -0.01em;
   line-height: 23.42px;
   text-transform: capitalize;

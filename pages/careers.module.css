@@ -116,7 +116,7 @@
   position: absolute;
   top: -7.04%;
   left: 0;
-  font-size: var(--font-size-2xs-3);
+  font-size: var(--font-size-mini);
   letter-spacing: 0.25px;
   line-height: 15.18px;
   font-weight: 500;
@@ -127,7 +127,6 @@
 }
 .contactUs:hover,
 .linkAbout1:hover,
-.linkPricing3:hover,
 .linkPricing:hover {
   color: var(--color-goldenrod-100);
 }
@@ -159,7 +158,7 @@
 .linkPricing {
   height: 16px;
   position: relative;
-  font-size: var(--font-size-2xs-3);
+  font-size: var(--font-size-mini);
   letter-spacing: 0.25px;
   line-height: 15.18px;
   font-weight: 500;
@@ -169,8 +168,7 @@
   display: inline-block;
   cursor: pointer;
 }
-.aboutus,
-.producAndServices {
+.aboutus {
   cursor: pointer;
   border: 0;
   padding: 0;
@@ -180,28 +178,22 @@
   align-items: center;
   justify-content: center;
 }
+.homecParent,
 .producAndServices {
-  justify-content: flex-end;
-}
-.linkPricing3 {
-  height: 16px;
-  position: relative;
-  font-size: var(--font-size-xs-7);
-  letter-spacing: 0.25px;
-  line-height: 15.18px;
-  font-weight: 500;
-  font-family: var(--font-inter);
-  color: var(--color-white);
-  text-align: left;
-  display: inline-block;
-  cursor: pointer;
-}
-.homecParent {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  gap: 0 16px;
+}
+.producAndServices {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex-direction: column;
+}
+.homecParent {
+  flex-direction: row;
+  gap: 0 20px;
 }
 .handburgerChild,
 .handburgerInner,
@@ -237,7 +229,7 @@
   height: 17px;
   flex: 1;
   position: relative;
-  font-size: var(--font-size-xs-9);
+  font-size: var(--font-size-mini);
   line-height: 16.13px;
   font-weight: 600;
   font-family: var(--font-inter);
@@ -272,7 +264,7 @@
 .rightnavlink {
   margin: 0;
   justify-content: flex-end;
-  gap: 0 15.81px;
+  gap: 0 18px;
 }
 .logorightnavlink {
   justify-content: space-between;
@@ -852,8 +844,7 @@
 .nowWere3:hover,
 .nowWere4:hover,
 .nowWere5:hover,
-.nowWere6:hover,
-.nowWere8:hover {
+.nowWere6:hover {
   color: var(--color-goldenrod-300);
 }
 .nowWereFrame {
@@ -933,83 +924,100 @@
   justify-content: flex-start;
   gap: 7.91px 0;
 }
-.nowWere7,
-.nowWere8 {
+.nowWere7 {
   align-self: stretch;
   position: relative;
   letter-spacing: 0.71px;
-}
-.nowWere7 {
   line-height: 36.36px;
   text-transform: uppercase;
   font-weight: 500;
   display: flex;
   align-items: center;
-  height: 36.4px;
+  height: 17.4px;
   flex-shrink: 0;
 }
-.nowWere8 {
-  font-size: var(--font-size-smi-6);
-  line-height: 18.97px;
-  text-transform: capitalize;
+.nowWereWrapper3 {
+  width: 127.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.a {
+  text-transform: uppercase;
+}
+.grsopectrum {
+  text-transform: lowercase;
+}
+.agrsopectrumLtdTxtContainer {
+  width: 100%;
+}
+.agrsopectrumLtd {
+  width: 119.4px;
+  position: relative;
+  letter-spacing: 0.71px;
+  line-height: 36.36px;
   font-weight: 600;
   color: var(--color-white);
+  display: flex;
+  align-items: center;
+  height: 19.8px;
+  flex-shrink: 0;
 }
-.nowWereParent1 {
-  align-self: stretch;
+.frameParent6 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 3.16px 0;
+  gap: 7.91px 0;
 }
-.nowWere10,
+.nowWere8,
 .nowWere9 {
-  align-self: stretch;
   position: relative;
   letter-spacing: 0.71px;
 }
-.nowWere9 {
+.nowWere8 {
+  width: 133.6px;
   line-height: 36.36px;
   text-transform: uppercase;
   font-weight: 600;
   display: flex;
   align-items: center;
-  height: 28.5px;
+  height: 16.6px;
   flex-shrink: 0;
 }
-.nowWere10 {
+.nowWere9 {
+  align-self: stretch;
   line-height: 18.97px;
   text-transform: capitalize;
   font-weight: 500;
 }
-.nowWereParent2,
-.nowWereParent3 {
-  align-self: stretch;
+.nowWereParent1,
+.nowWereParent2 {
   flex-direction: column;
+  gap: 11.86px 0;
 }
-.nowWereParent3 {
+.nowWereParent2 {
+  align-self: stretch;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 10.28px 0;
 }
-.nowWereParent2 {
-  gap: 5.53px 0;
+.nowWereParent1 {
+  width: 190.8px;
   font-size: var(--font-size-smi-6);
   color: var(--color-white);
 }
 .frameParent3,
 .frameParent5,
-.nowWereParent2 {
+.nowWereParent1 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .frameParent5 {
-  flex: 1;
   flex-direction: column;
-  gap: 26.88px 0;
+  gap: 25.3px 0;
   font-size: var(--font-size-xs-9);
 }
 .frameParent3 {
@@ -1017,8 +1025,8 @@
   flex-direction: row;
   gap: 0 7.91px;
 }
-.nowWere13,
-.nowWere14 {
+.nowWere12,
+.nowWere13 {
   align-self: stretch;
   position: relative;
   letter-spacing: 0.71px;
@@ -1026,11 +1034,11 @@
   text-transform: uppercase;
   font-weight: 600;
 }
-.nowWere14 {
+.nowWere13 {
   text-transform: capitalize;
   font-weight: 500;
 }
-.nowWereParent4 {
+.nowWereParent3 {
   align-self: stretch;
   flex: 1;
   display: flex;
@@ -1039,8 +1047,8 @@
   justify-content: flex-start;
   gap: 7.91px 0;
 }
-.nowWere17,
-.nowWere18 {
+.nowWere16,
+.nowWere17 {
   align-self: stretch;
   position: relative;
   letter-spacing: 0.71px;
@@ -1048,35 +1056,35 @@
   text-transform: capitalize;
   font-weight: 600;
 }
-.nowWere18 {
+.nowWere17 {
   font-weight: 500;
   display: flex;
   align-items: center;
   height: 21.3px;
   flex-shrink: 0;
 }
-.nowWereParent5,
-.nowWereParent6 {
+.nowWereParent4,
+.nowWereParent5 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.nowWereParent6 {
+.nowWereParent5 {
   align-self: stretch;
   gap: 5.53px 0;
 }
-.nowWereParent5 {
+.nowWereParent4 {
   flex: 1;
   gap: 2.37px 0;
 }
 .frameParent2,
-.frameParent6 {
+.frameParent7 {
   align-self: stretch;
   display: flex;
   align-items: flex-start;
 }
-.frameParent6 {
+.frameParent7 {
   flex-direction: row;
   justify-content: space-between;
   font-size: var(--font-size-smi-6);
@@ -1090,7 +1098,7 @@
   font-size: var(--font-size-xs-1);
 }
 .frameInner,
-.nowWere19 {
+.nowWere18 {
   position: relative;
   cursor: pointer;
 }
@@ -1101,7 +1109,7 @@
 .frameInner:hover {
   width: 24px;
 }
-.nowWere19 {
+.nowWere18 {
   font-size: var(--font-size-mini-2);
   letter-spacing: 0.91px;
   line-height: 46.43px;
@@ -1111,10 +1119,10 @@
   color: var(--color-white);
   text-align: left;
 }
-.nowWere19:hover {
+.nowWere18:hover {
   font-size: var(--font-size-4xl);
 }
-.nowWere21,
+.nowWere20,
 .vectorParent {
   display: flex;
   align-items: center;
@@ -1128,7 +1136,7 @@
   justify-content: flex-start;
   gap: 0 15.81px;
 }
-.nowWere21 {
+.nowWere20 {
   position: absolute;
   height: 203.76%;
   width: 96.17%;
@@ -1139,22 +1147,23 @@
   text-transform: uppercase;
   font-weight: 500;
 }
-.nowWere20,
-.nowWere22 {
+.nowWere19,
+.nowWere21 {
   align-self: stretch;
   position: relative;
 }
-.nowWere20 {
+.nowWere19 {
   height: 21.3px;
 }
-.nowWere22 {
+.nowWere21 {
   letter-spacing: 1.06px;
   line-height: 54.25px;
   text-transform: capitalize;
   font-weight: 500;
   color: var(--color-white);
+  cursor: pointer;
 }
-.nowWereParent7 {
+.nowWereParent6 {
   align-self: stretch;
   height: 46.6px;
   display: flex;
@@ -1163,7 +1172,7 @@
   justify-content: flex-start;
   gap: 7.91px 0;
 }
-.nowWere24 {
+.nowWere23 {
   position: absolute;
   width: 96.17%;
   top: -57.77%;
@@ -1175,12 +1184,12 @@
   display: flex;
   align-items: center;
 }
-.nowWere23 {
+.nowWere22 {
   align-self: stretch;
   position: relative;
   height: 20.6px;
 }
-.nowWere26 {
+.nowWere25 {
   position: absolute;
   top: 5.5px;
   left: -0.8px;
@@ -1189,13 +1198,13 @@
   text-transform: lowercase;
   font-weight: 500;
 }
-.nowWere25 {
+.nowWere24 {
   align-self: stretch;
   position: relative;
   height: 20.6px;
   color: var(--color-white);
 }
-.nowWereParent8 {
+.nowWereParent7 {
   width: 208.7px;
   display: flex;
   flex-direction: column;
@@ -1203,7 +1212,7 @@
   justify-content: flex-start;
   gap: 7.91px 0;
 }
-.nowWere28 {
+.nowWere27 {
   position: absolute;
   top: -25.65%;
   left: 0;
@@ -1213,7 +1222,7 @@
   font-weight: 500;
 }
 .groupIcon,
-.nowWere27 {
+.nowWere26 {
   width: 103.6px;
   position: relative;
   height: 30.8px;
@@ -1235,18 +1244,19 @@
   justify-content: center;
   padding: 15.751519203186035px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 .vectorIcon {
   width: 6.2px;
   position: relative;
   height: 11.9px;
 }
-.vectorWrapper {
+.facebook {
   width: 37.4px;
   border-radius: 29.14px;
   background-color: var(--color-darkgray-300);
   height: 38.6px;
-  display: flex;
+  display: none;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -1258,14 +1268,14 @@
   position: relative;
   height: 11.1px;
 }
-.frame {
+.twitter {
   width: 35.8px;
   border-radius: 46.07px;
   background-color: var(--color-darkgray-300);
   height: 35.8px;
   overflow: hidden;
   flex-shrink: 0;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -1277,7 +1287,7 @@
   position: relative;
   height: 11.9px;
 }
-.vectorContainer {
+.linkedinAgrospectrem {
   width: 39px;
   border-radius: var(--br-12xl-9);
   background-color: var(--color-darkgray-300);
@@ -1288,6 +1298,7 @@
   justify-content: center;
   padding: 15.751519203186035px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 .instagramParent {
   display: flex;
@@ -1296,21 +1307,21 @@
   justify-content: flex-start;
   gap: 0 13.44px;
 }
-.frameParent7,
-.nowWereParent9 {
+.frameParent8,
+.nowWereParent8 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.nowWereParent9 {
+.nowWereParent8 {
   align-self: stretch;
   height: 78.3px;
   padding: 0 3.9525463581085205px;
   gap: 7.91px 0;
 }
-.frameParent7 {
+.frameParent8 {
   height: 292.5px;
   flex: 1;
   padding: 23.71527862548828px;
@@ -1360,8 +1371,8 @@
   justify-content: center;
   padding: 0 237.1527862548828px;
 }
-.nowWere29,
-.nowWere30 {
+.nowWere28,
+.nowWere29 {
   width: 320.9px;
   position: relative;
   letter-spacing: 0.71px;
@@ -1372,10 +1383,10 @@
   height: 22.1px;
   flex-shrink: 0;
 }
-.nowWere30 {
+.nowWere29 {
   width: 421.3px;
 }
-.nowWereParent10 {
+.nowWereParent9 {
   align-self: stretch;
   background-color: var(--color-darkslategray-300);
   display: flex;
@@ -1428,7 +1439,7 @@
     box-sizing: border-box;
   }
   .frameParent2,
-  .frameParent7,
+  .frameParent8,
   .transform {
     flex: unset;
     align-self: stretch;
@@ -1446,7 +1457,7 @@
     align-self: stretch;
     width: auto;
   }
-  .nowWereParent10 {
+  .nowWereParent9 {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -1533,11 +1544,11 @@
   .lineDiv {
     width: 400px;
   }
-  .nowWere29,
-  .nowWere30 {
+  .nowWere28,
+  .nowWere29 {
     font-size: var(--font-size-xs);
   }
-  .nowWereParent10 {
+  .nowWereParent9 {
     padding-top: var(--padding-8xs);
     padding-bottom: var(--padding-8xs);
     box-sizing: border-box;

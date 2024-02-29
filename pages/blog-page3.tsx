@@ -123,7 +123,7 @@ const BlogPage3: NextPage = () => {
 
   return (
     <>
-      <main className={styles.blogpage1} id={`7projects&partermain`}>
+      <main className={styles.ourawards} id={`7projects&partermain`}>
         <header className={styles.allnavs}>
           <nav className={styles.navdesktop} id="navBar">
             <div className={styles.logorightnavlink}>
@@ -142,13 +142,13 @@ const BlogPage3: NextPage = () => {
                     <img
                       className={styles.clipPathGroup1}
                       alt=""
-                      src="/clip-path-group15@2x.png"
+                      src="/clip-path-group5@2x.png"
                       onClick={onClipPathGroup1Click}
                     />
                     <img
                       className={styles.clipPathGroup2}
                       alt=""
-                      src="/clip-path-group16@2x.png"
+                      src="/clip-path-group6@2x.png"
                       onClick={onClipPathGroup2Click}
                     />
                     <img
@@ -171,7 +171,7 @@ const BlogPage3: NextPage = () => {
                     className={styles.logoIcon}
                     id="logo"
                     alt=""
-                    src="/logo7@2x.png"
+                    src="/logo2@2x.png"
                   />
                 </div>
               </div>
@@ -192,7 +192,7 @@ const BlogPage3: NextPage = () => {
                     <img
                       className={styles.homecChild}
                       alt=""
-                      src="/line-120@2x.png"
+                      src="/line-111@2x.png"
                     />
                   </div>
                   <button className={styles.aboutus} onClick={onAboutUsClick}>
@@ -223,7 +223,7 @@ const BlogPage3: NextPage = () => {
                   </button>
                   <button className={styles.media} onClick={onMediaClick}>
                     <div
-                      className={styles.linkPricing3}
+                      className={styles.linkPricing}
                       onClick={onLinkPricing4Click}
                     >
                       Media
@@ -279,7 +279,7 @@ const BlogPage3: NextPage = () => {
           <img
             className={styles.mrCastroAwards1}
             alt=""
-            src="/mr-castro-awards-13@2x.png"
+            src="/mr-castro-awards-1@2x.png"
           />
           <div className={styles.agrospectrumLimitedAContainer}>
             <p className={styles.agrospectrumLimitedA}>
@@ -363,7 +363,7 @@ const BlogPage3: NextPage = () => {
               <img
                 className={styles.gradientmsgChild}
                 alt=""
-                src="/group-2061@2x.png"
+                src="/group-2062@2x.png"
               />
               <div className={styles.weSupportAgribusinessIndustParent}>
                 <b
@@ -385,7 +385,7 @@ const BlogPage3: NextPage = () => {
                   <img
                     className={styles.frameChild}
                     alt=""
-                    src="/arrow-91@2x.png"
+                    src="/arrow-92@2x.png"
                   />
                   <div className={styles.viewProducts}>view produCts</div>
                 </div>

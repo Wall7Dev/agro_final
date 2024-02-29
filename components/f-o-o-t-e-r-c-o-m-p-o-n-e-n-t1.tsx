@@ -11,98 +11,106 @@ const FOOTERCOMPONENT1: NextPage = () => {
             <img
               className={styles.download5Icon}
               alt=""
-              src="/download-514@2x.png"
+              src="/download-5141@2x.png"
             />
             <img
               className={styles.download5Icon1}
               alt=""
-              src="/download-515@2x.png"
+              src="/download-5151@2x.png"
             />
-            <img className={styles.captureIcon} alt="" src="/capture7@2x.png" />
+            <img
+              className={styles.captureIcon}
+              alt=""
+              src="/capture71@2x.png"
+            />
             <img
               className={styles.mofaColorIcon}
               alt=""
-              src="/mofa-color7@2x.png"
+              src="/mofa-color71@2x.png"
             />
             <img
               className={styles.download3Icon}
               alt=""
-              src="/download-37@2x.png"
+              src="/download-371@2x.png"
             />
-            <img className={styles.imagesIcon} alt="" src="/images6@2x.png" />
+            <img className={styles.imagesIcon} alt="" src="/images61@2x.png" />
             <img
               className={styles.download6Icon}
               alt=""
-              src="/download-67@2x.png"
+              src="/download-671@2x.png"
             />
             <img
               className={styles.download1Icon}
               alt=""
-              src="/download-17@2x.png"
+              src="/download-171@2x.png"
             />
             <img
               className={styles.downloadIcon}
               alt=""
-              src="/download7@2x.png"
+              src="/download71@2x.png"
             />
             <img
               className={styles.images1Icon}
               alt=""
-              src="/images-17@2x.png"
+              src="/images-171@2x.png"
             />
             <img
               className={styles.download2Icon}
               alt=""
-              src="/download-27@2x.png"
+              src="/download-271@2x.png"
             />
           </div>
           <div className={styles.download5Group}>
             <img
               className={styles.download5Icon}
               alt=""
-              src="/download-516@2x.png"
+              src="/download-5161@2x.png"
             />
             <img
               className={styles.download5Icon1}
               alt=""
-              src="/download-517@2x.png"
+              src="/download-5171@2x.png"
             />
-            <img className={styles.captureIcon} alt="" src="/capture8@2x.png" />
+            <img
+              className={styles.captureIcon}
+              alt=""
+              src="/capture81@2x.png"
+            />
             <img
               className={styles.mofaColorIcon}
               alt=""
-              src="/mofa-color8@2x.png"
+              src="/mofa-color81@2x.png"
             />
             <img
               className={styles.download3Icon}
               alt=""
-              src="/download-38@2x.png"
+              src="/download-381@2x.png"
             />
-            <img className={styles.imagesIcon} alt="" src="/images7@2x.png" />
+            <img className={styles.imagesIcon} alt="" src="/images71@2x.png" />
             <img
               className={styles.download6Icon}
               alt=""
-              src="/download-68@2x.png"
+              src="/download-681@2x.png"
             />
             <img
               className={styles.download1Icon}
               alt=""
-              src="/download-18@2x.png"
+              src="/download-181@2x.png"
             />
             <img
               className={styles.downloadIcon}
               alt=""
-              src="/download8@2x.png"
+              src="/download81@2x.png"
             />
             <img
               className={styles.images1Icon}
               alt=""
-              src="/images-18@2x.png"
+              src="/images-181@2x.png"
             />
             <img
               className={styles.download2Icon}
               alt=""
-              src="/download-28@2x.png"
+              src="/download-281@2x.png"
             />
           </div>
         </div>

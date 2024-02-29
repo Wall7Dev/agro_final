@@ -1,0 +1,188 @@
+.bottomBlurIcon {
+  position: absolute;
+  top: 777.9px;
+  left: 0;
+  width: 1366px;
+  height: 178.3px;
+  object-fit: cover;
+  opacity: 0.25;
+}
+.blurIcon {
+  border-radius: 22.33px;
+  width: 373.8px;
+  height: 373.8px;
+  opacity: 0;
+}
+.blurIcon,
+.imgIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.card,
+.img,
+.imgIcon {
+  width: 373.8px;
+  height: 373.8px;
+}
+.img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.card {
+  position: relative;
+  border-radius: 30.36px;
+  border: 0.9px solid var(--color-gray-700);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.coralReef {
+  position: relative;
+  letter-spacing: -0.04em;
+  font-weight: 900;
+  text-shadow: 0 3.8px 22.77px rgba(0, 0, 0, 0.25);
+}
+.cardText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 106.24444580078125px 0;
+  gap: 30.36px 0;
+  opacity: 0.25;
+}
+.cardText1 {
+  padding: 53.122222900390625px 0;
+  opacity: 0.25;
+}
+.cardText1,
+.cardText2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 22.77px 0;
+}
+.blurIcon3 {
+  width: 379.4px;
+  height: 379.4px;
+  opacity: 0;
+}
+.blurIcon3,
+.imgIcon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 22.67px;
+  object-fit: cover;
+}
+.card3,
+.img3,
+.imgIcon3 {
+  width: 379.4px;
+  height: 379.4px;
+}
+.img3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.card3 {
+  position: relative;
+  border-radius: 30.82px;
+  border: 1px solid var(--color-gray-700);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.container {
+  position: absolute;
+  top: 158.4px;
+  left: -362.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 53.12px;
+}
+.ourMedia {
+  position: absolute;
+  top: 53.1px;
+  left: 53.1px;
+  font-size: var(--font-size-11xl-4);
+  letter-spacing: -0.04em;
+  font-weight: 900;
+  color: var(--color-goldenrod-300);
+  text-shadow: 0 3.8px 22.77px rgba(0, 0, 0, 0.25);
+  opacity: 0.55;
+}
+.bgBlurIcon {
+  width: 101.29%;
+  position: absolute;
+  margin: 0 !important;
+  height: 97.97%;
+  top: 0;
+  right: 0;
+  bottom: 2.03%;
+  left: -1.29%;
+  border-radius: 49.29px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.div {
+  position: relative;
+  letter-spacing: -0.01em;
+  font-weight: 900;
+}
+.button {
+  border-radius: 67.77px;
+  background: linear-gradient(90deg, #0a2804, #f0c024);
+  border: 1.5px solid var(--color-gray-1000);
+  box-sizing: border-box;
+  height: 73.9px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 18.97222328186035px 37.9444465637207px;
+  z-index: 1;
+}
+.btn,
+.btns {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.btn {
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+}
+.btns {
+  position: absolute;
+  top: 45.5px;
+  left: 1096.6px;
+  flex-direction: row;
+  gap: 0 15.18px;
+  font-size: var(--font-size-5xl-6);
+}
+.desktop {
+  width: 100%;
+  position: relative;
+  height: 782.6px;
+  overflow: hidden;
+  background-image: url(/desktop2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-26xl-5);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

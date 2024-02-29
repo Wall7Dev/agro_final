@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { useMemo, type CSSProperties } from "react";
+import { useMemo, type CSSProperties, useCallback } from "react";
 import styles from "./footer-frames.module.css";
 
 export type FooterFramesType = {
@@ -22,6 +22,27 @@ const FooterFrames: NextPage<FooterFramesType> = ({
     };
   }, [propTop]);
 
+  const onNowWereTextClick = useCallback(() => {
+    window.location.href = "tel:+233(0) 593 808 064";
+  }, []);
+
+  const onInstagramContainerClick = useCallback(() => {
+    window.location.href = "https://www.linkedin.com/company/eagric-gh/";
+  }, []);
+
+  const onGroupIconClick = useCallback(() => {
+    window.location.href =
+      "https://www.instagram.com/agrospectrumgh?igsh=NzBmMjdhZWRiYQ==";
+  }, []);
+
+  const onLinkedinAgrospectremContainerClick = useCallback(() => {
+    window.location.href = "https://www.linkedin.com/company/eagric-gh/";
+  }, []);
+
+  const onVectorIconClick = useCallback(() => {
+    window.location.href = "https://www.linkedin.com/company/eagric-gh/";
+  }, []);
+
   return (
     <div className={styles.frameParent}>
       <button className={styles.vectorParent}>
@@ -39,7 +60,9 @@ const FooterFrames: NextPage<FooterFramesType> = ({
         <div className={styles.nowWere1}>
           <div className={styles.nowWere2}>PHONE</div>
         </div>
-        <div className={styles.nowWere3}>+233(0) 593 808 064</div>
+        <div className={styles.nowWere3} onClick={onNowWereTextClick}>
+          +233(0) 593 808 064
+        </div>
       </div>
       <div className={styles.nowWereGroup}>
         <div className={styles.nowWere4}>
@@ -56,17 +79,30 @@ const FooterFrames: NextPage<FooterFramesType> = ({
           <div className={styles.nowWere9}>{`FOLLOW US `}</div>
         </div>
         <div className={styles.instagramParent}>
-          <div className={styles.instagram}>
-            <img className={styles.groupIcon} alt="" src="/group61.svg" />
+          <div className={styles.instagram} onClick={onInstagramContainerClick}>
+            <img
+              className={styles.groupIcon}
+              alt=""
+              src="/group61.svg"
+              onClick={onGroupIconClick}
+            />
           </div>
-          <div className={styles.vectorWrapper}>
+          <div className={styles.facebook}>
             <img className={styles.vectorIcon} alt="" src="/vector231.svg" />
           </div>
-          <div className={styles.frame}>
+          <div className={styles.twitter}>
             <img className={styles.vectorIcon1} alt="" src="/vector110.svg" />
           </div>
-          <div className={styles.vectorContainer}>
-            <img className={styles.vectorIcon2} alt="" src="/vector24.svg" />
+          <div
+            className={styles.linkedinAgrospectrem}
+            onClick={onLinkedinAgrospectremContainerClick}
+          >
+            <img
+              className={styles.vectorIcon2}
+              alt=""
+              src="/vector24.svg"
+              onClick={onVectorIconClick}
+            />
           </div>
         </div>
       </div>

@@ -124,7 +124,7 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
                 className={styles.logoIcon}
                 id="logo"
                 alt=""
-                src="/logo19@2x.png"
+                src="/logo101@2x.png"
               />
             </button>
             <button className={styles.arrowframe}>
@@ -156,7 +156,7 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
               <img
                 className={styles.images21}
                 alt=""
-                src="/images-2-141@2x.png"
+                src="/images-2-121@2x.png"
               />
             </button>
           </div>
@@ -205,19 +205,19 @@ const DrwawerMenu: NextPage<DrwawerMenuType> = ({ onClose }) => {
             <img
               className={styles.bdp1Icon}
               alt=""
-              src="/bdp-111@2x.png"
+              src="/bdp-12@2x.png"
               onClick={onClose}
             />
             <img
               className={styles.spectrum1Icon}
               alt=""
-              src="/spectrum-111@2x.png"
+              src="/spectrum-12@2x.png"
               onClick={onClose}
             />
             <img
               className={styles.isg1Icon}
               alt=""
-              src="/isg-111@2x.png"
+              src="/isg-12@2x.png"
               onClick={onClose}
             />
             <img

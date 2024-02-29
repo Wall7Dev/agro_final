@@ -80,7 +80,7 @@ const ProductAndServicesSec: NextPage = () => {
             className={styles.thisProductDigitalisesTheIWrapper}
             data-animate-on-scroll
           >
-            <div className={styles.thisProductDigitalises}>
+            <div className={styles.inTheHeartContainer}>
               This product digitalises the input-credit process while promoting
               efficiency and productivity on the part of the farmer. This
               solution ensures easy documentation and management of inputs given

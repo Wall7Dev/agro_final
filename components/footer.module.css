@@ -116,8 +116,7 @@
 .nowWere3:hover,
 .nowWere4:hover,
 .nowWere5:hover,
-.nowWere6:hover,
-.nowWere8:hover {
+.nowWere6:hover {
   color: var(--color-goldenrod-300);
 }
 .nowWereFrame {
@@ -200,83 +199,100 @@
   justify-content: flex-start;
   gap: 7.75px 0;
 }
-.nowWere7,
-.nowWere8 {
+.nowWere7 {
   align-self: stretch;
   position: relative;
   letter-spacing: 0.7px;
-}
-.nowWere7 {
   line-height: 35.64px;
   text-transform: uppercase;
   font-weight: 500;
   display: flex;
   align-items: center;
-  height: 35.6px;
+  height: 17px;
   flex-shrink: 0;
 }
-.nowWere8 {
-  font-size: var(--font-size-smi-4);
-  line-height: 18.6px;
-  text-transform: capitalize;
+.nowWereWrapper2 {
+  width: 124.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.a {
+  text-transform: uppercase;
+}
+.grsopectrum {
+  text-transform: lowercase;
+}
+.agrsopectrumLtdTxtContainer {
+  width: 100%;
+}
+.agrsopectrumLtd {
+  width: 117px;
+  position: relative;
+  letter-spacing: 0.7px;
+  line-height: 35.64px;
   font-weight: 600;
   color: var(--color-white);
+  display: flex;
+  align-items: center;
+  height: 19.4px;
+  flex-shrink: 0;
 }
-.nowWereParent1 {
-  align-self: stretch;
+.frameParent2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 3.1px 0;
+  gap: 7.75px 0;
 }
-.nowWere10,
+.nowWere8,
 .nowWere9 {
-  align-self: stretch;
   position: relative;
   letter-spacing: 0.7px;
 }
-.nowWere9 {
+.nowWere8 {
+  width: 130.9px;
   line-height: 35.64px;
   text-transform: uppercase;
   font-weight: 600;
   display: flex;
   align-items: center;
-  height: 27.9px;
+  height: 16.3px;
   flex-shrink: 0;
 }
-.nowWere10 {
+.nowWere9 {
+  align-self: stretch;
   line-height: 18.6px;
   text-transform: capitalize;
   font-weight: 500;
 }
-.nowWereParent2,
-.nowWereParent3 {
-  align-self: stretch;
+.nowWereParent1,
+.nowWereParent2 {
   flex-direction: column;
+  gap: 11.62px 0;
 }
-.nowWereParent3 {
+.nowWereParent2 {
+  align-self: stretch;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 10.07px 0;
 }
-.nowWereParent2 {
-  gap: 5.42px 0;
+.nowWereParent1 {
+  width: 187px;
   font-size: var(--font-size-smi-4);
   color: var(--color-white);
 }
 .frameGroup,
 .frameParent1,
-.nowWereParent2 {
+.nowWereParent1 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .frameParent1 {
-  flex: 1;
   flex-direction: column;
-  gap: 26.34px 0;
+  gap: 24.79px 0;
   font-size: var(--font-size-xs-6);
 }
 .frameGroup {
@@ -284,8 +300,8 @@
   flex-direction: row;
   gap: 0 7.75px;
 }
-.nowWere13,
-.nowWere14 {
+.nowWere12,
+.nowWere13 {
   align-self: stretch;
   position: relative;
   letter-spacing: 0.7px;
@@ -293,11 +309,11 @@
   text-transform: uppercase;
   font-weight: 600;
 }
-.nowWere14 {
+.nowWere13 {
   text-transform: capitalize;
   font-weight: 500;
 }
-.nowWereParent4 {
+.nowWereParent3 {
   align-self: stretch;
   flex: 1;
   display: flex;
@@ -306,8 +322,8 @@
   justify-content: flex-start;
   gap: 7.75px 0;
 }
-.nowWere17,
-.nowWere18 {
+.nowWere16,
+.nowWere17 {
   align-self: stretch;
   position: relative;
   letter-spacing: 0.7px;
@@ -315,35 +331,35 @@
   text-transform: capitalize;
   font-weight: 600;
 }
-.nowWere18 {
+.nowWere17 {
   font-weight: 500;
   display: flex;
   align-items: center;
   height: 20.9px;
   flex-shrink: 0;
 }
-.nowWereParent5,
-.nowWereParent6 {
+.nowWereParent4,
+.nowWereParent5 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.nowWereParent6 {
+.nowWereParent5 {
   align-self: stretch;
   gap: 5.42px 0;
 }
-.nowWereParent5 {
+.nowWereParent4 {
   flex: 1;
   gap: 2.32px 0;
 }
 .frameParent,
-.frameParent2 {
+.frameParent3 {
   align-self: stretch;
   display: flex;
   align-items: flex-start;
 }
-.frameParent2 {
+.frameParent3 {
   flex-direction: row;
   justify-content: space-between;
   font-size: var(--font-size-smi-4);
@@ -357,7 +373,7 @@
   font-size: var(--font-size-2xs-8);
 }
 .frameItem,
-.nowWere19 {
+.nowWere18 {
   position: relative;
   cursor: pointer;
 }
@@ -368,7 +384,7 @@
 .frameItem:hover {
   width: 24px;
 }
-.nowWere19 {
+.nowWere18 {
   font-size: var(--font-size-sm-9);
   letter-spacing: 0.89px;
   line-height: 45.51px;
@@ -378,10 +394,10 @@
   color: var(--color-white);
   text-align: left;
 }
-.nowWere19:hover {
+.nowWere18:hover {
   font-size: var(--font-size-4xl);
 }
-.nowWere21,
+.nowWere20,
 .vectorParent {
   display: flex;
   align-items: center;
@@ -395,7 +411,7 @@
   justify-content: flex-start;
   gap: 0 15.5px;
 }
-.nowWere21 {
+.nowWere20 {
   position: absolute;
   height: 203.83%;
   width: 96.17%;
@@ -406,22 +422,23 @@
   text-transform: uppercase;
   font-weight: 500;
 }
-.nowWere20,
-.nowWere22 {
+.nowWere19,
+.nowWere21 {
   align-self: stretch;
   position: relative;
 }
-.nowWere20 {
+.nowWere19 {
   height: 20.9px;
 }
-.nowWere22 {
+.nowWere21 {
   letter-spacing: 1.04px;
   line-height: 53.17px;
   text-transform: capitalize;
   font-weight: 500;
   color: var(--color-white);
+  cursor: pointer;
 }
-.nowWereParent7 {
+.nowWereParent6 {
   align-self: stretch;
   height: 45.7px;
   display: flex;
@@ -430,7 +447,7 @@
   justify-content: flex-start;
   gap: 7.75px 0;
 }
-.nowWere24 {
+.nowWere23 {
   position: absolute;
   width: 96.14%;
   top: -62.69%;
@@ -442,12 +459,12 @@
   display: flex;
   align-items: center;
 }
-.nowWere23 {
+.nowWere22 {
   align-self: stretch;
   position: relative;
   height: 20.1px;
 }
-.nowWere26 {
+.nowWere25 {
   position: absolute;
   top: 5.4px;
   left: -0.8px;
@@ -456,13 +473,13 @@
   text-transform: lowercase;
   font-weight: 500;
 }
-.nowWere25 {
+.nowWere24 {
   align-self: stretch;
   position: relative;
   height: 20.1px;
   color: var(--color-white);
 }
-.nowWereParent8 {
+.nowWereParent7 {
   width: 204.6px;
   display: flex;
   flex-direction: column;
@@ -470,7 +487,7 @@
   justify-content: flex-start;
   gap: 7.75px 0;
 }
-.nowWere28 {
+.nowWere27 {
   position: absolute;
   top: -28.81%;
   left: 0;
@@ -480,7 +497,7 @@
   font-weight: 500;
 }
 .groupIcon,
-.nowWere27 {
+.nowWere26 {
   width: 101.5px;
   position: relative;
   height: 30.2px;
@@ -502,18 +519,19 @@
   justify-content: center;
   padding: 15.438812255859375px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 .vectorIcon {
   width: 6px;
   position: relative;
   height: 11.6px;
 }
-.vectorWrapper {
+.facebook {
   width: 36.7px;
   border-radius: 28.56px;
   background-color: var(--color-darkgray-300);
   height: 37.8px;
-  display: flex;
+  display: none;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -525,14 +543,14 @@
   position: relative;
   height: 10.8px;
 }
-.frame {
+.twitter {
   width: 35.1px;
   border-radius: 45.16px;
   background-color: var(--color-darkgray-300);
   height: 35.1px;
   overflow: hidden;
   flex-shrink: 0;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -544,7 +562,7 @@
   position: relative;
   height: 11.6px;
 }
-.vectorContainer {
+.linkedinAgrospectrem {
   width: 38.2px;
   border-radius: 31.26px;
   background-color: var(--color-darkgray-300);
@@ -555,6 +573,7 @@
   justify-content: center;
   padding: 15.438812255859375px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 .instagramParent {
   display: flex;
@@ -563,21 +582,21 @@
   justify-content: flex-start;
   gap: 0 13.17px;
 }
-.frameParent3,
-.nowWereParent9 {
+.frameParent4,
+.nowWereParent8 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.nowWereParent9 {
+.nowWereParent8 {
   align-self: stretch;
   height: 76.7px;
   padding: 0 3.8740782737731934px;
   gap: 7.75px 0;
 }
-.frameParent3 {
+.frameParent4 {
   height: 286.7px;
   flex: 1;
   padding: 23.244470596313477px;
@@ -613,7 +632,7 @@
 }
 @media screen and (max-width: 1200px) {
   .frameParent,
-  .frameParent3,
+  .frameParent4,
   .transform {
     flex: unset;
     align-self: stretch;

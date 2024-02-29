@@ -1,32 +1,59 @@
 import type { NextPage } from "next";
+import { useMemo, type CSSProperties } from "react";
 import styles from "./faq3.module.css";
 
-const Faq: NextPage = () => {
+export type FaqType = {
+  isThePlatformFree?: string;
+  agrospectrumLimitedIsAFor?: string;
+  whatIsMeanByHostPlacehold?: string;
+  circle?: string;
+
+  /** Style props */
+  propHeight?: CSSProperties["height"];
+};
+
+const Faq: NextPage<FaqType> = ({
+  isThePlatformFree,
+  agrospectrumLimitedIsAFor,
+  whatIsMeanByHostPlacehold,
+  circle,
+  propHeight,
+}) => {
+  const isThePlatformContainerStyle: CSSProperties = useMemo(() => {
+    return {
+      height: propHeight,
+    };
+  }, [propHeight]);
+
   return (
     <div className={styles.faq3}>
-      <div className={styles.whereFrame2}>
-        <div className={styles.whatDoesThePlatformDo2}>
-          <b className={styles.whatDoesTheContainer}>Is the platform free ?</b>
-          <div className={styles.roundplus2}>
+      <div className={styles.whereFrame}>
+        <div className={styles.whatDoesThePlatformDo}>
+          <b
+            className={styles.whatIsMean}
+            placeholder={whatIsMeanByHostPlacehold}
+          >
+            Is the platform free ?
+          </b>
+          <div className={styles.roundplus}>
             <img
               className={styles.combinedShapeIcon}
               alt=""
               src="/combined-shape.svg"
             />
-            <div className={styles.rectangle3} />
+            <div className={styles.rectangle} />
           </div>
         </div>
       </div>
-      <div className={styles.rectangle4} />
-      <div className={styles.poppup2}>
-        <div className={styles.whatDoesTheContainer}>
-          <p className={styles.whatDoesThe}> Is the platform free ?</p>
+      <div className={styles.rectangle1} />
+      <div className={styles.poppup3}>
+        <div className={styles.whatIsMean} style={isThePlatformContainerStyle}>
+          <p className={styles.isThePlatform}>{isThePlatformFree}</p>
           <p className={styles.blankLine}>
             <b>&nbsp;</b>
           </p>
-          <p className={styles.withAgrospectrumsSolutions}>
-            Agrospectrum Limited is a for-profit entity that provides Agric
-            business enterprises with top notch digital solutions.
+          <p className={styles.agrospectrumLimitedIs}>
+            {agrospectrumLimitedIsAFor}
           </p>
         </div>
       </div>

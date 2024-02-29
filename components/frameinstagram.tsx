@@ -71,7 +71,7 @@ const Frameinstagram: NextPage = () => {
               <img
                 className={styles.download5Icon1}
                 alt=""
-                src="/download-55@2x.png"
+                src="/download-5@2x.png"
               />
               <img
                 className={styles.download2Icon}

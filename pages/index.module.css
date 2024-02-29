@@ -167,9 +167,9 @@
 }
 .linkAbout1 {
   position: absolute;
-  top: -7.04%;
+  top: -7.14%;
   left: 0;
-  font-size: var(--font-size-2xs-3);
+  font-size: var(--font-size-mini);
   letter-spacing: 0.25px;
   line-height: 15.18px;
   font-weight: 500;
@@ -180,7 +180,6 @@
 }
 .contactUs:hover,
 .linkAbout1:hover,
-.linkPricing3:hover,
 .linkPricing:hover {
   color: var(--color-goldenrod-100);
 }
@@ -189,18 +188,19 @@
   border: 0;
   padding: 0;
   background-color: transparent;
-  width: 33.2px;
+  width: 49.3px;
+  flex: 1;
   position: relative;
-  height: 14.2px;
 }
 .homecChild {
-  width: 31.6px;
+  width: 46px;
   position: relative;
   max-height: 100%;
   object-fit: cover;
 }
 .homec {
-  width: 33.2px;
+  width: 46px;
+  height: 18px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -211,7 +211,7 @@
 .linkPricing {
   height: 16px;
   position: relative;
-  font-size: var(--font-size-2xs-3);
+  font-size: var(--font-size-mini);
   letter-spacing: 0.25px;
   line-height: 15.18px;
   font-weight: 500;
@@ -234,19 +234,6 @@
 }
 .producAndServices {
   justify-content: flex-end;
-}
-.linkPricing3 {
-  height: 16px;
-  position: relative;
-  font-size: var(--font-size-xs-7);
-  letter-spacing: 0.25px;
-  line-height: 15.18px;
-  font-weight: 500;
-  font-family: var(--font-inter);
-  color: var(--color-white);
-  text-align: left;
-  display: inline-block;
-  cursor: pointer;
 }
 .mediaChild {
   width: 37px;
@@ -272,7 +259,7 @@
 .homecParent {
   flex-direction: row;
   justify-content: flex-end;
-  gap: 0 16px;
+  gap: 0 20px;
 }
 .handburgerChild,
 .handburgerInner {
@@ -298,7 +285,7 @@
   height: 17px;
   flex: 1;
   position: relative;
-  font-size: var(--font-size-xs-9);
+  font-size: var(--font-size-mini);
   line-height: 16.13px;
   font-weight: 600;
   font-family: var(--font-inter);
@@ -434,7 +421,6 @@
   align-self: stretch;
   position: relative;
   line-height: 120%;
-  font-weight: 300;
   text-shadow: 0 4px 10.4px rgba(0, 0, 0, 0.25);
 }
 .weProvideAn:hover {
@@ -448,7 +434,7 @@
   justify-content: center;
   padding: 10.522117614746094px;
   opacity: 1;
-  font-size: 21px;
+  font-size: var(--font-size-xl);
 }
 .weProvideAnEcosystemForAlWrapper.animate {
   animation: 1s ease 0s 1 normal forwards scale-up;
@@ -2587,10 +2573,9 @@
 .xorse {
   position: relative;
 }
-.castro:hover,
 .xorse:hover {
-  animation: 2s ease 1s 1 normal none scale-up;
-  opacity: 1;
+  width: 255px;
+  height: 332px;
 }
 .baseIcon1 {
   position: absolute;
@@ -2657,6 +2642,10 @@
   width: 303.1px;
   position: relative;
   height: 393px;
+}
+.castro:hover {
+  width: 306px;
+  height: 397px;
 }
 .baseIcon2 {
   position: absolute;
@@ -2732,8 +2721,8 @@
   font-size: var(--font-size-3xl-1);
 }
 .ottisApalooTeam:hover {
-  animation: 2s ease 0s 1 normal none scale-up;
-  opacity: 1;
+  width: 269px;
+  height: 331px;
 }
 .cardgropupo {
   align-self: stretch;
@@ -2741,6 +2730,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding: var(--padding-3xs);
   gap: 0 15px;
   opacity: 1;
   z-index: 5;
@@ -2785,6 +2775,9 @@
   text-transform: uppercase;
   font-weight: 600;
 }
+.viewProducts:hover {
+  color: var(--color-goldenrod-300);
+}
 .vectorParent {
   border: 2.4px solid var(--color-seagreen);
   display: flex;
@@ -2794,7 +2787,7 @@
   padding: 19.765857696533203px 31.6253719329834px;
   gap: 0 7.91px;
   cursor: pointer;
-  font-size: var(--font-size-xs-9);
+  font-size: var(--font-size-sm);
 }
 .weSupportAgribusinessIndustParent {
   flex: 1;
@@ -3165,7 +3158,7 @@
   justify-content: flex-start;
 }
 .outTeam {
-  align-self: stretch;
+  width: 1366px;
   z-index: 9;
 }
 .homepage {
@@ -3367,7 +3360,6 @@
   .gradientmsg {
     flex-direction: column;
   }
-  .dktpTeamFaqCta:hover,
   .faq {
     display: none;
   }

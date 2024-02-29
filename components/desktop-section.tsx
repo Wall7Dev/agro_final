@@ -35,6 +35,11 @@ const DesktopSection: NextPage = () => {
   return (
     <section className={styles.desktopSection2}>
       <img
+        className={styles.desktopSection2Child}
+        alt=""
+        src="/ellipse-2.svg"
+      />
+      <img
         className={styles.bgBlurIcon}
         alt=""
         src="/bg-blur.svg"
@@ -71,21 +76,12 @@ const DesktopSection: NextPage = () => {
                 We offer a Comprehensive Suite of Agriculture Supply Chain
                 Management tools.
               </div>
-              <div
-                className={styles.inTheHeartContainer}
-                data-animate-on-scroll
-              >
-                <p
-                  className={styles.inTheHeart}
-                >{`In the heart of Ghana's vibrant agricultural landscape, `}</p>
-                <p
-                  className={styles.inTheHeart}
-                >{`Agrospectrum emerges as a beacon of innovation, `}</p>
-                <p className={styles.inTheHeart}>
-                  poised to transform the industry through the power of
-                  digitalization. We are committed promoting inclusivity and
-                  granting farmers access to finances and markets.
-                </p>
+              <div className={styles.inTheHeart} data-animate-on-scroll>
+                In the heart of Ghana's vibrant agricultural landscape,
+                Agrospectrum emerges as a beacon of innovation, poised to
+                transform the industry through the power of digitalization. We
+                are committed promoting inclusivity and granting farmers access
+                to finances and markets.
               </div>
             </div>
           </div>
@@ -97,9 +93,9 @@ const DesktopSection: NextPage = () => {
               data-animate-on-scroll
             >
               <p
-                className={styles.inTheHeart}
+                className={styles.unlockingGhanasAgricultural}
               >{`Unlocking Ghana's Agricultural `}</p>
-              <p className={styles.inTheHeart}>Potential</p>
+              <p className={styles.unlockingGhanasAgricultural}>Potential</p>
             </div>
             <div
               className={styles.ghanasAgriculturalSector}
@@ -122,11 +118,6 @@ const DesktopSection: NextPage = () => {
           </div>
         </div>
       </div>
-      <img
-        className={styles.desktopSection2Child}
-        alt=""
-        src="/ellipse-2.svg"
-      />
     </section>
   );
 };

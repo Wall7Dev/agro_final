@@ -61,7 +61,7 @@
 .toExtendDigitalization {
   align-self: stretch;
   position: relative;
-  font-size: var(--font-size-mid-3);
+  font-size: var(--font-size-lg);
   font-weight: 300;
   font-family: var(--font-inter);
   color: var(--color-white);

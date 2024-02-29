@@ -16,8 +16,7 @@
 .nowWere1:hover,
 .nowWere2:hover,
 .nowWere3:hover,
-.nowWere4:hover,
-.nowWere6:hover {
+.nowWere4:hover {
   color: var(--color-goldenrod-300);
 }
 .nowWereWrapper {
@@ -100,77 +99,99 @@
   justify-content: flex-start;
   gap: 10px 0;
 }
-.nowWere5,
-.nowWere6 {
+.nowWere5 {
   align-self: stretch;
   position: relative;
   letter-spacing: 0.9px;
-}
-.nowWere5 {
   line-height: 46px;
   text-transform: uppercase;
   font-weight: 500;
   display: flex;
   align-items: center;
-  height: 46px;
+  height: 22px;
   flex-shrink: 0;
 }
-.nowWere6 {
-  font-size: var(--font-size-base);
-  line-height: 24px;
-  text-transform: capitalize;
-  font-weight: 600;
-  color: var(--color-white);
-}
-.nowWereParent1 {
-  align-self: stretch;
+.nowWereWrapper1 {
+  width: 160.8px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 4px 0;
 }
-.nowWere7,
-.nowWere8 {
-  align-self: stretch;
+.a {
+  text-transform: uppercase;
+}
+.grsopectrum {
+  text-transform: lowercase;
+}
+.agrsopectrumLtdTxtContainer {
+  width: 100%;
+}
+.agrsopectrumLtd {
+  width: 151px;
   position: relative;
   letter-spacing: 0.9px;
   line-height: 46px;
-  text-transform: uppercase;
   font-weight: 600;
-}
-.nowWere8 {
-  line-height: 24px;
-  text-transform: capitalize;
-  font-weight: 500;
-}
-.nowWereParent2,
-.nowWereParent3 {
-  align-self: stretch;
-  flex-direction: column;
-}
-.nowWereParent3 {
+  color: var(--color-white);
   display: flex;
+  align-items: center;
+  height: 25px;
+  flex-shrink: 0;
+}
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 10px 0;
 }
+.nowWere6,
+.nowWere7 {
+  position: relative;
+  letter-spacing: 0.9px;
+}
+.nowWere6 {
+  width: 169px;
+  line-height: 46px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: 21px;
+  flex-shrink: 0;
+}
+.nowWere7 {
+  align-self: stretch;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
 .nowWereParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px 0;
+}
+.nowWereParent1 {
+  width: 241.3px;
+  flex-direction: column;
   gap: 15px 0;
   font-size: var(--font-size-base);
   color: var(--color-white);
 }
 .frameDiv,
 .frameGroup,
-.nowWereParent2 {
+.nowWereParent1 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .frameDiv {
-  flex: 1;
   flex-direction: column;
-  gap: 34px 0;
+  gap: 32px 0;
   font-size: var(--font-size-mini);
 }
 .frameGroup {
@@ -178,15 +199,20 @@
   flex-direction: row;
   gap: 0 10px;
 }
-.nowWere12 {
+.nowWere10,
+.nowWere11 {
   align-self: stretch;
   position: relative;
   letter-spacing: 0.9px;
   line-height: 46px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.nowWere11 {
   text-transform: capitalize;
   font-weight: 500;
 }
-.nowWereParent4 {
+.nowWereParent3 {
   align-self: stretch;
   flex: 1;
   display: flex;
@@ -195,8 +221,8 @@
   justify-content: flex-start;
   gap: 10px 0;
 }
-.nowWere15,
-.nowWere16 {
+.nowWere14,
+.nowWere15 {
   align-self: stretch;
   position: relative;
   letter-spacing: 0.9px;
@@ -204,30 +230,30 @@
   text-transform: capitalize;
   font-weight: 600;
 }
-.nowWere16 {
+.nowWere15 {
   font-weight: 500;
   display: flex;
   align-items: center;
   height: 27px;
   flex-shrink: 0;
 }
-.nowWereParent5,
-.nowWereParent6 {
+.nowWereParent4,
+.nowWereParent5 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.nowWereParent6 {
+.nowWereParent5 {
   align-self: stretch;
   gap: 7px 0;
 }
-.nowWereParent5 {
+.nowWereParent4 {
   flex: 1;
   gap: 3px 0;
 }
 .frameParent,
-.frameParent1 {
+.frameParent2 {
   align-self: stretch;
   display: flex;
   flex-direction: row;

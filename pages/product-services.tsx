@@ -91,7 +91,7 @@ const ProductServices: NextPage = () => {
 
   return (
     <>
-      <div className={styles.productServices}>
+      <div className={styles.productservices}>
         <header className={styles.allnavs}>
           <nav className={styles.navdesktop} id="navBar">
             <div className={styles.logorightnavlink}>
@@ -110,13 +110,13 @@ const ProductServices: NextPage = () => {
                     <img
                       className={styles.clipPathGroup1}
                       alt=""
-                      src="/clip-path-group5@2x.png"
+                      src="/clip-path-group51@2x.png"
                       onClick={onClipPathGroup1Click}
                     />
                     <img
                       className={styles.clipPathGroup2}
                       alt=""
-                      src="/clip-path-group6@2x.png"
+                      src="/clip-path-group61@2x.png"
                       onClick={onClipPathGroup2Click}
                     />
                     <img
@@ -128,7 +128,7 @@ const ProductServices: NextPage = () => {
                   <img
                     className={styles.images21}
                     alt=""
-                    src="/images-2-12@2x.png"
+                    src="/images-2-119@2x.png"
                   />
                 </button>
                 <div
@@ -139,7 +139,7 @@ const ProductServices: NextPage = () => {
                     className={styles.logoIcon}
                     id="logo"
                     alt=""
-                    src="/logo2@2x.png"
+                    src="/logo21@2x.png"
                   />
                 </div>
               </div>
@@ -160,7 +160,7 @@ const ProductServices: NextPage = () => {
                     <img
                       className={styles.homecChild}
                       alt=""
-                      src="/line-15@2x.png"
+                      src="/line-12@2x.png"
                     />
                   </div>
                   <button className={styles.aboutus} onClick={onAboutUsClick}>
@@ -176,13 +176,13 @@ const ProductServices: NextPage = () => {
                     onClick={onProducAndServicesClick}
                   >
                     <div
-                      className={styles.linkPricing}
+                      className={styles.linkPricing1}
                       onClick={onLinkPricing2Click}
                     >{`Product & Services`}</div>
                     <img
                       className={styles.producAndServicesChild}
                       alt=""
-                      src="/line-16@2x.png"
+                      src="/line-123@2x.png"
                     />
                   </button>
                   <button
@@ -196,7 +196,7 @@ const ProductServices: NextPage = () => {
                   </button>
                   <button className={styles.media} onClick={onMediaClick}>
                     <div
-                      className={styles.linkPricing3}
+                      className={styles.linkPricing}
                       onClick={onLinkPricing4Click}
                     >
                       Media
@@ -230,59 +230,6 @@ const ProductServices: NextPage = () => {
         </header>
         <section className={styles.allherops}>
           <Component />
-          <div className={styles.allherops960}>
-            <div className={styles.bgBlurParent}>
-              <img className={styles.bgBlurIcon} alt="" src="/bg-blur2.svg" />
-              <div className={styles.empoweringFarmersAndUnlockWrapper}>
-                <div className={styles.empoweringFarmersAndContainer}>
-                  <span className={styles.empowering}>{`Empowering `}</span>
-                  <span className={styles.farmers}>Farmers</span>
-                  <span className={styles.empowering}>{`, and `}</span>
-                  <span className={styles.farmers}>Unlocking Ghana's</span>
-                  <span className={styles.empowering}>{` `}</span>
-                  <span className={styles.farmers}>Agricultural</span>
-                  <span className={styles.empowering}> Potential</span>
-                </div>
-              </div>
-              <div className={styles.aRevolutionaryDigitalInnoWrapper}>
-                <div
-                  className={styles.aRevolutionaryDigital}
-                >{`A revolutionary digital & innovative platform, Agrospectrum connects farmers, traders, processors, and other stakeholders, creating a seamless and efficient agro ecosystem.`}</div>
-              </div>
-              <div className={styles.scrollDown}>
-                <div className={styles.scrollDownChild} />
-              </div>
-            </div>
-          </div>
-          <div className={styles.allherops420}>
-            <div className={styles.bgBlurParent}>
-              <img className={styles.bgBlurIcon} alt="" src="/bg-blur3.svg" />
-              <div className={styles.empoweringFarmersAndUnlockContainer}>
-                <div className={styles.empoweringFarmersAndContainer}>
-                  <p className={styles.empowering1}>{`Empowering `}</p>
-                  <p className={styles.farmers1}>
-                    <span className={styles.farmers}>Farmers</span>
-                    <span className={styles.span1}>{`, `}</span>
-                  </p>
-                  <p className={styles.andUnlockingGhanasAgricult}>
-                    <span className={styles.span1}>{`and `}</span>
-                    <span className={styles.farmers}>
-                      Unlocking Ghana's Agricultural
-                    </span>
-                    <span className={styles.span1}> Potential</span>
-                  </p>
-                </div>
-              </div>
-              <div className={styles.aRevolutionaryDigitalInnoContainer}>
-                <div
-                  className={styles.aRevolutionaryDigital1}
-                >{`A revolutionary digital & innovative platform, Agrospectrum connects farmers, traders, processors, and other stakeholders, creating a seamless and efficient agro ecosystem.`}</div>
-              </div>
-              <div className={styles.scrollDown}>
-                <div className={styles.scrollDownChild} />
-              </div>
-            </div>
-          </div>
         </section>
         <div className={styles.climate}>
           <div className={styles.frame1082Parent}>
@@ -293,7 +240,7 @@ const ProductServices: NextPage = () => {
             />
             <div className={styles.subsidyProgramParent}>
               <div className={styles.subsidyProgram}>
-                <p className={styles.andUnlockingGhanasAgricult}>
+                <p className={styles.subsidyProgram1}>
                   <b className={styles.subsidy}>Subsidy</b>
                   <span> Program</span>
                 </p>
@@ -319,10 +266,10 @@ const ProductServices: NextPage = () => {
           <div className={styles.frame1082Parent}>
             <div className={styles.subsidyProgramParent}>
               <div className={styles.farmerKyc}>
-                <p className={styles.andUnlockingGhanasAgricult}>
+                <p className={styles.subsidyProgram1}>
                   <span>{`Farmer `}</span>
                   <b className={styles.subsidy}>KYC</b>
-                  <span className={styles.span2}></span>
+                  <span className={styles.span}></span>
                 </p>
               </div>
               <div
@@ -364,7 +311,7 @@ const ProductServices: NextPage = () => {
           <div className={styles.frame1082Parent}>
             <div className={styles.subsidyProgramParent}>
               <div className={styles.farmerKyc}>
-                <p className={styles.andUnlockingGhanasAgricult}>
+                <p className={styles.subsidyProgram1}>
                   <b className={styles.subsidy}>{`Farmer `}</b>
                   <span>registration</span>
                 </p>

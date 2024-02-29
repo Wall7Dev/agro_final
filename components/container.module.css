@@ -77,13 +77,15 @@
 .frameWrapper {
   flex-direction: row;
   justify-content: space-between;
+  padding: var(--padding-3xs) 0;
 }
 .droneIcon {
-  height: 496.4px;
+  align-self: stretch;
   flex: 1;
   position: relative;
   max-width: 100%;
   overflow: hidden;
+  max-height: 100%;
   object-fit: cover;
   opacity: 0;
 }
@@ -108,7 +110,7 @@
   justify-content: flex-start;
   padding: 0 124.89142608642578px;
   text-align: justify;
-  font-size: var(--font-size-mini-1);
+  font-size: var(--font-size-lg);
   color: var(--color-white);
   font-family: var(--font-inter);
 }

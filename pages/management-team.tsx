@@ -147,9 +147,21 @@ const ManagementTeam: NextPage = () => {
     );
   }, []);
 
+  const onNowWereText5Click = useCallback(() => {
+    window.location.href = "tel:+233(0) 593 808 064";
+  }, []);
+
+  const onInstagramContainerClick = useCallback(() => {
+    window.location.href = "https://www.linkedin.com/company/eagric-gh/";
+  }, []);
+
+  const onLinkedinAgrospectremContainerClick = useCallback(() => {
+    window.location.href = "https://www.linkedin.com/company/eagric-gh/";
+  }, []);
+
   return (
     <>
-      <div className={styles.managementTeam}>
+      <div className={styles.management}>
         <header className={styles.allnavs}>
           <nav className={styles.navdesktop} id="navBar">
             <div className={styles.logorightnavlink}>
@@ -218,7 +230,7 @@ const ManagementTeam: NextPage = () => {
                     <img
                       className={styles.homecChild}
                       alt=""
-                      src="/line-119@2x.png"
+                      src="/line-12@2x.png"
                     />
                   </div>
                   <button className={styles.aboutus} onClick={onAboutUsClick}>
@@ -231,7 +243,7 @@ const ManagementTeam: NextPage = () => {
                     <img
                       className={styles.aboutusChild}
                       alt=""
-                      src="/line-13@2x.png"
+                      src="/line-19@2x.png"
                     />
                   </button>
                   <button
@@ -254,7 +266,7 @@ const ManagementTeam: NextPage = () => {
                   </button>
                   <button className={styles.media} onClick={onMediaClick}>
                     <div
-                      className={styles.linkPricing3}
+                      className={styles.linkPricing}
                       onClick={onLinkPricing4Click}
                     >
                       Media
@@ -286,21 +298,9 @@ const ManagementTeam: NextPage = () => {
             </div>
           </nav>
         </header>
-        <img
-          className={styles.managementTeamChild}
-          alt=""
-          src="/ellipse-4.svg"
-        />
-        <img
-          className={styles.managementTeamItem}
-          alt=""
-          src="/ellipse-21.svg"
-        />
-        <img
-          className={styles.managementTeamInner}
-          alt=""
-          src="/ellipse-3.svg"
-        />
+        <img className={styles.managementChild} alt="" src="/ellipse-4.svg" />
+        <img className={styles.managementItem} alt="" src="/ellipse-21.svg" />
+        <img className={styles.managementInner} alt="" src="/ellipse-3.svg" />
         <div className={styles.frameDiv}>
           <div className={styles.experienceBoardParent}>
             <div className={styles.experienceBoard}>
@@ -342,7 +342,7 @@ const ManagementTeam: NextPage = () => {
                         Nana Dwemoh Benneh
                       </div>
                       <div className={styles.chairman}>Chairman</div>
-                      <div className={styles.priscillaIsA}>
+                      <div className={styles.josephIsAn}>
                         Nana has 20+ years of local and international expertise
                         in banking in various management roles across several
                         countries in Africa and the UK. Nana has successfully
@@ -401,8 +401,8 @@ const ManagementTeam: NextPage = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.managementTeam1}>
-              <div className={styles.managementTeam2}>MANAGEMENT TEAM</div>
+            <div className={styles.managementTeam}>
+              <div className={styles.managementTeam1}>MANAGEMENT TEAM</div>
               <div className={styles.frameParent1}>
                 <div className={styles.frameParent2}>
                   <div className={styles.baseParent}>
@@ -540,7 +540,7 @@ const ManagementTeam: NextPage = () => {
                       src="/castro-sagwfp-1@2x.png"
                     />
                     <div className={styles.castroAntwiDansoParent}>
-                      <div className={styles.samuelOsewKwatia}>
+                      <div className={styles.castroAntwiDanso}>
                         Castro Antwi-Danso
                       </div>
                       <div className={styles.groupLegalcompliance}>
@@ -592,7 +592,7 @@ const ManagementTeam: NextPage = () => {
                       <div className={styles.groupCfo}>
                         Manager, Marketing and Corp. Communications
                       </div>
-                      <div className={styles.morenikeIsAn}>
+                      <div className={styles.priscillaIsA}>
                         Morenike is an accomplished and enthusiastic
                         professional with 6+ years of managing corporate
                         communications, marketing, and public relations
@@ -614,7 +614,7 @@ const ManagementTeam: NextPage = () => {
                         Head, Deployment and maintenance
                       </div>
                       <div
-                        className={styles.priscillaIsA}
+                        className={styles.josephIsAn}
                       >{`Joseph is an accomplished professional with 18+ years of experience in Information Systems, Technology, and Project Management. He holds diplomas in Information Systems Management (IMIS, UK), a BSc (Hons) in Computing & Information Systems from the University of Portsmouth, UK, and an M.A. in Information & Telecommunication Technology from KAIST. Currently, he serves as the Technical Deployment Manager at Broadspectrum Ghana Limited, leading project planning and quality management. (ISG)`}</div>
                     </div>
                   </div>
@@ -826,36 +826,47 @@ const ManagementTeam: NextPage = () => {
                     </div>
                   </div>
                   <div className={styles.frameParent11}>
-                    <div className={styles.nowWereParent1}>
-                      <div className={styles.nowWere7}>{`CONTACT US `}</div>
-                      <div className={styles.nowWere8}>Agrospectrum Ltd.</div>
+                    <div className={styles.frameParent12}>
+                      <div className={styles.nowWereWrapper3}>
+                        <div className={styles.nowWere7}>{`CONTACT US `}</div>
+                      </div>
+                      <div className={styles.agrsopectrumLtd}>
+                        <span className={styles.agrsopectrumLtdTxtContainer}>
+                          <span className={styles.a}>A</span>
+                          <span
+                            className={styles.grsopectrum}
+                          >{`GRSOPECTRUM `}</span>
+                          <span className={styles.a}>l</span>
+                          <span className={styles.grsopectrum}>TD</span>
+                        </span>
+                      </div>
                     </div>
-                    <div className={styles.nowWereParent2}>
-                      <div className={styles.nowWere9}>EAST LEGON office</div>
-                      <div className={styles.nowWereParent3}>
-                        <div className={styles.nowWere10}>No 24 Maseru St</div>
-                        <div className={styles.nowWere10}>East Legon,</div>
-                        <div className={styles.nowWere10}>Accra - ghana</div>
+                    <div className={styles.nowWereParent1}>
+                      <div className={styles.nowWere8}>EAST LEGON office</div>
+                      <div className={styles.nowWereParent2}>
+                        <div className={styles.nowWere9}>No 24 Maseru St</div>
+                        <div className={styles.nowWere9}>East Legon,</div>
+                        <div className={styles.nowWere9}>Accra - ghana</div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className={styles.frameParent12}>
-                  <div className={styles.nowWereParent4}>
-                    <div className={styles.nowWere9}>BSL HEAD OFFICE</div>
-                    <div className={styles.nowWere14}>No 24 Botwe</div>
-                    <div className={styles.nowWere14}>Dzorwulu - Accra</div>
+                <div className={styles.frameParent13}>
+                  <div className={styles.nowWereParent3}>
+                    <div className={styles.nowWere12}>BSL HEAD OFFICE</div>
+                    <div className={styles.nowWere13}>No 24 Botwe</div>
+                    <div className={styles.nowWere13}>Dzorwulu - Accra</div>
                   </div>
-                  <div className={styles.nowWereParent5}>
-                    <div className={styles.nowWere9}>TAMALE office</div>
-                    <div className={styles.nowWereParent6}>
-                      <div className={styles.nowWere17}>Tamale.</div>
-                      <div className={styles.nowWere18}>16 Dagomba Road,</div>
+                  <div className={styles.nowWereParent4}>
+                    <div className={styles.nowWere12}>TAMALE office</div>
+                    <div className={styles.nowWereParent5}>
+                      <div className={styles.nowWere16}>Tamale.</div>
+                      <div className={styles.nowWere17}>16 Dagomba Road,</div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className={styles.frameParent13}>
+              <div className={styles.frameParent14}>
                 <button className={styles.vectorParent}>
                   <img
                     className={styles.frameItem}
@@ -864,55 +875,66 @@ const ManagementTeam: NextPage = () => {
                     onClick={onArrowIconClick}
                   />
                   <div
-                    className={styles.nowWere19}
+                    className={styles.nowWere18}
                     onClick={onNowWereText4Click}
                   >
                     GET DIRECTION
                   </div>
                 </button>
-                <div className={styles.nowWereParent7}>
-                  <div className={styles.nowWere20}>
-                    <div className={styles.nowWere21}>PHONE</div>
+                <div className={styles.nowWereParent6}>
+                  <div className={styles.nowWere19}>
+                    <div className={styles.nowWere20}>PHONE</div>
                   </div>
-                  <div className={styles.nowWere22}>+233(0) 593 808 064</div>
+                  <div
+                    className={styles.nowWere21}
+                    onClick={onNowWereText5Click}
+                  >
+                    +233(0) 593 808 064
+                  </div>
                 </div>
-                <div className={styles.nowWereParent8}>
-                  <div className={styles.nowWere23}>
-                    <div className={styles.nowWere24}>EMAIL</div>
+                <div className={styles.nowWereParent7}>
+                  <div className={styles.nowWere22}>
+                    <div className={styles.nowWere23}>EMAIL</div>
                   </div>
-                  <div className={styles.nowWere25}>
-                    <div className={styles.nowWere26}>
+                  <div className={styles.nowWere24}>
+                    <div className={styles.nowWere25}>
                       customercare@bsl.com.gh
                     </div>
                   </div>
                 </div>
-                <div className={styles.nowWereParent9}>
-                  <div className={styles.nowWere27}>
-                    <div className={styles.nowWere28}>{`FOLLOW US `}</div>
+                <div className={styles.nowWereParent8}>
+                  <div className={styles.nowWere26}>
+                    <div className={styles.nowWere27}>{`FOLLOW US `}</div>
                   </div>
                   <div className={styles.instagramParent}>
-                    <div className={styles.instagram}>
+                    <div
+                      className={styles.instagram}
+                      onClick={onInstagramContainerClick}
+                    >
                       <img
                         className={styles.groupIcon}
                         alt=""
                         src="/group6.svg"
                       />
                     </div>
-                    <div className={styles.vectorWrapper}>
+                    <div className={styles.facebook}>
                       <img
                         className={styles.vectorIcon}
                         alt=""
                         src="/vector12.svg"
                       />
                     </div>
-                    <div className={styles.frame}>
+                    <div className={styles.twitter}>
                       <img
                         className={styles.vectorIcon1}
                         alt=""
                         src="/vector13.svg"
                       />
                     </div>
-                    <div className={styles.vectorContainer}>
+                    <div
+                      className={styles.linkedinAgrospectrem}
+                      onClick={onLinkedinAgrospectremContainerClick}
+                    >
                       <img
                         className={styles.vectorIcon2}
                         alt=""
@@ -924,15 +946,15 @@ const ManagementTeam: NextPage = () => {
               </div>
             </div>
           </footer>
-          <div className={styles.frameParent14}>
+          <div className={styles.frameParent15}>
             <div className={styles.lineWrapper}>
               <div className={styles.frameInner} />
             </div>
-            <div className={styles.nowWereParent10}>
-              <div className={styles.nowWere29}>
+            <div className={styles.nowWereParent9}>
+              <div className={styles.nowWere28}>
                 No 24 Maseru Street,East Legon -Accra
               </div>
-              <div className={styles.nowWere30}>
+              <div className={styles.nowWere29}>
                 © Copyright 2023 Agrospectrum Ltd. All Rights Reserved.
               </div>
             </div>

@@ -54,7 +54,7 @@ const CTA: NextPage = () => {
           <img
             className={styles.gradientmsgChild}
             alt=""
-            src="/group-206@2x.png"
+            src="/group-2061@2x.png"
             data-animate-on-scroll
           />
           <div className={styles.weSupportAgribusinessIndustParent}>
@@ -63,18 +63,20 @@ const CTA: NextPage = () => {
               data-animate-on-scroll
             >
               <p
-                className={styles.inTheHeart}
+                className={styles.weSupportAgribusiness}
               >{`We support Agribusiness Industry To Utilize modern Equipments `}</p>
-              <p className={styles.inTheHeart}>for a Better Result.</p>
+              <p className={styles.weSupportAgribusiness}>
+                for a Better Result.
+              </p>
             </b>
             <div
               className={styles.vectorParent}
-              onClick={onFrameContainer4Click}
+              onClick={onFrameContainerClick}
             >
               <img
-                className={styles.arrowIcon}
+                className={styles.frameChild}
                 alt=""
-                src="/arrow-9.svg"
+                src="/arrow-91.svg"
                 onClick={onArrowIconClick}
               />
               <div
@@ -87,7 +89,7 @@ const CTA: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className={styles.projectArrow}>
+      <div className={styles.baseWrapper}>
         <div className={styles.base} />
       </div>
     </div>

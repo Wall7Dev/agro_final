@@ -114,9 +114,9 @@
 }
 .linkAbout1 {
   position: absolute;
-  top: -7.04%;
+  top: -6.67%;
   left: 0;
-  font-size: var(--font-size-2xs-3);
+  font-size: var(--font-size-mini);
   letter-spacing: 0.25px;
   line-height: 15.18px;
   font-weight: 500;
@@ -127,7 +127,6 @@
 }
 .contactUs:hover,
 .linkAbout1:hover,
-.linkPricing3:hover,
 .linkPricing:hover {
   color: var(--color-goldenrod-100);
 }
@@ -136,9 +135,9 @@
   border: 0;
   padding: 0;
   background-color: transparent;
-  width: 33.2px;
+  width: 49px;
   position: relative;
-  height: 14.2px;
+  height: 15px;
 }
 .homecChild {
   width: 31.6px;
@@ -148,7 +147,7 @@
   display: none;
 }
 .homec {
-  width: 33.2px;
+  width: 49px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -159,7 +158,7 @@
 .linkPricing {
   height: 16px;
   position: relative;
-  font-size: var(--font-size-2xs-3);
+  font-size: var(--font-size-mini);
   letter-spacing: 0.25px;
   line-height: 15.18px;
   font-weight: 500;
@@ -197,19 +196,6 @@
 .clientspartners {
   justify-content: center;
 }
-.linkPricing3 {
-  height: 16px;
-  position: relative;
-  font-size: var(--font-size-xs-7);
-  letter-spacing: 0.25px;
-  line-height: 15.18px;
-  font-weight: 500;
-  font-family: var(--font-inter);
-  color: var(--color-white);
-  text-align: left;
-  display: inline-block;
-  cursor: pointer;
-}
 .mediaChild {
   width: 37px;
   position: relative;
@@ -234,7 +220,7 @@
 .homecParent {
   flex-direction: row;
   justify-content: flex-end;
-  gap: 0 16px;
+  gap: 0 20px;
 }
 .handburgerChild,
 .handburgerInner {
@@ -260,7 +246,7 @@
   height: 17px;
   flex: 1;
   position: relative;
-  font-size: var(--font-size-xs-9);
+  font-size: var(--font-size-mini);
   line-height: 16.13px;
   font-weight: 600;
   font-family: var(--font-inter);
@@ -333,9 +319,9 @@
   justify-content: flex-start;
   z-index: 0;
 }
-.managementTeamChild,
-.managementTeamInner,
-.managementTeamItem {
+.managementChild,
+.managementInner,
+.managementItem {
   width: 1011.9px;
   position: absolute;
   margin: 0 !important;
@@ -344,13 +330,13 @@
   height: 1011.9px;
   z-index: 1;
 }
-.managementTeamInner,
-.managementTeamItem {
+.managementInner,
+.managementItem {
   top: 615px;
   left: 741.5px;
   z-index: 2;
 }
-.managementTeamInner {
+.managementInner {
   width: 758.9px;
   top: 1171.5px;
   left: -143.1px;
@@ -513,7 +499,7 @@
 .experienceBoard {
   padding: 23.71527862548828px 0 0;
 }
-.managementTeam2 {
+.managementTeam1 {
   align-self: stretch;
   position: relative;
   letter-spacing: 0.1em;
@@ -548,7 +534,10 @@
 .samuelOsewKwatia {
   align-self: stretch;
   position: relative;
+}
+.samuelOsewKwatia {
   line-height: 25.3px;
+  font-weight: 600;
 }
 .groupCfo {
   font-size: var(--font-size-base-8);
@@ -573,7 +562,7 @@
 .priscillaIsA {
   align-self: stretch;
   position: relative;
-  font-size: var(--font-size-smi-6);
+  font-size: var(--font-size-base);
   line-height: 18.97px;
 }
 .priscillaAbbanUubwrj1Parent {
@@ -646,6 +635,11 @@
   height: 295.7px;
   object-fit: cover;
 }
+.castroAntwiDanso {
+  align-self: stretch;
+  position: relative;
+  line-height: 25.3px;
+}
 .castroAntwiDansoParent {
   flex: 1;
   display: flex;
@@ -669,27 +663,27 @@
   justify-content: center;
   gap: 0 23.72px;
 }
+.josephYawsonZ33al81Icon,
 .morenikeAyodeleKvka9n1Icon {
-  width: 227.7px;
   position: relative;
   border-radius: 15.81px;
-  height: 382.6px;
   object-fit: cover;
 }
-.morenikeIsAn {
-  align-self: stretch;
-  position: relative;
-  font-size: var(--font-size-xs-9);
-  line-height: 18.97px;
+.morenikeAyodeleKvka9n1Icon {
+  width: 227.7px;
+  height: 382.6px;
 }
 .josephYawsonZ33al81Icon {
   flex: 1;
-  position: relative;
-  border-radius: 15.81px;
   max-width: 100%;
   overflow: hidden;
   height: 335px;
-  object-fit: cover;
+}
+.josephIsAn {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-smi-6);
+  line-height: 18.97px;
 }
 .josephYawsonZ33al81Parent {
   width: 479.1px;
@@ -710,13 +704,13 @@
 }
 .experienceBoardParent,
 .frameParent1,
-.managementTeam1 {
+.managementTeam {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
 }
-.managementTeam1 {
+.managementTeam {
   align-self: stretch;
   gap: 39.53px 0;
   font-size: 79.1px;
@@ -955,8 +949,7 @@
 .nowWere3:hover,
 .nowWere4:hover,
 .nowWere5:hover,
-.nowWere6:hover,
-.nowWere8:hover {
+.nowWere6:hover {
   color: var(--color-goldenrod-300);
 }
 .nowWereFrame {
@@ -1012,94 +1005,118 @@
   object-fit: cover;
   display: none;
 }
-.frameParent10,
 .nowWereGroup {
-  align-self: stretch;
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-.nowWereGroup {
   justify-content: center;
   cursor: pointer;
 }
+.frameParent10,
+.nowWere7,
+.nowWereGroup {
+  align-self: stretch;
+  display: flex;
+}
 .frameParent10 {
   height: 113.8px;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: space-between;
   font-size: var(--font-size-smi-6);
   color: var(--color-white);
 }
-.nowWere7,
-.nowWere8 {
-  align-self: stretch;
+.nowWere7 {
   position: relative;
   letter-spacing: 0.71px;
-}
-.nowWere7 {
   line-height: 36.36px;
   text-transform: uppercase;
   font-weight: 500;
-  display: flex;
   align-items: center;
-  height: 36.4px;
+  height: 17.4px;
   flex-shrink: 0;
 }
-.nowWere8 {
-  font-size: var(--font-size-smi-6);
-  line-height: 18.97px;
-  text-transform: capitalize;
-  font-weight: 600;
-  color: var(--color-white);
-}
-.nowWereParent1 {
-  align-self: stretch;
+.nowWereWrapper3 {
+  width: 127.1px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 3.16px 0;
 }
-.nowWere10,
-.nowWere9 {
-  align-self: stretch;
+.a {
+  text-transform: uppercase;
+}
+.grsopectrum {
+  text-transform: lowercase;
+}
+.agrsopectrumLtdTxtContainer {
+  width: 100%;
+}
+.agrsopectrumLtd {
+  width: 119.4px;
   position: relative;
   letter-spacing: 0.71px;
   line-height: 36.36px;
-  text-transform: uppercase;
   font-weight: 600;
-}
-.nowWere10 {
-  line-height: 18.97px;
-  text-transform: capitalize;
-  font-weight: 500;
-}
-.nowWereParent2,
-.nowWereParent3 {
-  align-self: stretch;
-  flex-direction: column;
-}
-.nowWereParent3 {
+  color: var(--color-white);
   display: flex;
+  align-items: center;
+  height: 19.8px;
+  flex-shrink: 0;
+}
+.frameParent12 {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 7.91px 0;
 }
+.nowWere8,
+.nowWere9 {
+  position: relative;
+  letter-spacing: 0.71px;
+}
+.nowWere8 {
+  width: 133.6px;
+  line-height: 36.36px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: 16.6px;
+  flex-shrink: 0;
+}
+.nowWere9 {
+  align-self: stretch;
+  line-height: 18.97px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.nowWereParent1,
 .nowWereParent2 {
+  flex-direction: column;
   gap: 11.86px 0;
+}
+.nowWereParent2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nowWereParent1 {
+  width: 190.8px;
   font-size: var(--font-size-smi-6);
   color: var(--color-white);
 }
 .frameParent11,
 .frameParent9,
-.nowWereParent2 {
+.nowWereParent1 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .frameParent11 {
-  flex: 1;
   flex-direction: column;
-  gap: 26.88px 0;
+  gap: 25.3px 0;
   font-size: var(--font-size-xs-9);
 }
 .frameParent9 {
@@ -1107,15 +1124,20 @@
   flex-direction: row;
   gap: 0 7.91px;
 }
-.nowWere14 {
+.nowWere12,
+.nowWere13 {
   align-self: stretch;
   position: relative;
   letter-spacing: 0.71px;
   line-height: 36.36px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.nowWere13 {
   text-transform: capitalize;
   font-weight: 500;
 }
-.nowWereParent4 {
+.nowWereParent3 {
   align-self: stretch;
   flex: 1;
   display: flex;
@@ -1124,8 +1146,8 @@
   justify-content: flex-start;
   gap: 7.91px 0;
 }
-.nowWere17,
-.nowWere18 {
+.nowWere16,
+.nowWere17 {
   align-self: stretch;
   position: relative;
   letter-spacing: 0.71px;
@@ -1133,35 +1155,35 @@
   text-transform: capitalize;
   font-weight: 600;
 }
-.nowWere18 {
+.nowWere17 {
   font-weight: 500;
   display: flex;
   align-items: center;
   height: 21.3px;
   flex-shrink: 0;
 }
-.nowWereParent5,
-.nowWereParent6 {
+.nowWereParent4,
+.nowWereParent5 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.nowWereParent6 {
+.nowWereParent5 {
   align-self: stretch;
   gap: 5.53px 0;
 }
-.nowWereParent5 {
+.nowWereParent4 {
   flex: 1;
   gap: 2.37px 0;
 }
-.frameParent12,
+.frameParent13,
 .frameParent8 {
   align-self: stretch;
   display: flex;
   align-items: flex-start;
 }
-.frameParent12 {
+.frameParent13 {
   flex-direction: row;
   justify-content: space-between;
   font-size: var(--font-size-smi-6);
@@ -1175,7 +1197,7 @@
   font-size: var(--font-size-xs-1);
 }
 .frameItem,
-.nowWere19 {
+.nowWere18 {
   position: relative;
   cursor: pointer;
 }
@@ -1186,7 +1208,7 @@
 .frameItem:hover {
   width: 24px;
 }
-.nowWere19 {
+.nowWere18 {
   font-size: var(--font-size-mini-2);
   letter-spacing: 0.91px;
   line-height: 46.43px;
@@ -1196,10 +1218,10 @@
   color: var(--color-white);
   text-align: left;
 }
-.nowWere19:hover {
+.nowWere18:hover {
   font-size: var(--font-size-4xl);
 }
-.nowWere21,
+.nowWere20,
 .vectorParent {
   display: flex;
   align-items: center;
@@ -1213,7 +1235,7 @@
   justify-content: flex-start;
   gap: 0 15.81px;
 }
-.nowWere21 {
+.nowWere20 {
   position: absolute;
   height: 203.76%;
   width: 96.17%;
@@ -1224,22 +1246,23 @@
   text-transform: uppercase;
   font-weight: 500;
 }
-.nowWere20,
-.nowWere22 {
+.nowWere19,
+.nowWere21 {
   align-self: stretch;
   position: relative;
 }
-.nowWere20 {
+.nowWere19 {
   height: 21.3px;
 }
-.nowWere22 {
+.nowWere21 {
   letter-spacing: 1.06px;
   line-height: 54.25px;
   text-transform: capitalize;
   font-weight: 500;
   color: var(--color-white);
+  cursor: pointer;
 }
-.nowWereParent7 {
+.nowWereParent6 {
   align-self: stretch;
   height: 46.6px;
   display: flex;
@@ -1248,7 +1271,7 @@
   justify-content: flex-start;
   gap: 7.91px 0;
 }
-.nowWere24 {
+.nowWere23 {
   position: absolute;
   width: 96.17%;
   top: -57.77%;
@@ -1260,12 +1283,12 @@
   display: flex;
   align-items: center;
 }
-.nowWere23 {
+.nowWere22 {
   align-self: stretch;
   position: relative;
   height: 20.6px;
 }
-.nowWere26 {
+.nowWere25 {
   position: absolute;
   top: 5.5px;
   left: -0.8px;
@@ -1274,13 +1297,13 @@
   text-transform: lowercase;
   font-weight: 500;
 }
-.nowWere25 {
+.nowWere24 {
   align-self: stretch;
   position: relative;
   height: 20.6px;
   color: var(--color-white);
 }
-.nowWereParent8 {
+.nowWereParent7 {
   width: 208.7px;
   display: flex;
   flex-direction: column;
@@ -1288,7 +1311,7 @@
   justify-content: flex-start;
   gap: 7.91px 0;
 }
-.nowWere28 {
+.nowWere27 {
   position: absolute;
   top: -25.65%;
   left: 0;
@@ -1298,7 +1321,7 @@
   font-weight: 500;
 }
 .groupIcon,
-.nowWere27 {
+.nowWere26 {
   width: 103.6px;
   position: relative;
   height: 30.8px;
@@ -1320,18 +1343,19 @@
   justify-content: center;
   padding: 15.751519203186035px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 .vectorIcon {
   width: 6.2px;
   position: relative;
   height: 11.9px;
 }
-.vectorWrapper {
+.facebook {
   width: 37.4px;
   border-radius: 29.14px;
   background-color: var(--color-darkgray-300);
   height: 38.6px;
-  display: flex;
+  display: none;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -1343,14 +1367,14 @@
   position: relative;
   height: 11.1px;
 }
-.frame {
+.twitter {
   width: 35.8px;
   border-radius: 46.07px;
   background-color: var(--color-darkgray-300);
   height: 35.8px;
   overflow: hidden;
   flex-shrink: 0;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -1362,7 +1386,7 @@
   position: relative;
   height: 11.9px;
 }
-.vectorContainer {
+.linkedinAgrospectrem {
   width: 39px;
   border-radius: var(--br-12xl-9);
   background-color: var(--color-darkgray-300);
@@ -1373,6 +1397,7 @@
   justify-content: center;
   padding: 15.751519203186035px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 .instagramParent {
   display: flex;
@@ -1381,21 +1406,21 @@
   justify-content: flex-start;
   gap: 0 13.44px;
 }
-.frameParent13,
-.nowWereParent9 {
+.frameParent14,
+.nowWereParent8 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.nowWereParent9 {
+.nowWereParent8 {
   align-self: stretch;
   height: 78.3px;
   padding: 0 3.9525463581085205px;
   gap: 7.91px 0;
 }
-.frameParent13 {
+.frameParent14 {
   height: 292.5px;
   flex: 1;
   padding: 23.71527862548828px;
@@ -1445,8 +1470,8 @@
   justify-content: center;
   padding: 0 237.1527862548828px;
 }
-.nowWere29,
-.nowWere30 {
+.nowWere28,
+.nowWere29 {
   width: 320.9px;
   position: relative;
   letter-spacing: 0.71px;
@@ -1457,10 +1482,10 @@
   height: 22.1px;
   flex-shrink: 0;
 }
-.nowWere30 {
+.nowWere29 {
   width: 421.3px;
 }
-.nowWereParent10 {
+.nowWereParent9 {
   align-self: stretch;
   background-color: var(--color-darkslategray-300);
   display: flex;
@@ -1469,14 +1494,14 @@
   justify-content: space-between;
   padding: 7.905092716217041px 181.817138671875px;
 }
-.frameParent14 {
+.frameParent15 {
   align-self: stretch;
   align-items: center;
   justify-content: flex-start;
 }
 .footerComponent,
-.frameParent14,
-.managementTeam {
+.frameParent15,
+.management {
   display: flex;
   flex-direction: column;
 }
@@ -1489,7 +1514,7 @@
   font-size: var(--font-size-smi-6);
   color: var(--color-white);
 }
-.managementTeam {
+.management {
   width: 100%;
   position: relative;
   background-color: var(--color-darkolivegreen-200);
@@ -1517,7 +1542,7 @@
     padding-right: var(--padding-41xl);
     box-sizing: border-box;
   }
-  .frameParent13,
+  .frameParent14,
   .frameParent8,
   .transform {
     flex: unset;
@@ -1536,7 +1561,7 @@
     align-self: stretch;
     width: auto;
   }
-  .nowWereParent10 {
+  .nowWereParent9 {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -1569,7 +1594,7 @@
     flex: unset;
     align-self: stretch;
   }
-  .managementTeam2 {
+  .managementTeam1 {
     font-size: var(--font-size-46xl);
   }
   .baseParent {
@@ -1635,7 +1660,7 @@
     box-sizing: border-box;
   }
   .experienceBoard1,
-  .managementTeam2 {
+  .managementTeam1 {
     font-size: var(--font-size-26xl);
   }
   .frameDiv {
@@ -1651,11 +1676,11 @@
   .frameInner {
     width: 400px;
   }
-  .nowWere29,
-  .nowWere30 {
+  .nowWere28,
+  .nowWere29 {
     font-size: var(--font-size-xs);
   }
-  .nowWereParent10 {
+  .nowWereParent9 {
     padding-top: var(--padding-8xs);
     padding-bottom: var(--padding-8xs);
     box-sizing: border-box;

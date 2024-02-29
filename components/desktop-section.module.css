@@ -47,15 +47,24 @@
   }
 }
 .bgBlur2,
+.bgBlurIcon,
+.desktopSection2Child {
+  width: 480.6px;
+  position: absolute;
+  margin: 0 !important;
+  top: -96.4px;
+  left: 990.5px;
+  height: 480.8px;
+  z-index: 0;
+}
+.bgBlur2,
 .bgBlurIcon {
   width: 628.8px;
   height: 941.8px;
-  position: absolute;
-  margin: 0 !important;
   top: 326.6px;
   left: -139.9px;
   opacity: 0;
-  z-index: 0;
+  z-index: 1;
 }
 .bgBlurIcon.animate {
   animation: 13s ease 2s infinite normal forwards slide-in-top;
@@ -68,7 +77,7 @@
   border-radius: 50%;
   background-color: var(--color-goldenrod-600);
   filter: blur(115.91px);
-  z-index: 1;
+  z-index: 2;
 }
 .bgBlur2.animate {
   animation: 30s ease 0s infinite reverse forwards bounce-in-top;
@@ -82,14 +91,8 @@
 .agrospectrumLimitedIs {
   align-self: stretch;
   position: relative;
-  font-size: var(--font-size-smi-7);
-  font-weight: 300;
+  font-size: var(--font-size-lg);
   color: var(--color-white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 61px;
-  flex-shrink: 0;
 }
 .workWith {
   font-weight: 800;
@@ -116,7 +119,7 @@
   justify-content: flex-start;
   padding: var(--padding-21xl) 0 var(--padding-xl);
   gap: 8px 0;
-  z-index: 2;
+  z-index: 3;
 }
 .frameChild {
   align-self: stretch;
@@ -136,27 +139,22 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+.inTheHeart,
 .weOfferA {
   align-self: stretch;
-  height: 72px;
   position: relative;
-  font-weight: 600;
   display: inline-block;
   opacity: 1;
+}
+.weOfferA {
+  height: 72px;
+  font-weight: 600;
 }
 .inTheHeart {
-  margin: 0;
+  height: 154px;
+  font-size: var(--font-size-lg);
 }
-.inTheHeartContainer {
-  align-self: stretch;
-  height: 80px;
-  position: relative;
-  font-size: var(--font-size-smi);
-  font-weight: 300;
-  display: inline-block;
-  opacity: 1;
-}
-.inTheHeartContainer.animate {
+.inTheHeart.animate {
   animation: 2s ease 0s 1 normal forwards scale-up;
 }
 .weOfferAComprehensiveSuiteParent {
@@ -183,22 +181,26 @@
   flex-direction: row;
   gap: 60.09px;
 }
+.unlockingGhanasAgricultural {
+  margin: 0;
+}
 .ghanasAgriculturalSector,
 .unlockingGhanasAgriculturalContainer {
   align-self: stretch;
-  height: 58px;
   position: relative;
-  font-weight: 600;
   display: inline-block;
   opacity: 1;
+}
+.unlockingGhanasAgriculturalContainer {
+  height: 58px;
+  font-weight: 600;
 }
 .unlockingGhanasAgriculturalContainer.animate {
   animation: 1s ease 0s 1 normal forwards scale-up;
 }
 .ghanasAgriculturalSector {
-  height: 102px;
-  font-size: var(--font-size-mini-2);
-  font-weight: 300;
+  height: 176px;
+  font-size: var(--font-size-lg);
 }
 .ghanasAgriculturalSector.animate {
   animation: 2s ease 0s 1 normal forwards scale-up;
@@ -218,44 +220,36 @@
   height: 274.4px;
   align-items: center;
 }
+.desktopSection2,
 .featuresimages,
 .frameGroup {
   align-self: stretch;
   display: flex;
+  justify-content: flex-start;
+}
+.frameGroup {
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
   gap: 0 60.09px;
   font-size: var(--font-size-4xl-7);
 }
+.desktopSection2,
 .featuresimages {
   flex-direction: column;
   align-items: center;
+}
+.featuresimages {
   padding: 0 0 var(--padding-21xl);
   gap: 60px 0;
-  z-index: 3;
+  z-index: 4;
   text-align: left;
   font-size: var(--font-size-xl);
   color: var(--color-white);
   font-family: var(--font-inter);
 }
-.desktopSection2Child {
-  width: 480.6px;
-  position: absolute;
-  margin: 0 !important;
-  top: -96.4px;
-  left: 990.5px;
-  height: 480.8px;
-  z-index: 4;
-}
 .desktopSection2 {
-  align-self: stretch;
   background-color: var(--color-darkolivegreen-600);
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
   padding: 0 var(--padding-221xl);
   position: relative;
   gap: 7.91px;
@@ -277,7 +271,7 @@
   .weOfferA {
     font-size: var(--font-size-mini);
   }
-  .inTheHeartContainer {
+  .inTheHeart {
     font-size: var(--font-size-smi);
   }
   .unlockingGhanasAgriculturalContainer {

@@ -42,7 +42,7 @@ const AboutUSPage: NextPage = () => {
     router.push("/");
   }, [router]);
 
-  const onAboutUsClick = useCallback(() => {
+  const onAboutUs1Click = useCallback(() => {
     router.push("/about-u-s-page");
   }, [router]);
 
@@ -121,7 +121,7 @@ const AboutUSPage: NextPage = () => {
   }, []);
   return (
     <>
-      <main className={styles.aboutusPage} id="6-aboutsUs-pageMain">
+      <main className={styles.aboutus} id="6-aboutsUs-pageMain">
         <header className={styles.allnavs}>
           <nav className={styles.navdesktop} id="navBar">
             <div className={styles.logorightnavlink}>
@@ -193,7 +193,7 @@ const AboutUSPage: NextPage = () => {
                       src="/line-12@2x.png"
                     />
                   </div>
-                  <button className={styles.aboutus} onClick={onAboutUsClick}>
+                  <button className={styles.aboutus1} onClick={onAboutUs1Click}>
                     <div
                       className={styles.linkPricing}
                       onClick={onLinkPricingClick}
@@ -226,7 +226,7 @@ const AboutUSPage: NextPage = () => {
                   </button>
                   <button className={styles.media} onClick={onMediaClick}>
                     <div
-                      className={styles.linkPricing3}
+                      className={styles.linkPricing}
                       onClick={onLinkPricing4Click}
                     >
                       Media

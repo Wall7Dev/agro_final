@@ -72,10 +72,7 @@
   position: relative;
   letter-spacing: 0.7px;
   line-height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 101.8px;
+  font-weight: 300;
   text-shadow: 0 3.1px 4.65px rgba(0, 0, 0, 0.25);
 }
 .aRevolutionaryDigitalInnoWrapper {
@@ -162,9 +159,30 @@
   }
 }
 @media screen and (max-width: 960px) {
+  .empoweringFarmersAndContainer {
+    font-size: var(--font-size-21xl);
+  }
+  .aRevolutionaryDigital {
+    font-size: var(--font-size-sm);
+  }
+  .scrollDown {
+    height: 58px;
+  }
+  .bgBlurParent {
+    gap: 22.47px 0;
+  }
   .div {
-    display: none;
-    padding: var(--padding-26xl) var(--padding-61xl);
+    display: flex;
+    padding: var(--padding-21xl) var(--padding-51xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .scrollDown {
+    height: 40px;
+  }
+  .div {
+    padding: var(--padding-xl) var(--padding-21xl);
     box-sizing: border-box;
   }
 }

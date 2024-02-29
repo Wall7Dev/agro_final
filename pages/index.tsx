@@ -217,7 +217,7 @@ const Homepage: NextPage = () => {
                   <img
                     className={styles.images21}
                     alt=""
-                    src="/images-2-1@2x.png"
+                    src="/images-2-12@2x.png"
                   />
                 </button>
                 <div
@@ -228,7 +228,7 @@ const Homepage: NextPage = () => {
                     className={styles.logoIcon}
                     id="logo"
                     alt=""
-                    src="/logo@2x.png"
+                    src="/logo10@2x.png"
                   />
                 </div>
               </div>
@@ -280,7 +280,7 @@ const Homepage: NextPage = () => {
                   </button>
                   <button className={styles.media} onClick={onMediaClick}>
                     <div
-                      className={styles.linkPricing3}
+                      className={styles.linkPricing}
                       onClick={onLinkPricing4Click}
                     >
                       Media

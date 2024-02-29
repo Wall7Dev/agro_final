@@ -38,7 +38,7 @@
 .frameParent {
   flex-direction: row;
   justify-content: center;
-  padding: 15.496313095092773px 0;
+  padding: var(--padding-xl) 0;
   gap: 54.24px;
 }
 .aggregation,
@@ -53,7 +53,7 @@
   background-color: var(--color-goldenrod-300);
   justify-content: center;
   text-align: left;
-  font-size: var(--font-size-sm-9);
+  font-size: var(--font-size-lg);
   color: var(--color-darkslategray-100);
   font-family: var(--font-poppins);
 }
