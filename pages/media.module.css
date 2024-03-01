@@ -393,6 +393,9 @@
 .cardText2 {
   gap: 22.77px 0;
 }
+.cardText1 {
+  cursor: pointer;
+}
 .cardText2 {
   padding: 53.122222900390625px 0;
   opacity: 0.25;

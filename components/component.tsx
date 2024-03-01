@@ -35,7 +35,7 @@ const Component: NextPage = () => {
   return (
     <div className={styles.div}>
       <div className={styles.bgBlurParent}>
-        <img className={styles.bgBlurIcon} alt="" src="/bg-blur1.svg" />
+        <img className={styles.bgBlurIcon} alt="" src="/bg-blur.svg" />
         <div className={styles.empoweringFarmersAndUnlockWrapper}>
           <div className={styles.empoweringFarmersAndContainer}>
             <span className={styles.empowering}>{`Empowering `}</span>

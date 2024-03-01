@@ -85,6 +85,10 @@ const Media: NextPage = () => {
     router.push("/contact-p-age");
   }, [router]);
 
+  const onCardText1Click = useCallback(() => {
+    router.push("/blog-page3");
+  }, [router]);
+
   const onBtnContainerClick = useCallback(() => {
     router.push("/desktop1");
   }, [router]);
@@ -367,16 +371,16 @@ const Media: NextPage = () => {
               <div className={styles.card}>
                 <div className={styles.img}>
                   <img className={styles.blurIcon} alt="" src="/blur@2x.png" />
-                  <img className={styles.imgIcon} alt="" src="/img@2x.png" />
+                  <img className={styles.imgIcon} alt="" src="/img12@2x.png" />
                 </div>
               </div>
               <div className={styles.events}>Events</div>
             </div>
-            <div className={styles.cardText1}>
+            <div className={styles.cardText1} onClick={onCardText1Click}>
               <div className={styles.card}>
                 <div className={styles.img}>
                   <img className={styles.blurIcon} alt="" src="/blur1@2x.png" />
-                  <img className={styles.imgIcon} alt="" src="/img@2x.png" />
+                  <img className={styles.imgIcon} alt="" src="/img13@2x.png" />
                 </div>
               </div>
               <div className={styles.events}>Awards</div>
@@ -384,8 +388,8 @@ const Media: NextPage = () => {
             <div className={styles.cardText2}>
               <div className={styles.card}>
                 <div className={styles.img}>
-                  <img className={styles.blurIcon} alt="" src="/blur@2x.png" />
-                  <img className={styles.imgIcon} alt="" src="/img@2x.png" />
+                  <img className={styles.blurIcon} alt="" src="/blur7@2x.png" />
+                  <img className={styles.imgIcon} alt="" src="/img14@2x.png" />
                 </div>
               </div>
               <div className={styles.events}>Input Credit</div>
@@ -398,7 +402,7 @@ const Media: NextPage = () => {
                     alt=""
                     src="/blur3@2x.png"
                   />
-                  <img className={styles.imgIcon3} alt="" src="/img@2x.png" />
+                  <img className={styles.imgIcon3} alt="" src="/img15@2x.png" />
                 </div>
               </div>
               <div className={styles.events}>Mountaineer</div>
@@ -407,7 +411,11 @@ const Media: NextPage = () => {
           <div className={styles.ourMedia}>Our Media</div>
           <div className={styles.btns}>
             <div className={styles.btn} onClick={onBtnContainerClick}>
-              <img className={styles.bgBlurIcon} alt="" src="/bg-blur@2x.png" />
+              <img
+                className={styles.bgBlurIcon}
+                alt=""
+                src="/bg-blur1@2x.png"
+              />
               <div className={styles.button}>
                 <div className={styles.div}>←</div>
               </div>
