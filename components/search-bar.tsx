@@ -123,7 +123,7 @@ const SearchBar: NextPage = () => {
           </div>
           <div className={styles.eSubsidiary}>
             <div className={styles.nationwide3}>@Nationwide</div>
-            <img className={styles.baseIcon} alt="" src="/base5@2x.png" />
+            <img className={styles.baseIcon} alt="" />
             <div
               className={styles.ourClimateSmartSolution}
             >{`Our climate-smart solution empowers farmers across languages with vital information like weather forecasts, disaster preparedness & agro-advice.`}</div>
@@ -141,11 +141,7 @@ const SearchBar: NextPage = () => {
         </div>
       </div>
       <div className={styles.projectArrow}>
-        <img
-          className={styles.projectArrowChild}
-          alt=""
-          src="/frame-1210@2x.png"
-        />
+        <img className={styles.projectArrowChild} alt="" />
         <div className={styles.navigation}>
           <div className={styles.divider} />
         </div>

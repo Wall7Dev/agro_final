@@ -414,7 +414,7 @@ const Media: NextPage = () => {
               <img
                 className={styles.bgBlurIcon}
                 alt=""
-                src="/bg-blur1@2x.png"
+                src="/bg-blur11@2x.png"
               />
               <div className={styles.button}>
                 <div className={styles.div}>←</div>

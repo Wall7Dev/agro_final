@@ -59,11 +59,7 @@ const FOOTERCOMPONENT: NextPage = () => {
       <div className={styles.component1}>
         <div className={styles.frameParent}>
           <div className={styles.download5Parent}>
-            <img
-              className={styles.download5Icon}
-              alt=""
-              src="/download-551@2x.png"
-            />
+            <img className={styles.download5Icon} alt="" />
             <img
               className={styles.download5Icon1}
               alt=""

@@ -6,12 +6,16 @@ import styles from "./desktop2.module.css";
 const Desktop2: NextPage = () => {
   const router = useRouter();
 
+  const onOurMediaTextClick = useCallback(() => {
+    router.push("/media");
+  }, [router]);
+
   const onBtnContainer1Click = useCallback(() => {
     router.push("/desktop1");
   }, [router]);
 
   return (
-    <div className={styles.desktop}>
+    <div className={styles.mediaimage2}>
       <img className={styles.bottomBlurIcon} alt="" src="/bottom-blur@2x.png" />
       <div className={styles.container}>
         <div className={styles.cardText}>
@@ -51,7 +55,9 @@ const Desktop2: NextPage = () => {
           <div className={styles.coralReef}>Enumerations</div>
         </div>
       </div>
-      <div className={styles.ourMedia}>Our Media</div>
+      <div className={styles.ourMedia} onClick={onOurMediaTextClick}>
+        Our Media
+      </div>
       <div className={styles.btns}>
         <div className={styles.btn}>
           <img className={styles.bgBlurIcon} alt="" src="/bg-blur4@2x.png" />

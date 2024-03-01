@@ -42,75 +42,31 @@ const Frameinstagram: NextPage = () => {
         <div className={styles.frameParent} data-animate-on-scroll>
           <div className={styles.frameGroup}>
             <section className={styles.download5Parent}>
-              <img
-                className={styles.download5Icon}
-                alt=""
-                src="/download-54@2x.png"
-              />
-              <img
-                className={styles.download3Icon}
-                alt=""
-                src="/download-32@2x.png"
-              />
+              <img className={styles.download5Icon} alt="" />
+              <img className={styles.download3Icon} alt="" />
             </section>
             <section className={styles.captureParent}>
-              <img
-                className={styles.captureIcon}
-                alt=""
-                src="/capture2@2x.png"
-              />
-              <img
-                className={styles.download6Icon}
-                alt=""
-                src="/download-62@2x.png"
-              />
+              <img className={styles.captureIcon} alt="" />
+              <img className={styles.download6Icon} alt="" />
             </section>
           </div>
           <section className={styles.frameContainer}>
             <section className={styles.download5Group}>
-              <img
-                className={styles.download5Icon1}
-                alt=""
-                src="/download-55@2x.png"
-              />
-              <img
-                className={styles.download2Icon}
-                alt=""
-                src="/download-22@2x.png"
-              />
-              <img
-                className={styles.ignitiaLogo1Icon}
-                alt=""
-                src="/ignitialogo-1@2x.png"
-              />
+              <img className={styles.download5Icon1} alt="" />
+              <img className={styles.download2Icon} alt="" />
+              <img className={styles.ignitiaLogo1Icon} alt="" />
             </section>
             <section className={styles.download1Parent}>
-              <img
-                className={styles.download1Icon}
-                alt=""
-                src="/download-12@2x.png"
-              />
-              <img
-                className={styles.images1Icon}
-                alt=""
-                src="/images-12@2x.png"
-              />
+              <img className={styles.download1Icon} alt="" />
+              <img className={styles.images1Icon} alt="" />
               <div className={styles.agromiteParent}>
                 <div className={styles.agromite}>AGROMITE</div>
-                <img
-                  className={styles.downloadIcon}
-                  alt=""
-                  src="/download2@2x.png"
-                />
+                <img className={styles.downloadIcon} alt="" />
               </div>
             </section>
           </section>
           <section className={styles.mofaColorWrapper}>
-            <img
-              className={styles.mofaColorIcon}
-              alt=""
-              src="/mofa-color2@2x.png"
-            />
+            <img className={styles.mofaColorIcon} alt="" />
           </section>
         </div>
       </section>

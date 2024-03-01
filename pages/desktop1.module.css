@@ -45,26 +45,29 @@
   font-weight: 900;
   text-shadow: 0 3.8px 22.77px rgba(0, 0, 0, 0.25);
 }
-.cardText {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 106.24444580078125px 0;
-  gap: 30.36px 0;
-  opacity: 0.25;
-}
-.cardText1 {
-  padding: 53.122222900390625px 0;
-  opacity: 0.25;
-}
+.cardText,
 .cardText1,
 .cardText2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+}
+.cardText {
+  padding: 106.24444580078125px 0;
+  gap: 30.36px 0;
+  opacity: 0.25;
+}
+.cardText1,
+.cardText2 {
   gap: 22.77px 0;
+}
+.cardText1 {
+  padding: 53.122222900390625px 0;
+  opacity: 0.25;
+}
+.cardText2 {
+  cursor: pointer;
 }
 .blurIcon3 {
   width: 379.4px;
@@ -118,6 +121,7 @@
   color: var(--color-goldenrod-300);
   text-shadow: 0 3.8px 22.77px rgba(0, 0, 0, 0.25);
   opacity: 0.55;
+  cursor: pointer;
 }
 .bgBlurIcon {
   width: 101.29%;
@@ -153,16 +157,17 @@
   padding: 18.97222328186035px 37.9444465637207px;
   z-index: 1;
 }
+.btn {
+  cursor: pointer;
+}
 .btn,
+.btn1,
 .btns {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.btn {
-  flex-direction: column;
   position: relative;
-  cursor: pointer;
 }
 .btns {
   position: absolute;
@@ -172,7 +177,7 @@
   gap: 0 15.18px;
   font-size: var(--font-size-5xl-6);
 }
-.desktop {
+.mediaImage1 {
   width: 100%;
   position: relative;
   height: 782.6px;

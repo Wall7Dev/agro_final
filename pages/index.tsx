@@ -1231,16 +1231,8 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
         </section>
         <div className={styles.outTeam}>
           <div className={styles.dktpTeamFaqCta}>
-            <img
-              className={styles.dktpTeamFaqCtaChild}
-              alt=""
-              src="/vector-21@2x.png"
-            />
-            <img
-              className={styles.dktpTeamFaqCtaItem}
-              alt=""
-              src="/vector-23.svg"
-            />
+            <img className={styles.dktpTeamFaqCtaChild} alt="" />
+            <img className={styles.dktpTeamFaqCtaItem} alt="" />
             <div className={styles.outteam}>
               <div className={styles.ourTeam}>{`Our Team & Experts`}</div>
             </div>
@@ -1249,15 +1241,11 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 Our Team - The big brains behind Agrospectrum
               </div>
             </div>
-            <img
-              className={styles.dktpTeamFaqCtaInner}
-              alt=""
-              src="/vector-22.svg"
-            />
+            <img className={styles.dktpTeamFaqCtaInner} alt="" />
             <div className={styles.cardgropupo} data-animate-on-scroll>
               <div className={styles.xorse}>
                 <div className={styles.xoseAhlijaTeam}>
-                  <img className={styles.baseIcon} alt="" src="/base6@2x.png" />
+                  <img className={styles.baseIcon} alt="" />
                   <div className={styles.block1Parent}>
                     <div className={styles.block1}>
                       <div className={styles.rectangle} />
@@ -1274,7 +1262,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 </div>
               </div>
               <div className={styles.castro}>
-                <img className={styles.baseIcon1} alt="" src="/base7@2x.png" />
+                <img className={styles.baseIcon1} alt="" />
                 <div className={styles.block11}>
                   <div className={styles.rectangle1} />
                 </div>
@@ -1286,7 +1274,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                 </div>
               </div>
               <div className={styles.ottisApalooTeam}>
-                <img className={styles.baseIcon2} alt="" src="/base8@2x.png" />
+                <img className={styles.baseIcon2} alt="" />
                 <div className={styles.block1Group}>
                   <div className={styles.block12}>
                     <div className={styles.rectangle2} />
@@ -1304,7 +1292,6 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                   <img
                     className={styles.gradientmsgChild}
                     alt=""
-                    src="/group-206@2x.png"
                     data-animate-on-scroll
                   />
                   <div className={styles.weSupportAgribusinessIndustParent}>
@@ -1324,7 +1311,6 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                       <img
                         className={styles.arrowIcon}
                         alt=""
-                        src="/arrow-9.svg"
                         onClick={onArrowIconClick}
                       />
                       <div
@@ -1369,11 +1355,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                         </b>
                       </div>
                       <div className={styles.roundplus}>
-                        <img
-                          className={styles.combinedShapeIcon}
-                          alt=""
-                          src="/combined-shape.svg"
-                        />
+                        <img className={styles.combinedShapeIcon} alt="" />
                         <div className={styles.rectangle3} />
                       </div>
                     </div>
@@ -1404,11 +1386,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                         </b>
                       </div>
                       <div className={styles.roundplus1}>
-                        <img
-                          className={styles.combinedShapeIcon}
-                          alt=""
-                          src="/combined-shape.svg"
-                        />
+                        <img className={styles.combinedShapeIcon} alt="" />
                         <div className={styles.rectangle3} />
                       </div>
                     </div>
@@ -1437,11 +1415,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                         Is the platform free ?
                       </b>
                       <div className={styles.roundplus2}>
-                        <img
-                          className={styles.combinedShapeIcon}
-                          alt=""
-                          src="/combined-shape.svg"
-                        />
+                        <img className={styles.combinedShapeIcon} alt="" />
                         <div className={styles.rectangle3} />
                       </div>
                     </div>
@@ -1471,11 +1445,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                         What are some of your partners ?
                       </b>
                       <div className={styles.roundplus3}>
-                        <img
-                          className={styles.combinedShapeIcon}
-                          alt=""
-                          src="/combined-shape.svg"
-                        />
+                        <img className={styles.combinedShapeIcon} alt="" />
                         <div className={styles.rectangle3} />
                       </div>
                     </div>
@@ -1505,11 +1475,7 @@ We provide an ecosystem for all the players in the agricultural supply chain. `}
                         What do i stand to benefit ?
                       </b>
                       <div className={styles.roundplus4}>
-                        <img
-                          className={styles.combinedShapeIcon}
-                          alt=""
-                          src="/combined-shape.svg"
-                        />
+                        <img className={styles.combinedShapeIcon} alt="" />
                         <div className={styles.rectangle3} />
                       </div>
                     </div>

@@ -576,14 +576,12 @@ const Careers: NextPage = () => {
                       <div className={styles.nowWere7}>{`CONTACT US `}</div>
                     </div>
                     <div className={styles.agrsopectrumLtd}>
-                      <span className={styles.agrsopectrumLtdTxtContainer}>
-                        <span className={styles.a}>A</span>
-                        <span
-                          className={styles.grsopectrum}
-                        >{`GRSOPECTRUM `}</span>
-                        <span className={styles.a}>l</span>
-                        <span className={styles.grsopectrum}>TD</span>
-                      </span>
+                      <span className={styles.a}>A</span>
+                      <span
+                        className={styles.grsopectrum}
+                      >{`GRSOPECTRUM `}</span>
+                      <span className={styles.a}>l</span>
+                      <span className={styles.grsopectrum}>TD</span>
                     </div>
                   </div>
                   <div className={styles.nowWereParent1}>
@@ -598,12 +596,12 @@ const Careers: NextPage = () => {
               </div>
               <div className={styles.frameParent7}>
                 <div className={styles.nowWereParent3}>
-                  <div className={styles.nowWere12}>BSL HEAD OFFICE</div>
+                  <div className={styles.nowWere8}>BSL HEAD OFFICE</div>
                   <div className={styles.nowWere13}>No 24 Botwe</div>
                   <div className={styles.nowWere13}>Dzorwulu - Accra</div>
                 </div>
                 <div className={styles.nowWereParent4}>
-                  <div className={styles.nowWere12}>TAMALE office</div>
+                  <div className={styles.nowWere8}>TAMALE office</div>
                   <div className={styles.nowWereParent5}>
                     <div className={styles.nowWere16}>Tamale.</div>
                     <div className={styles.nowWere17}>16 Dagomba Road,</div>
