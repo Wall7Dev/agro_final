@@ -18,7 +18,7 @@ const Desktop2: NextPage = () => {
           <div className={styles.card}>
             <div className={styles.img}>
               <img className={styles.blurIcon} alt="" src="/blur@2x.png" />
-              <img className={styles.imgIcon} alt="" src="/img@2x.png" />
+              <img className={styles.imgIcon} alt="" src="/img8@2x.png" />
             </div>
           </div>
           <div className={styles.coralReef}>Coral Reef</div>
@@ -26,8 +26,8 @@ const Desktop2: NextPage = () => {
         <div className={styles.cardText1}>
           <div className={styles.card}>
             <div className={styles.img}>
-              <img className={styles.blurIcon} alt="" src="/blur@2x.png" />
-              <img className={styles.imgIcon} alt="" src="/img@2x.png" />
+              <img className={styles.blurIcon} alt="" src="/blur4@2x.png" />
+              <img className={styles.imgIcon} alt="" src="/img9@2x.png" />
             </div>
           </div>
           <div className={styles.coralReef}>Ripples</div>
@@ -35,8 +35,8 @@ const Desktop2: NextPage = () => {
         <div className={styles.cardText2}>
           <div className={styles.card}>
             <div className={styles.img}>
-              <img className={styles.blurIcon} alt="" src="/blur@2x.png" />
-              <img className={styles.imgIcon} alt="" src="/img@2x.png" />
+              <img className={styles.blurIcon} alt="" src="/blur5@2x.png" />
+              <img className={styles.imgIcon} alt="" src="/img10@2x.png" />
             </div>
           </div>
           <div className={styles.coralReef}>Input Credit</div>
@@ -44,8 +44,8 @@ const Desktop2: NextPage = () => {
         <div className={styles.cardText3}>
           <div className={styles.card3}>
             <div className={styles.img3}>
-              <img className={styles.blurIcon3} alt="" src="/blur@2x.png" />
-              <img className={styles.imgIcon3} alt="" src="/img@2x.png" />
+              <img className={styles.blurIcon3} alt="" src="/blur6@2x.png" />
+              <img className={styles.imgIcon3} alt="" src="/img11@2x.png" />
             </div>
           </div>
           <div className={styles.coralReef}>Enumerations</div>
@@ -54,13 +54,13 @@ const Desktop2: NextPage = () => {
       <div className={styles.ourMedia}>Our Media</div>
       <div className={styles.btns}>
         <div className={styles.btn}>
-          <img className={styles.bgBlurIcon} alt="" src="/bg-blur@2x.png" />
+          <img className={styles.bgBlurIcon} alt="" src="/bg-blur4@2x.png" />
           <div className={styles.button}>
             <div className={styles.div}>←</div>
           </div>
         </div>
         <div className={styles.btn1} onClick={onBtnContainer1Click}>
-          <img className={styles.bgBlurIcon} alt="" src="/bg-blur@2x.png" />
+          <img className={styles.bgBlurIcon} alt="" src="/bg-blur5@2x.png" />
           <div className={styles.button}>
             <div className={styles.div}>→</div>
           </div>

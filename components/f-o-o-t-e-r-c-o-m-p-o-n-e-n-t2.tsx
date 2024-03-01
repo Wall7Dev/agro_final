@@ -87,7 +87,7 @@ const FOOTERCOMPONENT2: NextPage = () => {
             <img
               className={styles.download5Icon}
               alt=""
-              src="/download-59@2x.png"
+              src="/download-591@2x.png"
             />
             <img
               className={styles.download5Icon1}
