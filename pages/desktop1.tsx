@@ -26,7 +26,7 @@ const Desktop1: NextPage = () => {
           <div className={styles.card}>
             <div className={styles.img}>
               <img className={styles.blurIcon} alt="" src="/blur@2x.png" />
-              <img className={styles.imgIcon} alt="" src="/img4@2x.png" />
+              <img className={styles.imgIcon} alt="" src="/img41@2x.png" />
             </div>
           </div>
           <div className={styles.coralReef}>Coral Reef</div>
@@ -35,7 +35,7 @@ const Desktop1: NextPage = () => {
           <div className={styles.card}>
             <div className={styles.img}>
               <img className={styles.blurIcon} alt="" src="/blur4@2x.png" />
-              <img className={styles.imgIcon} alt="" src="/img5@2x.png" />
+              <img className={styles.imgIcon} alt="" src="/img51@2x.png" />
             </div>
           </div>
           <div className={styles.coralReef}>Awards</div>
@@ -44,7 +44,7 @@ const Desktop1: NextPage = () => {
           <div className={styles.card}>
             <div className={styles.img}>
               <img className={styles.blurIcon} alt="" src="/blur4@2x.png" />
-              <img className={styles.imgIcon} alt="" src="/img6@2x.png" />
+              <img className={styles.imgIcon} alt="" src="/img61@2x.png" />
             </div>
           </div>
           <div className={styles.coralReef}>Input Credit</div>
@@ -53,7 +53,7 @@ const Desktop1: NextPage = () => {
           <div className={styles.card3}>
             <div className={styles.img3}>
               <img className={styles.blurIcon3} alt="" src="/blur3@2x.png" />
-              <img className={styles.imgIcon3} alt="" src="/img@2x.png" />
+              <img className={styles.imgIcon3} alt="" src="/img8@2x.png" />
             </div>
           </div>
           <div className={styles.coralReef}>Enumeration</div>

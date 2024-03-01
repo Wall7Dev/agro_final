@@ -1317,45 +1317,31 @@
 .grsopectrum {
   text-transform: lowercase;
 }
-.agrsopectrumLtdTxtContainer {
-  width: 100%;
-}
 .agrsopectrumLtd {
-  width: 120.8px;
+  align-self: stretch;
   position: relative;
   letter-spacing: 0.72px;
   line-height: 36.81px;
   font-weight: 600;
   color: var(--color-white);
-  display: flex;
-  align-items: center;
-  height: 20px;
-  flex-shrink: 0;
 }
 .frameParent6 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 8px 0;
+  gap: 4px 0;
 }
 .nowWere8,
 .nowWere9 {
+  align-self: stretch;
   position: relative;
   letter-spacing: 0.72px;
-}
-.nowWere8 {
-  width: 135.2px;
   line-height: 36.81px;
   text-transform: uppercase;
   font-weight: 600;
-  display: flex;
-  align-items: center;
-  height: 16.8px;
-  flex-shrink: 0;
 }
 .nowWere9 {
-  align-self: stretch;
   line-height: 19.21px;
   text-transform: capitalize;
   font-weight: 500;
@@ -1366,12 +1352,12 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 12px 0;
+  gap: 8px 0;
 }
 .nowWereParent1 {
   width: 193.1px;
   flex-direction: column;
-  gap: 12px 0;
+  gap: 9.6px 0;
   font-size: var(--font-size-smi-8);
   color: var(--color-white);
 }
@@ -1384,7 +1370,7 @@
 }
 .frameParent5 {
   flex-direction: column;
-  gap: 25.61px 0;
+  gap: 10.4px 0;
   font-size: var(--font-size-xs);
 }
 .frameParent3 {
@@ -1392,16 +1378,11 @@
   flex-direction: row;
   gap: 0 8px;
 }
-.nowWere12,
 .nowWere13 {
   align-self: stretch;
   position: relative;
   letter-spacing: 0.72px;
   line-height: 36.81px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-.nowWere13 {
   text-transform: capitalize;
   font-weight: 500;
 }

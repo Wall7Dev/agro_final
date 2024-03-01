@@ -22,7 +22,7 @@ const Desktop2: NextPage = () => {
           <div className={styles.card}>
             <div className={styles.img}>
               <img className={styles.blurIcon} alt="" src="/blur@2x.png" />
-              <img className={styles.imgIcon} alt="" src="/img8@2x.png" />
+              <img className={styles.imgIcon} alt="" src="/img81@2x.png" />
             </div>
           </div>
           <div className={styles.coralReef}>Coral Reef</div>
@@ -60,13 +60,13 @@ const Desktop2: NextPage = () => {
       </div>
       <div className={styles.btns}>
         <div className={styles.btn}>
-          <img className={styles.bgBlurIcon} alt="" src="/bg-blur4@2x.png" />
+          <img className={styles.bgBlurIcon} alt="" src="/bg-blur41@2x.png" />
           <div className={styles.button}>
             <div className={styles.div}>←</div>
           </div>
         </div>
         <div className={styles.btn1} onClick={onBtnContainer1Click}>
-          <img className={styles.bgBlurIcon} alt="" src="/bg-blur5@2x.png" />
+          <img className={styles.bgBlurIcon} alt="" src="/bg-blur51@2x.png" />
           <div className={styles.button}>
             <div className={styles.div}>→</div>
           </div>
